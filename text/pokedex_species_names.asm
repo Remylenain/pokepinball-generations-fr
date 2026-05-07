@@ -1,500 +1,500 @@
 SpeciesNameSeed: ; SEED
-	dex_species "SEED"
+	dex_species "GRAINE"
 
 SpeciesNameLizard: ; LIZARD
-	dex_species "LIZARD"
+	dex_species "LEZARD"
 
 SpeciesNameFlame: ; FLAME
-	dex_species "FLAME"
+	dex_species "FLAMME"
 
 SpeciesNameTinyturtle: ; TINYTURTLE
-	dex_species "TINYTURTLE"
+	dex_species "MINITORTUE"
 
 SpeciesNameTurtle: ; TURTLE
-	dex_species "TURTLE"
+	dex_species "TORTUE"
 
 SpeciesNameShellfish: ; SHELLFISH
-	dex_species "SHELLFISH"
+	dex_species "CARAPACE"
 
 SpeciesNameWorm: ; WORM
-	dex_species "WORM"
+	dex_species "VER"
 
 SpeciesNameCocoon: ; COCOON
-	dex_species "COCOON"
+	dex_species "COCON"
 
 SpeciesNameButterfly: ; BUTTERFLY
-	dex_species "BUTTERFLY"
+	dex_species "PAPILLON"
 
 SpeciesNameHairyBug: ; HAIRY_BUG
-	dex_species "HAIRY BUG"
+	dex_species "INSECTE"
 
 SpeciesNamePoisonBee: ; POISON_BEE
-	dex_species "POISON BEE"
+	dex_species "GUEPOISON"
 
 SpeciesNameTinyBird: ; TINY_BIRD
-	dex_species "TINY BIRD"
+	dex_species "MINOISEAU"
 
 SpeciesNameBird: ; BIRD
-	dex_species "BIRD"
+	dex_species "OISEAU"
 
 SpeciesNameMouse: ; MOUSE
-	dex_species "MOUSE"
+	dex_species "SOURIS"
 
 SpeciesNameBeak: ; BEAK
-	dex_species "BEAK"
+	dex_species "BEC"
 
 SpeciesNameSnake: ; SNAKE
-	dex_species "SNAKE"
+	dex_species "SERPENT"
 
 SpeciesNameCobra: ; COBRA
 	dex_species "COBRA"
 
 SpeciesNamePoisonPin: ; POISON_PIN
-	dex_species "POISON PIN"
+	dex_species "VENEPIC"
 
 SpeciesNameDrill: ; DRILL
-	dex_species "DRILL"
+	dex_species "PERCEUR"
 
 SpeciesNameFairy: ; FAIRY
-	dex_species "FAIRY"
+	dex_species "FEE"
 
 SpeciesNameFox: ; FOX
-	dex_species "FOX"
+	dex_species "RENARD"
 
 SpeciesNameBalloon: ; BALLOON
-	dex_species "BALLOON"
+	dex_species "BOUBOULE"
 
 SpeciesNameBat: ; BAT
-	dex_species "BAT"
+	dex_species "CHOVSOURIS"
 
 SpeciesNameWeed: ; WEED
-	dex_species "WEED"
+	dex_species "RACINE"
 
 SpeciesNameFlower: ; FLOWER
-	dex_species "FLOWER"
+	dex_species "FLEUR"
 
 SpeciesNameMushroom: ; MUSHROOM
-	dex_species "MUSHROOM"
+	dex_species "CHAMPIGNON"
 
 SpeciesNameInsect: ; INSECT
-	dex_species "INSECT"
+	dex_species "INSECTE"
 
 SpeciesNamePoisonmoth: ; POISONMOTH
-	dex_species "POISONMOTH"
+	dex_species "MITE"
 
 SpeciesNameMole: ; MOLE
-	dex_species "MOLE"
+	dex_species "TAUPE"
 
 SpeciesNameScratchcat: ; SCRATCHCAT
-	dex_species "SCRATCHCAT"
+	dex_species "CHADEGOUT"
 
 SpeciesNameClassyCat: ; CLASSY_CAT
-	dex_species "CLASSY CAT"
+	dex_species "CHADEVILLE"
 
 SpeciesNameDuck: ; DUCK
-	dex_species "DUCK"
+	dex_species "CANARD"
 
 SpeciesNamePigMonkey: ; PIG_MONKEY
-	dex_species "PIG MONKEY"
+	dex_species "PORSINGE"
 
 SpeciesNamePuppy: ; PUPPY
-	dex_species "PUPPY"
+	dex_species "CHIOT"
 
 SpeciesNameLegendary: ; LEGENDARY
-	dex_species "LEGENDARY"
+	dex_species "LEGENDAIRE"
 
 SpeciesNameTadpole: ; TADPOLE
-	dex_species "TADPOLE"
+	dex_species "TETARD"
 
 SpeciesNamePsi: ; PSI
-	dex_species "PSI"
+	dex_species "PSY"
 
 SpeciesNameSuperpower: ; SUPERPOWER
-	dex_species "SUPERPOWER"
+	dex_species "COLOSSE"
 
 SpeciesNameFlycatcher: ; FLYCATCHER
-	dex_species "FLYCATCHER"
+	dex_species "CARNIVORE"
 
 SpeciesNameJellyfish: ; JELLYFISH
-	dex_species "JELLYFISH"
+	dex_species "MOLLUSQUE"
 
 SpeciesNameRock: ; ROCK
-	dex_species "ROCK"
+	dex_species "ROCHE"
 
 SpeciesNameMegaton: ; MEGATON
-	dex_species "MEGATON"
+	dex_species "TITANESQUE"
 
 SpeciesNameFireHorse: ; FIRE_HORSE
-	dex_species "FIRE HORSE"
+	dex_species "CHEVAL FEU"
 
 SpeciesNameDopey: ; DOPEY
-	dex_species "DOPEY"
+	dex_species "CRETIN"
 
 SpeciesNameHermitcrab: ; HERMITCRAB
-	dex_species "HERMITCRAB"
+	dex_species "BERNARD"
 
 SpeciesNameMagnet: ; MAGNET
-	dex_species "MAGNET"
+	dex_species "MAGNETIQUE"
 
 SpeciesNameWildDuck: ; WILD_DUCK
-	dex_species "WILD DUCK"
+	dex_species "CANARD FOU"
 
 SpeciesNameTwinBird: ; TWIN_BIRD
-	dex_species "TWIN BIRD"
+	dex_species "DUOISEAU"
 
 SpeciesNameTriplebird: ; TRIPLEBIRD
-	dex_species "TRIPLEBIRD"
+	dex_species "TROISEAU"
 
 SpeciesNameSeaLion: ; SEA_LION
-	dex_species "SEA LION"
+	dex_species "OTARIE"
 
 SpeciesNameSludge: ; SLUDGE
-	dex_species "SLUDGE"
+	dex_species "DEGUEU"
 
 SpeciesNameBivalve: ; BIVALVE
 	dex_species "BIVALVE"
 
 SpeciesNameGas: ; GAS
-	dex_species "GAS"
+	dex_species "GAZ"
 
 SpeciesNameShadow: ; SHADOW
-	dex_species "SHADOW"
+	dex_species "OMBRE"
 
 SpeciesNameRockSnake: ; ROCK_SNAKE
-	dex_species "ROCK SNAKE"
+	dex_species "SERPENROC"
 
 SpeciesNameHypnosis: ; HYPNOSIS
-	dex_species "HYPNOSIS"
+	dex_species "HYPNOSE"
 
 SpeciesNameRiverCrab: ; RIVER_CRAB
-	dex_species "RIVER CRAB"
+	dex_species "DOUX CRABE"
 
 SpeciesNamePincer: ; PINCER
-	dex_species "PINCER"
+	dex_species "POIGNEUR"
 
 SpeciesNameBall: ; BALL
-	dex_species "BALL"
+	dex_species "BALLE"
 
 SpeciesNameEgg: ; EGG
-	dex_species "EGG"
+	dex_species "OEUF"
 
 SpeciesNameCoconut: ; COCONUT
-	dex_species "COCONUT"
+	dex_species "FRUITPALME"
 
 SpeciesNameLonely: ; LONELY
-	dex_species "LONELY"
+	dex_species "SOLITAIRE"
 
 SpeciesNameBonekeeper: ; BONEKEEPER
-	dex_species "BONEKEEPER"
+	dex_species "GARD'OS"
 
 SpeciesNameKicking: ; KICKING
-	dex_species "KICKING"
+	dex_species "LATTEUR"
 
 SpeciesNamePunching: ; PUNCHING
-	dex_species "PUNCHING"
+	dex_species "PUNCHEUR"
 
 SpeciesNameLicking: ; LICKING
-	dex_species "LICKING"
+	dex_species "LECHEUR"
 
 SpeciesNamePoisonGas: ; POISON_GAS
-	dex_species "POISON GAS"
+	dex_species "GAZ MORTEL"
 
 SpeciesNameSpikes: ; SPIKES
-	dex_species "SPIKES"
+	dex_species "PIQUANT"
 
 SpeciesNameVine: ; VINE
-	dex_species "VINE"
+	dex_species "VIGNE"
 
 SpeciesNameParent: ; PARENT
-	dex_species "PARENT"
+	dex_species "MATERNEL"
 
 SpeciesNameDragon: ; DRAGON
 	dex_species "DRAGON"
 
 SpeciesNameGoldfish: ; GOLDFISH
-	dex_species "GOLDFISH"
+	dex_species "POISSON"
 
 SpeciesNameStarshape: ; STARSHAPE
-	dex_species "STARSHAPE"
+	dex_species "ETOILE"
 
 SpeciesNameMysterious: ; MYSTERIOUS
-	dex_species "MYSTERIOUS"
+	dex_species "MYSTERIEUX"
 
 SpeciesNameBarrier: ; BARRIER
-	dex_species "BARRIER"
+	dex_species "BLOQUEUR"
 
 SpeciesNameMantis: ; MANTIS
-	dex_species "MANTIS"
+	dex_species "MANTE"
 
 SpeciesNameHumanshape: ; HUMANSHAPE
-	dex_species "HUMANSHAPE"
+	dex_species "HUMANOIDE"
 
 SpeciesNameElectric: ; ELECTRIC
-	dex_species "ELECTRIC"
+	dex_species "ELECTRIQUE"
 
 SpeciesNameSpitfire: ; SPITFIRE
-	dex_species "SPITFIRE"
+	dex_species "CRACHE-FEU"
 
 SpeciesNameStagbeetle: ; STAGBEETLE
-	dex_species "STAGBEETLE"
+	dex_species "SCARABEE"
 
 SpeciesNameWildBull: ; WILD_BULL
-	dex_species "WILD BULL"
+	dex_species "BUFFLE"
 
 SpeciesNameFish: ; FISH
-	dex_species "FISH"
+	dex_species "POISSON"
 
 SpeciesNameAtrocious: ; ATROCIOUS
-	dex_species "ATROCIOUS"
+	dex_species "TERRIFIANT"
 
 SpeciesNameTransport: ; TRANSPORT
 	dex_species "TRANSPORT"
 
 SpeciesNameTransform: ; TRANSFORM
-	dex_species "TRANSFORM"
+	dex_species "MORPHING"
 
 SpeciesNameEvolution: ; EVOLUTION
-	dex_species "EVOLUTION"
+	dex_species "EVOLUTIF"
 
 SpeciesNameBubbleJet: ; BUBBLE_JET
-	dex_species "BUBBLE JET"
+	dex_species "BULLEUR"
 
 SpeciesNameLightning: ; LIGHTNING
-	dex_species "LIGHTNING"
+	dex_species "FOUDRE"
 
 SpeciesNameFlame2: ; FLAME_2
-	dex_species "FLAME"
+	dex_species "FLAMME"
 
 SpeciesNameVirtual: ; VIRTUAL
-	dex_species "VIRTUAL"
+	dex_species "VIRTUEL"
 
 SpeciesNameSpiral: ; SPIRAL
-	dex_species "SPIRAL"
+	dex_species "SPIRALE"
 
 SpeciesNameFossil: ; FOSSIL
-	dex_species "FOSSIL"
+	dex_species "FOSSILE"
 
 SpeciesNameSleeping: ; SLEEPING
-	dex_species "SLEEPING"
+	dex_species "PIONCEUR"
 
 SpeciesNameFreeze: ; FREEZE
-	dex_species "FREEZE"
+	dex_species "GLACIAIRE"
 
 SpeciesNameGenetic: ; GENETIC
-	dex_species "GENETIC"
+	dex_species "GENETIQUE"
 
 SpeciesNameNewSpecie: ; NEW_SPECIE
-	dex_species "NEW SPECIE"
+	dex_species "NOUVEAU"
 
 SpeciesNameRat: ; RAT
 	dex_species "RAT"
 
 SpeciesNameLeaf: ; LEAF
-	dex_species "LEAF"
+	dex_species "FEUILLE"
 
 SpeciesNameHerb: ; HERB
-	dex_species "HERB"
+	dex_species "HERBE"
 
 SpeciesNameFireMouse: ; FIRE_MOUSE
-	dex_species "FIRE MOUSE"
+	dex_species "SOURIS FEU"
 
 SpeciesNameVolcano: ; VOLCANO
-	dex_species "VOLCANO"
+	dex_species "VOLCAN"
 
 SpeciesNameBigJaw: ; BIG_JAW
-	dex_species "BIG JAW"
+	dex_species "MACHOIRE"
 
 SpeciesNameScout: ; SCOUT
-	dex_species "SCOUT"
+	dex_species "ESPION"
 
 SpeciesNameLongBody: ; LONG_BODY
-	dex_species "LONG BODY"
+	dex_species "ALLONGE"
 
 SpeciesNameOwl: ; OWL
-	dex_species "OWL"
+	dex_species "HIBOU"
 
 SpeciesNameFiveStar: ; FIVE_STAR
-	dex_species "FIVE STAR"
+	dex_species "ETOILE"
 
 SpeciesNameStringSpit: ; STRING_SPIT
-	dex_species "STRING SPIT"
+	dex_species "CRACHE FIL"
 
 SpeciesNameLongLeg: ; LONG_LEG
-	dex_species "LONG LEG"
+	dex_species "LONG-PATTE"
 
 SpeciesNameAngler: ; ANGLER
-	dex_species "ANGLER"
+	dex_species "LANTERNE"
 
 SpeciesNameLight: ; LIGHT
-	dex_species "LIGHT"
+	dex_species "LUMIERE"
 
 SpeciesNameTinyMouse: ; TINY_MOUSE
-	dex_species "TINY MOUSE"
+	dex_species "MINISOURIS"
 
 SpeciesNameStarShape: ; STAR_SHAPE
-	dex_species "STAR SHAPE"
+	dex_species "ETOILE"
 
 SpeciesNameSpikeBall: ; SPIKE_BALL
-	dex_species "SPIKE BALL"
+	dex_species "BALLE PIC"
 
 SpeciesNameHappiness: ; HAPPINESS
-	dex_species "HAPPINESS"
+	dex_species "BONHEUR"
 
 SpeciesNameMystic: ; MYSTIC
-	dex_species "MYSTIC"
+	dex_species "MYSTIQUE"
 
 SpeciesNameWool: ; WOOL
-	dex_species "WOOL"
+	dex_species "LAINE"
 
 SpeciesNameAquaMouse: ; AQUA_MOUSE
-	dex_species "AQUA MOUSE"
+	dex_species "AQUASOURIS"
 
 SpeciesNameAquaRabbit: ; AQUA_RABBIT
-	dex_species "AQUA RABBIT"
+	dex_species "AQUALAPIN"
 
 SpeciesNameImitation: ; IMITATION
 	dex_species "IMITATION"
 
 SpeciesNameFrog: ; FROG
-	dex_species "FROG"
+	dex_species "GRENOUILLE"
 
 SpeciesNameCottonweed: ; COTTONWEED
-	dex_species "COTTONWEED"
+	dex_species "PISSENLIT"
 
 SpeciesNameLongTail: ; LONG_TAIL
-	dex_species "LONG TAIL"
+	dex_species "LONGQUEUE"
 
 SpeciesNameSun: ; SUN
-	dex_species "SUN"
+	dex_species "SOLEIL"
 
 SpeciesNameClearWing: ; CLEAR_WING
-	dex_species "CLEAR WING"
+	dex_species "TRANSLAILE"
 
 SpeciesNameWaterFish: ; WATER_FISH
-	dex_species "WATER FISH"
+	dex_species "POISSON"
 
 SpeciesNameMoonlight: ; MOONLIGHT
-	dex_species "MOONLIGHT"
+	dex_species "LUNE"
 
 SpeciesNameDarkness: ; DARKNESS
-	dex_species "DARKNESS"
+	dex_species "OBSCURITE"
 
 SpeciesNameRoyal: ; ROYAL
 	dex_species "ROYAL"
 
 SpeciesNameScreech: ; SCREECH
-	dex_species "SCREECH"
+	dex_species "STRIDENT"
 
 SpeciesNameSymbol: ; SYMBOL
-	dex_species "SYMBOL"
+	dex_species "SYMBOLIQUE"
 
 SpeciesNamePatient: ; PATIENT
 	dex_species "PATIENT"
 
 SpeciesNameLongNeck: ; LONG_NECK
-	dex_species "LONG NECK"
+	dex_species "LONG-COU"
 
 SpeciesNameBagworm: ; BAGWORM
-	dex_species "BAGWORM"
+	dex_species "VER CACHE"
 
 SpeciesNameLandSnake: ; LAND_SNAKE
-	dex_species "LAND SNAKE"
+	dex_species "TERRESTRE"
 
 SpeciesNameFlyScorpion: ; FLY_SCORPION
-	dex_species "FLY SCORPION"
+	dex_species "SCORPIVOL"
 
 SpeciesNameIronSnake: ; IRON_SNAKE
-	dex_species "IRON SNAKE"
+	dex_species "SERPENFER"
 
 SpeciesNameMold: ; MOLD
-	dex_species "MOLD"
+	dex_species "MOISI"
 
 SpeciesNameSingleHorn: ; SINGLE_HORN
-	dex_species "SINGLE HORN"
+	dex_species "UNICORNE"
 
 SpeciesNameSharpClaw: ; SHARP_CLAW
-	dex_species "SHARP CLAW"
+	dex_species "GRIFACEREE"
 
 SpeciesNameLittleBear: ; LITTLE_BEAR
-	dex_species "LITTLE BEAR"
+	dex_species "MINI OURS"
 
 SpeciesNameHibernator: ; HIBERNATOR
-	dex_species "HIBERNATOR"
+	dex_species "HIBERNANT"
 
 SpeciesNameLava: ; LAVA
-	dex_species "LAVA"
+	dex_species "LAVE"
 
 SpeciesNamePig: ; PIG
-	dex_species "PIG"
+	dex_species "COCHON"
 
 SpeciesNameSwine: ; SWINE
-	dex_species "SWINE"
+	dex_species "PORC"
 
 SpeciesNameCoral: ; CORAL
-	dex_species "CORAL"
+	dex_species "CORAIL"
 
 SpeciesNameJet: ; JET
 	dex_species "JET"
 
 SpeciesNameDelivery: ; DELIVERY
-	dex_species "DELIVERY"
+	dex_species "LIVRAISON"
 
 SpeciesNameKite: ; KITE
-	dex_species "KITE"
+	dex_species "CERVOLANT"
 
 SpeciesNameArmorBird: ; ARMOR_BIRD
-	dex_species "ARMOR BIRD"
+	dex_species "ARMOISEAU"
 
 SpeciesNameDark: ; DARK
-	dex_species "DARK"
+	dex_species "SOMBRE"
 
 SpeciesNameLongNose: ; LONG_NOSE
-	dex_species "LONG NOSE"
+	dex_species "LONG-NEZ"
 
 SpeciesNameArmor: ; ARMOR
-	dex_species "ARMOR"
+	dex_species "ARMURE"
 
 SpeciesNameBigHorn: ; BIG_HORN
-	dex_species "BIG HORN"
+	dex_species "MAXI CORNE"
 
 SpeciesNamePainter: ; PAINTER
-	dex_species "PAINTER"
+	dex_species "PEINTRE"
 
 SpeciesNameScuffle: ; SCUFFLE
-	dex_species "SCUFFLE"
+	dex_species "BAGARREUR"
 
 SpeciesNameHandstand: ; HANDSTAND
-	dex_species "HANDSTAND"
+	dex_species "POIRIER"
 
 SpeciesNameKiss: ; KISS
-	dex_species "KISS"
+	dex_species "BISOU"
 
 SpeciesNameLiveCoal: ; LIVE_COAL
-	dex_species "LIVE COAL"
+	dex_species "CHARBON"
 
 SpeciesNameMilkCow: ; MILK_COW
-	dex_species "MILK COW"
+	dex_species "VACHALAIT"
 
 SpeciesNameThunder: ; THUNDER
-	dex_species "THUNDER"
+	dex_species "FOUDRE"
 
 SpeciesNameAurora: ; AURORA
-	dex_species "AURORA"
+	dex_species "AURORE"
 
 SpeciesNameRockSkin: ; ROCK_SKIN
-	dex_species "ROCK SKIN"
+	dex_species "PEAUPIERRE"
 
 SpeciesNameHardShell: ; HARD_SHELL
-	dex_species "HARD SHELL"
+	dex_species "CARAPADURE"
 
 SpeciesNameDiving: ; DIVING
-	dex_species "DIVING"
+	dex_species "PLONGEON"
 
 SpeciesNameRainbow: ; RAINBOW
-	dex_species "RAINBOW"
+	dex_species "ARCENCIEL"
 
 SpeciesNameTimeTravel: ; TIME_TRAVEL
-	dex_species "TIME TRAVEL"
+	dex_species "TEMPOREL"
 
 SpeciesNameWoodGecko: ; WOOD_GECKO
-	dex_species "WOOD GECKO"
+	dex_species "GECKO BOIS"

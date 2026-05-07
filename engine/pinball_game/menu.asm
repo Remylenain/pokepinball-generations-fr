@@ -86,10 +86,10 @@ Func_8797: ; 0x8797
 	jr Func_8797
 
 SaveText: ; 0x87a0
-	db "SAVE@"
+	db "SAUVER@"
 
 CancelText: ; 0x87a5
-	db "CANCEL@"
+	db "ANNULER@"
 
 HandleInGameMenuSelection: ; 0x87ac
 	ld a, $1
