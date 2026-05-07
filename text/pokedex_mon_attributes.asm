@@ -1,1545 +1,1545 @@
 PokedexMonAttributesTexts: ; 0x2a85d
 ; BULBASAUR
 	dex_number 1
-	dex_height 2, 4
-	dex_weight 15
+	dex_height 7
+	dex_weight 69
 ; IVYSAUR
 	dex_number 2
-	dex_height 3, 3
-	dex_weight 29
+	dex_height 10
+	dex_weight 130
 ; VENUSAUR
 	dex_number 3
-	dex_height 6, 7
-	dex_weight 221
+	dex_height 20
+	dex_weight 1000
 ; CHARMANDER
 	dex_number 4
-	dex_height 2, 0
-	dex_weight 19
+	dex_height 6
+	dex_weight 85
 ; CHARMELEON
 	dex_number 5
-	dex_height 3, 7
-	dex_weight 42
+	dex_height 11
+	dex_weight 190
 ; CHARIZARD
 	dex_number 6
-	dex_height 5, 7
-	dex_weight 200
+	dex_height 17
+	dex_weight 905
 ; SQUIRTLE
 	dex_number 7
-	dex_height 1, 8
-	dex_weight 20
+	dex_height 5
+	dex_weight 90
 ; WARTORTLE
 	dex_number 8
-	dex_height 3, 3
-	dex_weight 50
+	dex_height 10
+	dex_weight 225
 ; BLASTOISE
 	dex_number 9
-	dex_height 5, 3
-	dex_weight 189
+	dex_height 16
+	dex_weight 855
 ; CATERPIE
 	dex_number 10
-	dex_height 1, 0
-	dex_weight 6
+	dex_height 3
+	dex_weight 29
 ; METAPOD
 	dex_number 11
-	dex_height 2, 4
-	dex_weight 22
+	dex_height 7
+	dex_weight 99
 ; BUTTERFREE
 	dex_number 12
-	dex_height 3, 7
-	dex_weight 71
+	dex_height 11
+	dex_weight 320
 ; WEEDLE
 	dex_number 13
-	dex_height 1, 0
-	dex_weight 7
+	dex_height 3
+	dex_weight 32
 ; KAKUNA
 	dex_number 14
-	dex_height 2, 0
-	dex_weight 22
+	dex_height 6
+	dex_weight 100
 ; BEEDRILL
 	dex_number 15
-	dex_height 3, 3
-	dex_weight 65
+	dex_height 10
+	dex_weight 295
 ; PIDGEY
 	dex_number 16
-	dex_height 1, 0
-	dex_weight 4
+	dex_height 3
+	dex_weight 18
 ; PIDGEOTTO
 	dex_number 17
-	dex_height 3, 7
-	dex_weight 66
+	dex_height 11
+	dex_weight 300
 ; PIDGEOT
 	dex_number 18
-	dex_height 4, 11
-	dex_weight 87
+	dex_height 15
+	dex_weight 395
 ; RATTATA
 	dex_number 19
-	dex_height 1, 0
-	dex_weight 8
+	dex_height 3
+	dex_weight 35
 ; RATICATE
 	dex_number 20
-	dex_height 2, 4
-	dex_weight 41
+	dex_height 7
+	dex_weight 185
 ; SPEAROW
 	dex_number 21
-	dex_height 1, 0
-	dex_weight 4
+	dex_height 3
+	dex_weight 20
 ; FEAROW
 	dex_number 22
-	dex_height 3, 11
-	dex_weight 84
+	dex_height 12
+	dex_weight 380
 ; EKANS
 	dex_number 23
-	dex_height 6, 7
-	dex_weight 15
+	dex_height 20
+	dex_weight 69
 ; ARBOK
 	dex_number 24
-	dex_height 11, 6
-	dex_weight 143
+	dex_height 35
+	dex_weight 650
 ; PIKACHU
 	dex_number 25
-	dex_height 1, 4
-	dex_weight 13
+	dex_height 4
+	dex_weight 60
 ; RAICHU
 	dex_number 26
-	dex_height 2, 7
-	dex_weight 66
+	dex_height 8
+	dex_weight 300
 ; SANDSHREW
 	dex_number 27
-	dex_height 2, 0
-	dex_weight 26
+	dex_height 6
+	dex_weight 120
 ; SANDSLASH
 	dex_number 28
-	dex_height 3, 3
-	dex_weight 65
+	dex_height 10
+	dex_weight 295
 ; NIDORAN_F
 	dex_number 29
-	dex_height 1, 4
-	dex_weight 15
+	dex_height 4
+	dex_weight 70
 ; NIDORINA
 	dex_number 30
-	dex_height 2, 7
-	dex_weight 44
+	dex_height 8
+	dex_weight 200
 ; NIDOQUEEN
 	dex_number 31
-	dex_height 4, 3
-	dex_weight 132
+	dex_height 13
+	dex_weight 600
 ; NIDORAN_M
 	dex_number 32
-	dex_height 1, 8
-	dex_weight 20
+	dex_height 5
+	dex_weight 90
 ; NIDORINO
 	dex_number 33
-	dex_height 2, 11
-	dex_weight 43
+	dex_height 9
+	dex_weight 195
 ; NIDOKING
 	dex_number 34
-	dex_height 4, 7
-	dex_weight 137
+	dex_height 14
+	dex_weight 620
 ; CLEFAIRY
 	dex_number 35
-	dex_height 2, 0
-	dex_weight 17
+	dex_height 6
+	dex_weight 75
 ; CLEFABLE
 	dex_number 36
-	dex_height 4, 3
-	dex_weight 88
+	dex_height 13
+	dex_weight 400
 ; VULPIX
 	dex_number 37
-	dex_height 2, 0
-	dex_weight 22
+	dex_height 6
+	dex_weight 99
 ; NINETALES
 	dex_number 38
-	dex_height 3, 7
-	dex_weight 44
+	dex_height 11
+	dex_weight 199
 ; JIGGLYPUFF
 	dex_number 39
-	dex_height 1, 8
-	dex_weight 12
+	dex_height 5
+	dex_weight 55
 ; WIGGLYTUFF
 	dex_number 40
-	dex_height 3, 3
-	dex_weight 26
+	dex_height 10
+	dex_weight 120
 ; ZUBAT
 	dex_number 41
-	dex_height 2, 7
-	dex_weight 17
+	dex_height 8
+	dex_weight 75
 ; GOLBAT
 	dex_number 42
-	dex_height 5, 3
-	dex_weight 121
+	dex_height 16
+	dex_weight 550
 ; ODDISH
 	dex_number 43
-	dex_height 1, 8
-	dex_weight 12
+	dex_height 5
+	dex_weight 54
 ; GLOOM
 	dex_number 44
-	dex_height 2, 7
-	dex_weight 19
+	dex_height 8
+	dex_weight 86
 ; VILEPLUME
 	dex_number 45
-	dex_height 3, 11
-	dex_weight 41
+	dex_height 12
+	dex_weight 186
 ; PARAS
 	dex_number 46
-	dex_height 1, 0
-	dex_weight 12
+	dex_height 3
+	dex_weight 54
 ; PARASECT
 	dex_number 47
-	dex_height 3, 3
-	dex_weight 65
+	dex_height 10
+	dex_weight 295
 ; VENONAT
 	dex_number 48
-	dex_height 3, 3
-	dex_weight 66
+	dex_height 10
+	dex_weight 300
 ; VENOMOTH
 	dex_number 49
-	dex_height 4, 11
-	dex_weight 28
+	dex_height 15
+	dex_weight 125
 ; DIGLETT
 	dex_number 50
-	dex_height 0, 8
-	dex_weight 2
+	dex_height 2
+	dex_weight 8
 ; DUGTRIO
 	dex_number 51
-	dex_height 2, 4
-	dex_weight 73
+	dex_height 7
+	dex_weight 333
 ; MEOWTH
 	dex_number 52
-	dex_height 1, 4
-	dex_weight 9
+	dex_height 4
+	dex_weight 42
 ; PERSIAN
 	dex_number 53
-	dex_height 3, 3
-	dex_weight 71
+	dex_height 10
+	dex_weight 320
 ; PSYDUCK
 	dex_number 54
-	dex_height 2, 7
-	dex_weight 43
+	dex_height 8
+	dex_weight 196
 ; GOLDUCK
 	dex_number 55
-	dex_height 5, 7
-	dex_weight 169
+	dex_height 17
+	dex_weight 766
 ; MANKEY
 	dex_number 56
-	dex_height 1, 8
-	dex_weight 62
+	dex_height 5
+	dex_weight 280
 ; PRIMEAPE
 	dex_number 57
-	dex_height 3, 3
-	dex_weight 71
+	dex_height 10
+	dex_weight 320
 ; GROWLITHE
 	dex_number 58
-	dex_height 2, 4
-	dex_weight 42
+	dex_height 7
+	dex_weight 190
 ; ARCANINE
 	dex_number 59
-	dex_height 6, 3
-	dex_weight 342
+	dex_height 19
+	dex_weight 1550
 ; POLIWAG
 	dex_number 60
-	dex_height 2, 0
-	dex_weight 27
+	dex_height 6
+	dex_weight 124
 ; POLIWHIRL
 	dex_number 61
-	dex_height 3, 3
-	dex_weight 44
+	dex_height 10
+	dex_weight 200
 ; POLIWRATH
 	dex_number 62
-	dex_height 4, 3
-	dex_weight 119
+	dex_height 13
+	dex_weight 540
 ; ABRA
 	dex_number 63
-	dex_height 2, 11
-	dex_weight 43
+	dex_height 9
+	dex_weight 195
 ; KADABRA
 	dex_number 64
-	dex_height 4, 3
-	dex_weight 125
+	dex_height 13
+	dex_weight 565
 ; ALAKAZAM
 	dex_number 65
-	dex_height 4, 11
-	dex_weight 106
+	dex_height 15
+	dex_weight 480
 ; MACHOP
 	dex_number 66
-	dex_height 2, 7
-	dex_weight 43
+	dex_height 8
+	dex_weight 195
 ; MACHOKE
 	dex_number 67
-	dex_height 4, 11
-	dex_weight 155
+	dex_height 15
+	dex_weight 705
 ; MACHAMP
 	dex_number 68
-	dex_height 5, 3
-	dex_weight 287
+	dex_height 16
+	dex_weight 1300
 ; BELLSPROUT
 	dex_number 69
-	dex_height 2, 4
-	dex_weight 9
+	dex_height 7
+	dex_weight 40
 ; WEEPINBELL
 	dex_number 70
-	dex_height 3, 3
-	dex_weight 14
+	dex_height 10
+	dex_weight 64
 ; VICTREEBEL
 	dex_number 71
-	dex_height 5, 7
-	dex_weight 34
+	dex_height 17
+	dex_weight 155
 ; TENTACOOL
 	dex_number 72
-	dex_height 2, 11
-	dex_weight 100
+	dex_height 9
+	dex_weight 455
 ; TENTACRUEL
 	dex_number 73
-	dex_height 5, 3
-	dex_weight 121
+	dex_height 16
+	dex_weight 550
 ; GEODUDE
 	dex_number 74
-	dex_height 1, 4
-	dex_weight 44
+	dex_height 4
+	dex_weight 200
 ; GRAVELER
 	dex_number 75
-	dex_height 3, 3
-	dex_weight 232
+	dex_height 10
+	dex_weight 1050
 ; GOLEM
 	dex_number 76
-	dex_height 4, 7
-	dex_weight 662
+	dex_height 14
+	dex_weight 3000
 ; PONYTA
 	dex_number 77
-	dex_height 3, 3
-	dex_weight 66
+	dex_height 10
+	dex_weight 300
 ; RAPIDASH
 	dex_number 78
-	dex_height 5, 7
-	dex_weight 209
+	dex_height 17
+	dex_weight 950
 ; SLOWPOKE
 	dex_number 79
-	dex_height 3, 11
-	dex_weight 79
+	dex_height 12
+	dex_weight 360
 ; SLOWBRO
 	dex_number 80
-	dex_height 5, 3
-	dex_weight 173
+	dex_height 16
+	dex_weight 785
 ; MAGNEMITE
 	dex_number 81
-	dex_height 1, 0
-	dex_weight 13
+	dex_height 3
+	dex_weight 60
 ; MAGNETON
 	dex_number 82
-	dex_height 3, 3
-	dex_weight 132
+	dex_height 10
+	dex_weight 600
 ; FARFETCH_D
 	dex_number 83
-	dex_height 2, 7
-	dex_weight 33
+	dex_height 8
+	dex_weight 150
 ; DODUO
 	dex_number 84
-	dex_height 4, 7
-	dex_weight 86
+	dex_height 14
+	dex_weight 392
 ; DODRIO
 	dex_number 85
-	dex_height 5, 11
-	dex_weight 188
+	dex_height 18
+	dex_weight 852
 ; SEEL
 	dex_number 86
-	dex_height 3, 7
-	dex_weight 198
+	dex_height 11
+	dex_weight 900
 ; DEWGONG
 	dex_number 87
-	dex_height 5, 7
-	dex_weight 265
+	dex_height 17
+	dex_weight 1200
 ; GRIMER
 	dex_number 88
-	dex_height 2, 11
-	dex_weight 66
+	dex_height 9
+	dex_weight 300
 ; MUK
 	dex_number 89
-	dex_height 3, 11
-	dex_weight 66
+	dex_height 12
+	dex_weight 300
 ; SHELLDER
 	dex_number 90
-	dex_height 1, 0
-	dex_weight 9
+	dex_height 3
+	dex_weight 40
 ; CLOYSTER
 	dex_number 91
-	dex_height 4, 11
-	dex_weight 292
+	dex_height 15
+	dex_weight 1325
 ; GASTLY
 	dex_number 92
-	dex_height 4, 3
-	dex_weight_decimal 0, 2
+	dex_height 13
+	dex_weight 1
 ; HAUNTER
 	dex_number 93
-	dex_height 5, 3
-	dex_weight_decimal 0, 2
+	dex_height 16
+	dex_weight 1
 ; GENGAR
 	dex_number 94
-	dex_height 4, 11
-	dex_weight 89
+	dex_height 15
+	dex_weight 405
 ; ONIX
 	dex_number 95
-	dex_height 28, 10
-	dex_weight 463
+	dex_height 88
+	dex_weight 2100
 ; DROWZEE
 	dex_number 96
-	dex_height 3, 3
-	dex_weight 71
+	dex_height 10
+	dex_weight 324
 ; HYPNO
 	dex_number 97
-	dex_height 5, 3
-	dex_weight 167
+	dex_height 16
+	dex_weight 756
 ; KRABBY
 	dex_number 98
-	dex_height 1, 4
-	dex_weight 14
+	dex_height 4
+	dex_weight 65
 ; KINGLER
 	dex_number 99
-	dex_height 4, 3
-	dex_weight 132
+	dex_height 13
+	dex_weight 600
 ; VOLTORB
 	dex_number 100
-	dex_height 1, 8
-	dex_weight 23
+	dex_height 5
+	dex_weight 104
 ; ELECTRODE
 	dex_number 101
-	dex_height 3, 11
-	dex_weight 147
+	dex_height 12
+	dex_weight 666
 ; EXEGGCUTE
 	dex_number 102
-	dex_height 1, 4
-	dex_weight 6
+	dex_height 4
+	dex_weight 25
 ; EXEGGUTOR
 	dex_number 103
-	dex_height 6, 7
-	dex_weight 265
+	dex_height 20
+	dex_weight 1200
 ; CUBONE
 	dex_number 104
-	dex_height 1, 4
-	dex_weight 14
+	dex_height 4
+	dex_weight 65
 ; MAROWAK
 	dex_number 105
-	dex_height 3, 3
-	dex_weight 99
+	dex_height 10
+	dex_weight 450
 ; HITMONLEE
 	dex_number 106
-	dex_height 4, 11
-	dex_weight 110
+	dex_height 15
+	dex_weight 498
 ; HITMONCHAN
 	dex_number 107
-	dex_height 4, 7
-	dex_weight 111
+	dex_height 14
+	dex_weight 502
 ; LICKITUNG
 	dex_number 108
-	dex_height 3, 11
-	dex_weight 144
+	dex_height 12
+	dex_weight 655
 ; KOFFING
 	dex_number 109
-	dex_height 2, 0
-	dex_weight 2
+	dex_height 6
+	dex_weight 10
 ; WEEZING
 	dex_number 110
-	dex_height 3, 11
-	dex_weight 21
+	dex_height 12
+	dex_weight 95
 ; RHYHORN
 	dex_number 111
-	dex_height 3, 3
-	dex_weight 254
+	dex_height 10
+	dex_weight 1150
 ; RHYDON
 	dex_number 112
-	dex_height 6, 3
-	dex_weight 265
+	dex_height 19
+	dex_weight 1200
 ; CHANSEY
 	dex_number 113
-	dex_height 3, 7
-	dex_weight 76
+	dex_height 11
+	dex_weight 346
 ; TANGELA
 	dex_number 114
-	dex_height 3, 3
-	dex_weight 77
+	dex_height 10
+	dex_weight 350
 ; KANGASKHAN
 	dex_number 115
-	dex_height 7, 3
-	dex_weight 176
+	dex_height 22
+	dex_weight 800
 ; HORSEA
 	dex_number 116
-	dex_height 1, 4
-	dex_weight 18
+	dex_height 4
+	dex_weight 80
 ; SEADRA
 	dex_number 117
-	dex_height 3, 11
-	dex_weight 55
+	dex_height 12
+	dex_weight 250
 ; GOLDEEN
 	dex_number 118
-	dex_height 2, 0
-	dex_weight 33
+	dex_height 6
+	dex_weight 150
 ; SEAKING
 	dex_number 119
-	dex_height 4, 3
-	dex_weight 86
+	dex_height 13
+	dex_weight 390
 ; STARYU
 	dex_number 120
-	dex_height 2, 7
-	dex_weight 76
+	dex_height 8
+	dex_weight 345
 ; STARMIE
 	dex_number 121
-	dex_height 3, 7
-	dex_weight 176
+	dex_height 11
+	dex_weight 800
 ; MR_MIME
 	dex_number 122
-	dex_height 4, 3
-	dex_weight 120
+	dex_height 13
+	dex_weight 545
 ; SCYTHER
 	dex_number 123
-	dex_height 4, 11
-	dex_weight 123
+	dex_height 15
+	dex_weight 560
 ; JYNX
 	dex_number 124
-	dex_height 4, 7
-	dex_weight 90
+	dex_height 14
+	dex_weight 406
 ; ELECTABUZZ
 	dex_number 125
-	dex_height 3, 7
-	dex_weight 66
+	dex_height 11
+	dex_weight 300
 ; MAGMAR
 	dex_number 126
-	dex_height 4, 3
-	dex_weight 98
+	dex_height 13
+	dex_weight 445
 ; PINSIR
 	dex_number 127
-	dex_height 4, 11
-	dex_weight 121
+	dex_height 15
+	dex_weight 550
 ; TAUROS
 	dex_number 128
-	dex_height 4, 7
-	dex_weight 195
+	dex_height 14
+	dex_weight 884
 ; MAGIKARP
 	dex_number 129
-	dex_height 2, 11
-	dex_weight 22
+	dex_height 9
+	dex_weight 100
 ; GYARADOS
 	dex_number 130
-	dex_height 21, 4
-	dex_weight 518
+	dex_height 65
+	dex_weight 2350
 ; LAPRAS
 	dex_number 131
-	dex_height 8, 2
-	dex_weight 485
+	dex_height 25
+	dex_weight 2200
 ; DITTO
 	dex_number 132
-	dex_height 1, 0
-	dex_weight 9
+	dex_height 3
+	dex_weight 40
 ; EEVEE
 	dex_number 133
-	dex_height 1, 0
-	dex_weight 14
+	dex_height 3
+	dex_weight 65
 ; VAPOREON
 	dex_number 134
-	dex_height 3, 3
-	dex_weight 64
+	dex_height 10
+	dex_weight 290
 ; JOLTEON
 	dex_number 135
-	dex_height 2, 7
-	dex_weight 54
+	dex_height 8
+	dex_weight 245
 ; FLAREON
 	dex_number 136
-	dex_height 2, 11
-	dex_weight 55
+	dex_height 9
+	dex_weight 250
 ; PORYGON
 	dex_number 137
-	dex_height 2, 7
-	dex_weight 80
+	dex_height 8
+	dex_weight 365
 ; OMANYTE
 	dex_number 138
-	dex_height 1, 4
-	dex_weight 17
+	dex_height 4
+	dex_weight 75
 ; OMASTAR
 	dex_number 139
-	dex_height 3, 3
-	dex_weight 77
+	dex_height 10
+	dex_weight 350
 ; KABUTO
 	dex_number 140
-	dex_height 1, 8
-	dex_weight 25
+	dex_height 5
+	dex_weight 115
 ; KABUTOPS
 	dex_number 141
-	dex_height 4, 3
-	dex_weight 89
+	dex_height 13
+	dex_weight 405
 ; AERODACTYL
 	dex_number 142
-	dex_height 5, 11
-	dex_weight 130
+	dex_height 18
+	dex_weight 590
 ; SNORLAX
 	dex_number 143
-	dex_height 6, 11
-	dex_weight 1014
+	dex_height 21
+	dex_weight 4600
 ; ARTICUNO
 	dex_number 144
-	dex_height 5, 7
-	dex_weight 122
+	dex_height 17
+	dex_weight 554
 ; ZAPDOS
 	dex_number 145
-	dex_height 5, 3
-	dex_weight 116
+	dex_height 16
+	dex_weight 526
 ; MOLTRES
 	dex_number 146
-	dex_height 6, 7
-	dex_weight 132
+	dex_height 20
+	dex_weight 600
 ; DRATINI
 	dex_number 147
-	dex_height 5, 11
-	dex_weight 7
+	dex_height 18
+	dex_weight 33
 ; DRAGONAIR
 	dex_number 148
-	dex_height 13, 1
-	dex_weight 36
+	dex_height 40
+	dex_weight 165
 ; DRAGONITE
 	dex_number 149
-	dex_height 7, 3
-	dex_weight 463
+	dex_height 22
+	dex_weight 2100
 ; MEWTWO
 	dex_number 150
-	dex_height 6, 7
-	dex_weight 269
+	dex_height 20
+	dex_weight 1220
 ; MEW
 	dex_number 151
-	dex_height 1, 4
-	dex_weight 9
+	dex_height 4
+	dex_weight 40
 ; CHIKORITA
 	dex_number 152
-	dex_height 2, 11
-	dex_weight 14
+	dex_height 9
+	dex_weight 64
 ; BAYLEEF
 	dex_number 153
-	dex_height 3, 11
-	dex_weight 35
+	dex_height 12
+	dex_weight 158
 ; MEGANIUM
 	dex_number 154
-	dex_height 5, 11
-	dex_weight 222
+	dex_height 18
+	dex_weight 1005
 ; CYNDAQUIL
 	dex_number 155
-	dex_height 1, 8
-	dex_weight 17
+	dex_height 5
+	dex_weight 79
 ; QUILAVA
 	dex_number 156
-	dex_height 2, 11
-	dex_weight 42
+	dex_height 9
+	dex_weight 190
 ; TYPHLOSION
 	dex_number 157
-	dex_height 5, 7
-	dex_weight 175
+	dex_height 17
+	dex_weight 795
 ; TOTODILE
 	dex_number 158
-	dex_height 2, 0
-	dex_weight 21
+	dex_height 6
+	dex_weight 95
 ; CROCONAW
 	dex_number 159
-	dex_height 3, 7
-	dex_weight 55
+	dex_height 11
+	dex_weight 250
 ; FERALIGATR
 	dex_number 160
-	dex_height 7, 7
-	dex_weight 196
+	dex_height 23
+	dex_weight 888
 ; SENTRET
 	dex_number 161
-	dex_height 2, 7
-	dex_weight 13
+	dex_height 8
+	dex_weight 60
 ; FURRET
 	dex_number 162
-	dex_height 5, 11
-	dex_weight 72
+	dex_height 18
+	dex_weight 325
 ; HOOTHOOT
 	dex_number 163
-	dex_height 2, 4
-	dex_weight 47
+	dex_height 7
+	dex_weight 212
 ; NOCTOWL
 	dex_number 164
-	dex_height 5, 3
-	dex_weight 90
+	dex_height 16
+	dex_weight 408
 ; LEDYBA
 	dex_number 165
-	dex_height 3, 3
-	dex_weight 24
+	dex_height 10
+	dex_weight 108
 ; LEDIAN
 	dex_number 166
-	dex_height 4, 7
-	dex_weight 79
+	dex_height 14
+	dex_weight 356
 ; SPINARAK
 	dex_number 167
-	dex_height 1, 8
-	dex_weight 19
+	dex_height 5
+	dex_weight 85
 ; ARIADOS
 	dex_number 168
-	dex_height 3, 7
-	dex_weight 74
+	dex_height 11
+	dex_weight 335
 ; CROBAT
 	dex_number 169
-	dex_height 5, 11
-	dex_weight 165
+	dex_height 18
+	dex_weight 750
 ; CHINCHOU
 	dex_number 170
-	dex_height 1, 8
-	dex_weight 27
+	dex_height 5
+	dex_weight 120
 ; LANTURN
 	dex_number 171
-	dex_height 3, 11
-	dex_weight 50
+	dex_height 12
+	dex_weight 225
 ; PICHU
 	dex_number 172
-	dex_height 1, 0
-	dex_weight 4
+	dex_height 3
+	dex_weight 20
 ; CLEFFA
 	dex_number 173
-	dex_height 1, 0
-	dex_weight 7
+	dex_height 3
+	dex_weight 30
 ; IGGLYBUFF
 	dex_number 174
-	dex_height 1, 0
-	dex_weight 2
+	dex_height 3
+	dex_weight 10
 ; TOGEPI
 	dex_number 175
-	dex_height 1, 0
-	dex_weight 3
+	dex_height 3
+	dex_weight 15
 ; TOGETIC
 	dex_number 176
-	dex_height 2, 0
-	dex_weight 7
+	dex_height 6
+	dex_weight 32
 ; NATU
 	dex_number 177
-	dex_height 0, 8
-	dex_weight 4
+	dex_height 2
+	dex_weight 20
 ; XATU
 	dex_number 178
-	dex_height 4, 11
-	dex_weight 33
+	dex_height 15
+	dex_weight 150
 ; MAREEP
 	dex_number 179
-	dex_height 2, 0
-	dex_weight 17
+	dex_height 6
+	dex_weight 78
 ; FLAAFFY
 	dex_number 180
-	dex_height 2, 7
-	dex_weight 29
+	dex_height 8
+	dex_weight 133
 ; AMPHAROS
 	dex_number 181
-	dex_height 4, 7
-	dex_weight 136
+	dex_height 14
+	dex_weight 615
 ; BELLOSSOM
 	dex_number 182
-	dex_height 1, 4
-	dex_weight 13
+	dex_height 4
+	dex_weight 58
 ; MARILL
 	dex_number 183
-	dex_height 1, 4
-	dex_weight 19
+	dex_height 4
+	dex_weight 85
 ; AZUMARILL
 	dex_number 184
-	dex_height 2, 7
-	dex_weight 63
+	dex_height 8
+	dex_weight 285
 ; SUDOWOODO
 	dex_number 185
-	dex_height 3, 11
-	dex_weight 84
+	dex_height 12
+	dex_weight 380
 ; POLITOED
 	dex_number 186
-	dex_height 3, 7
-	dex_weight 75
+	dex_height 11
+	dex_weight 339
 ; HOPPIP
 	dex_number 187
-	dex_height 1, 4
-	dex_weight 1
+	dex_height 4
+	dex_weight 5
 ; SKIPLOOM
 	dex_number 188
-	dex_height 2, 0
-	dex_weight 2
+	dex_height 6
+	dex_weight 10
 ; JUMPLUFF
 	dex_number 189
-	dex_height 2, 7
-	dex_weight 7
+	dex_height 8
+	dex_weight 30
 ; AIPOM
 	dex_number 190
-	dex_height 2, 7
-	dex_weight 25
+	dex_height 8
+	dex_weight 115
 ; SUNKERN
 	dex_number 191
-	dex_height 1, 0
-	dex_weight 4
+	dex_height 3
+	dex_weight 18
 ; SUNFLORA
 	dex_number 192
-	dex_height 2, 7
-	dex_weight 19
+	dex_height 8
+	dex_weight 85
 ; YANMA
 	dex_number 193
-	dex_height 3, 11
-	dex_weight 84
+	dex_height 12
+	dex_weight 380
 ; WOOPER
 	dex_number 194
-	dex_height 1, 4
-	dex_weight 19
+	dex_height 4
+	dex_weight 85
 ; QUAGSIRE
 	dex_number 195
-	dex_height 4, 7
-	dex_weight 165
+	dex_height 14
+	dex_weight 750
 ; ESPEON
 	dex_number 196
-	dex_height 2, 11
-	dex_weight 58
+	dex_height 9
+	dex_weight 265
 ; UMBREON
 	dex_number 197
-	dex_height 3, 3
-	dex_weight 60
+	dex_height 10
+	dex_weight 270
 ; MURKROW
 	dex_number 198
-	dex_height 1, 8
-	dex_weight 5
+	dex_height 5
+	dex_weight 21
 ; SLOWKING
 	dex_number 199
-	dex_height 6, 7
-	dex_weight 175
+	dex_height 20
+	dex_weight 795
 ; MISDREAVUS
 	dex_number 200
-	dex_height 2, 4
-	dex_weight 2
+	dex_height 7
+	dex_weight 10
 ; UNOWN
 	dex_number 201
-	dex_height 1, 8
-	dex_weight 11
+	dex_height 5
+	dex_weight 50
 ; WOBBUFFET
 	dex_number 202
-	dex_height 4, 3
-	dex_weight 63
+	dex_height 13
+	dex_weight 285
 ; GIRAFARIG
 	dex_number 203
-	dex_height 4, 11
-	dex_weight 92
+	dex_height 15
+	dex_weight 415
 ; PINECO
 	dex_number 204
-	dex_height 2, 0
-	dex_weight 16
+	dex_height 6
+	dex_weight 72
 ; FORRETRESS
 	dex_number 205
-	dex_height 3, 11
-	dex_weight 277
+	dex_height 12
+	dex_weight 1258
 ; DUNSPARCE
 	dex_number 206
-	dex_height 4, 11
-	dex_weight 31
+	dex_height 15
+	dex_weight 140
 ; GLIGAR
 	dex_number 207
-	dex_height 3, 7
-	dex_weight 143
+	dex_height 11
+	dex_weight 648
 ; STEELIX
 	dex_number 208
-	dex_height 30, 2
-	dex_weight 882
+	dex_height 92
+	dex_weight 4000
 ; SNUBBULL
 	dex_number 209
-	dex_height 2, 0
-	dex_weight 17
+	dex_height 6
+	dex_weight 78
 ; GRANBULL
 	dex_number 210
-	dex_height 4, 7
-	dex_weight 107
+	dex_height 14
+	dex_weight 487
 ; QWILFISH
 	dex_number 211
-	dex_height 1, 8
-	dex_weight 9
+	dex_height 5
+	dex_weight 39
 ; SCIZOR
 	dex_number 212
-	dex_height 5, 11
-	dex_weight 260
+	dex_height 18
+	dex_weight 1180
 ; SHUCKLE
 	dex_number 213
-	dex_height 2, 0
-	dex_weight 45
+	dex_height 6
+	dex_weight 205
 ; HERACROSS
 	dex_number 214
-	dex_height 4, 11
-	dex_weight 119
+	dex_height 15
+	dex_weight 540
 ; SNEASEL
 	dex_number 215
-	dex_height 2, 11
-	dex_weight 62
+	dex_height 9
+	dex_weight 280
 ; TEDDIURSA
 	dex_number 216
-	dex_height 2, 0
-	dex_weight 19
+	dex_height 6
+	dex_weight 88
 ; URSARING
 	dex_number 217
-	dex_height 5, 11
-	dex_weight 277
+	dex_height 18
+	dex_weight 1258
 ; SLUGMA
 	dex_number 218
-	dex_height 2, 4
-	dex_weight 77
+	dex_height 7
+	dex_weight 350
 ; MAGCARGO
 	dex_number 219
-	dex_height 2, 7
-	dex_weight 121
+	dex_height 8
+	dex_weight 550
 ; SWINUB
 	dex_number 220
-	dex_height 1, 4
-	dex_weight 14
+	dex_height 4
+	dex_weight 65
 ; PILOSWINE
 	dex_number 221
-	dex_height 3, 7
-	dex_weight 123
+	dex_height 11
+	dex_weight 558
 ; CORSOLA
 	dex_number 222
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 6
+	dex_weight 50
 ; REMORAID
 	dex_number 223
-	dex_height 2, 0
-	dex_weight 27
+	dex_height 6
+	dex_weight 120
 ; OCTILLERY
 	dex_number 224
-	dex_height 2, 11
-	dex_weight 63
+	dex_height 9
+	dex_weight 285
 ; DELIBIRD
 	dex_number 225
-	dex_height 2, 11
-	dex_weight 35
+	dex_height 9
+	dex_weight 160
 ; MANTINE
 	dex_number 226
-	dex_height 6, 11
-	dex_weight 485
+	dex_height 21
+	dex_weight 2200
 ; SKARMORY
 	dex_number 227
-	dex_height 5, 7
-	dex_weight 111
+	dex_height 17
+	dex_weight 505
 ; HOUNDOUR
 	dex_number 228
-	dex_height 2, 0
-	dex_weight 24
+	dex_height 6
+	dex_weight 108
 ; HOUNDOOM
 	dex_number 229
-	dex_height 4, 7
-	dex_weight 77
+	dex_height 14
+	dex_weight 350
 ; KINGDRA
 	dex_number 230
-	dex_height 5, 11
-	dex_weight 335
+	dex_height 18
+	dex_weight 1520
 ; PHANPY
 	dex_number 231
-	dex_height 1, 8
-	dex_weight 74
+	dex_height 5
+	dex_weight 335
 ; DONPHAN
 	dex_number 232
-	dex_height 3, 7
-	dex_weight 265
+	dex_height 11
+	dex_weight 1200
 ; PORYGON2
 	dex_number 233
-	dex_height 2, 0
-	dex_weight 72
+	dex_height 6
+	dex_weight 325
 ; STANTLER
 	dex_number 234
-	dex_height 4, 7
-	dex_weight 157
+	dex_height 14
+	dex_weight 712
 ; SMEARGLE
 	dex_number 235
-	dex_height 3, 11
-	dex_weight 128
+	dex_height 12
+	dex_weight 580
 ; TYROGUE
 	dex_number 236
-	dex_height 2, 4
-	dex_weight 46
+	dex_height 7
+	dex_weight 210
 ; HITMONTOP
 	dex_number 237
-	dex_height 4, 7
-	dex_weight 106
+	dex_height 14
+	dex_weight 480
 ; SMOOCHUM
 	dex_number 238
-	dex_height 1, 4
-	dex_weight 13
+	dex_height 4
+	dex_weight 60
 ; ELEKID
 	dex_number 239
-	dex_height 2, 0
-	dex_weight 52
+	dex_height 6
+	dex_weight 235
 ; MAGBY
 	dex_number 240
-	dex_height 2, 4
-	dex_weight 47
+	dex_height 7
+	dex_weight 214
 ; MILTANK
 	dex_number 241
-	dex_height 3, 11
-	dex_weight 166
+	dex_height 12
+	dex_weight 755
 ; BLISSEY
 	dex_number 242
-	dex_height 4, 11
-	dex_weight 103
+	dex_height 15
+	dex_weight 468
 ; RAIKOU
 	dex_number 243
-	dex_height 6, 03
-	dex_weight 392
+	dex_height 19
+	dex_weight 1780
 ; ENTEI
 	dex_number 244
-	dex_height 6, 11
-	dex_weight 437
+	dex_height 21
+	dex_weight 1980
 ; SUICUNE
 	dex_number 245
-	dex_height 6, 7
-	dex_weight 412
+	dex_height 20
+	dex_weight 1870
 ; LARVITAR
 	dex_number 246
-	dex_height 2, 0
-	dex_weight 159
+	dex_height 6
+	dex_weight 720
 ; PUPITAR
 	dex_number 247
-	dex_height 3, 11
-	dex_weight 335
+	dex_height 12
+	dex_weight 1520
 ; TYRANITAR
 	dex_number 248
-	dex_height 6, 7
-	dex_weight 445
+	dex_height 20
+	dex_weight 2020
 ; LUGIA
 	dex_number 249
-	dex_height 17, 1
-	dex_weight 476
+	dex_height 52
+	dex_weight 2160
 ; HO_OH
 	dex_number 250
-	dex_height 12, 6
-	dex_weight 439
+	dex_height 38
+	dex_weight 1990
 ; CELEBI
 	dex_number 251
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 6
+	dex_weight 50
 ; TREECKO
 	dex_number 252
-	dex_height 1, 8
-	dex_weight 11
+	dex_height 5
+	dex_weight 50
 ; GROVYLE
 	dex_number 253
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 9
+	dex_weight 216
 ; SCEPTILE
 	dex_number 254
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 17
+	dex_weight 522
 ; TORCHIC
 	dex_number 255
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 4
+	dex_weight 25
 ; COMBUSKEN
 	dex_number 256
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 9
+	dex_weight 195
 ; BLAZIKEN
 	dex_number 257
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 19
+	dex_weight 520
 ; MUDKIP
 	dex_number 258
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 4
+	dex_weight 76
 ; MARSHTOMP
 	dex_number 259
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 7
+	dex_weight 280
 ; SWAMPERT
 	dex_number 260
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 15
+	dex_weight 819
 ; POOCHYENA
 	dex_number 261
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 5
+	dex_weight 136
 ; MIGHTYENA
 	dex_number 262
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 10
+	dex_weight 370
 ; ZIGZAGOON
 	dex_number 263
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 4
+	dex_weight 175
 ; LINOONE
 	dex_number 264
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 5
+	dex_weight 325
 ; WURMPLE
 	dex_number 265
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 3
+	dex_weight 36
 ; SILCOON
 	dex_number 266
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 6
+	dex_weight 100
 ; BEAUTIFLY
 	dex_number 267
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 10
+	dex_weight 284
 ; CASCOON
 	dex_number 268
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 7
+	dex_weight 115
 ; DUSTOX
 	dex_number 269
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 12
+	dex_weight 316
 ; LOTAD
 	dex_number 270
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 5
+	dex_weight 26
 ; LOMBRE
 	dex_number 271
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 12
+	dex_weight 325
 ; LUDICOLO
 	dex_number 272
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 15
+	dex_weight 550
 ; SEEDOT
 	dex_number 273
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 5
+	dex_weight 40
 ; NUZLEAF
 	dex_number 274
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 10
+	dex_weight 280
 ; SHIFTRY
 	dex_number 275
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 13
+	dex_weight 596
 ; TAILLOW
 	dex_number 276
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 3
+	dex_weight 23
 ; SWELLOW
 	dex_number 277
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 7
+	dex_weight 198
 ; WINGULL
 	dex_number 278
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 6
+	dex_weight 95
 ; PELIPPER
 	dex_number 279
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 12
+	dex_weight 280
 ; RALTS
 	dex_number 280
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 4
+	dex_weight 66
 ; KIRLIA
 	dex_number 281
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 8
+	dex_weight 202
 ; GARDEVOIR
 	dex_number 282
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 16
+	dex_weight 484
 ; SURSKIT
 	dex_number 283
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 5
+	dex_weight 17
 ; MASQUERAIN
 	dex_number 284
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 8
+	dex_weight 36
 ; SHROOMISH
 	dex_number 285
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 4
+	dex_weight 45
 ; BRELOOM
 	dex_number 286
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 12
+	dex_weight 392
 ; SLAKOTH
 	dex_number 287
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 8
+	dex_weight 240
 ; VIGOROTH
 	dex_number 288
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 14
+	dex_weight 465
 ; SLAKING
 	dex_number 289
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 20
+	dex_weight 1305
 ; NINCADA
 	dex_number 290
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 5
+	dex_weight 55
 ; NINJASK
 	dex_number 291
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 8
+	dex_weight 120
 ; SHEDINJA
 	dex_number 292
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 8
+	dex_weight 12
 ; WHISMUR
 	dex_number 293
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 6
+	dex_weight 163
 ; LOUDRED
 	dex_number 294
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 10
+	dex_weight 405
 ; EXPLOUD
 	dex_number 295
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 15
+	dex_weight 840
 ; MAKUHITA
 	dex_number 296
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 10
+	dex_weight 864
 ; HARIYAMA
 	dex_number 297
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 23
+	dex_weight 2538
 ; AZURILL
 	dex_number 298
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 2
+	dex_weight 20
 ; NOSEPASS
 	dex_number 299
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 10
+	dex_weight 970
 ; SKITTY
 	dex_number 300
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 6
+	dex_weight 110
 ; DELCATTY
 	dex_number 301
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 11
+	dex_weight 326
 ; SABLEYE
 	dex_number 302
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 5
+	dex_weight 110
 ; MAWILE
 	dex_number 303
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 6
+	dex_weight 115
 ; ARON
 	dex_number 304
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 4
+	dex_weight 600
 ; LAIRON
 	dex_number 305
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 9
+	dex_weight 1200
 ; AGGRON
 	dex_number 306
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 21
+	dex_weight 3600
 ; MEDITITE
 	dex_number 307
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 6
+	dex_weight 112
 ; MEDICHAM
 	dex_number 308
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 13
+	dex_weight 315
 ; ELECTRIKE
 	dex_number 309
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 6
+	dex_weight 152
 ; MANECTRIC
 	dex_number 310
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 15
+	dex_weight 402
 ; PLUSLE
 	dex_number 311
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 4
+	dex_weight 42
 ; MINUN
 	dex_number 312
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 4
+	dex_weight 42
 ; VOLBEAT
 	dex_number 313
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 7
+	dex_weight 177
 ; ILLUMISE
 	dex_number 314
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 6
+	dex_weight 177
 ; ROSELIA
 	dex_number 315
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 3
+	dex_weight 20
 ; GULPIN
 	dex_number 316
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 4
+	dex_weight 103
 ; SWALOT
 	dex_number 317
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 17
+	dex_weight 800
 ; CARVANHA
 	dex_number 318
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 8
+	dex_weight 208
 ; SHARPEDO
 	dex_number 319
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 18
+	dex_weight 888
 ; WAILMER
 	dex_number 320
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 20
+	dex_weight 1300
 ; WAILORD
 	dex_number 321
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 145
+	dex_weight 3980
 ; NUMEL
 	dex_number 322
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 7
+	dex_weight 240
 ; CAMERUPT
 	dex_number 323
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 19
+	dex_weight 2200
 ; TORKOAL
 	dex_number 324
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 5
+	dex_weight 804
 ; SPOINK
 	dex_number 325
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 7
+	dex_weight 306
 ; GRUMPIG
 	dex_number 326
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 9
+	dex_weight 715
 ; SPINDA
 	dex_number 327
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 11
+	dex_weight 50
 ; TRAPINCH
 	dex_number 328
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 7
+	dex_weight 150
 ; VIBRAVA
 	dex_number 329
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 11
+	dex_weight 153
 ; FLYGON
 	dex_number 330
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 20
+	dex_weight 820
 ; CACNEA
 	dex_number 331
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 4
+	dex_weight 513
 ; CACTURNE
 	dex_number 332
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 13
+	dex_weight 774
 ; SWABLU
 	dex_number 333
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 4
+	dex_weight 12
 ; ALTARIA
 	dex_number 334
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 11
+	dex_weight 206
 ; ZANGOOSE
 	dex_number 335
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 13
+	dex_weight 403
 ; SEVIPER
 	dex_number 336
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 27
+	dex_weight 525
 ; LUNATONE
 	dex_number 337
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 10
+	dex_weight 1680
 ; SOLROCK
 	dex_number 338
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 12
+	dex_weight 1540
 ; BARBOACH
 	dex_number 339
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 4
+	dex_weight 19
 ; WHISCASH
 	dex_number 340
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 9
+	dex_weight 236
 ; CORPHISH
 	dex_number 341
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 6
+	dex_weight 115
 ; CRAWDAUNT
 	dex_number 342
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 11
+	dex_weight 328
 ; BALTOY
 	dex_number 343
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 5
+	dex_weight 215
 ; CLAYDOL
 	dex_number 344
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 15
+	dex_weight 1080
 ; LILEEP
 	dex_number 345
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 10
+	dex_weight 238
 ; CRADILY
 	dex_number 346
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 15
+	dex_weight 604
 ; ANORITH
 	dex_number 347
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 7
+	dex_weight 125
 ; ARMALDO
 	dex_number 348
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 15
+	dex_weight 682
 ; FEEBAS
 	dex_number 349
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 6
+	dex_weight 74
 ; MILOTIC
 	dex_number 350
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 62
+	dex_weight 1620
 ; CASTFORM
 	dex_number 351
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 3
+	dex_weight 8
 ; KECLEON
 	dex_number 352
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 10
+	dex_weight 220
 ; SHUPPET
 	dex_number 353
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 6
+	dex_weight 23
 ; BANETTE
 	dex_number 354
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 11
+	dex_weight 125
 ; DUSKULL
 	dex_number 355
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 8
+	dex_weight 150
 ; DUSCLOPS
 	dex_number 356
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 16
+	dex_weight 306
 ; TROPIUS
 	dex_number 357
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 20
+	dex_weight 1000
 ; CHIMECHO
 	dex_number 358
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 6
+	dex_weight 10
 ; ABSOL
 	dex_number 359
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 12
+	dex_weight 470
 ; WYNAUT
 	dex_number 360
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 6
+	dex_weight 140
 ; SNORUNT
 	dex_number 361
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 7
+	dex_weight 168
 ; GLALIE
 	dex_number 362
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 15
+	dex_weight 2565
 ; SPHEAL
 	dex_number 363
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 8
+	dex_weight 395
 ; SEALEO
 	dex_number 364
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 11
+	dex_weight 876
 ; WALREIN
 	dex_number 365
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 14
+	dex_weight 1506
 ; CLAMPERL
 	dex_number 366
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 4
+	dex_weight 525
 ; HUNTAIL
 	dex_number 367
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 17
+	dex_weight 270
 ; GOREBYSS
 	dex_number 368
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 18
+	dex_weight 226
 ; RELICANTH
 	dex_number 369
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 10
+	dex_weight 234
 ; LUVDISC
 	dex_number 370
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 6
+	dex_weight 87
 ; BAGON
 	dex_number 371
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 6
+	dex_weight 421
 ; SHELGON
 	dex_number 372
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 11
+	dex_weight 1105
 ; SALAMENCE
 	dex_number 373
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 15
+	dex_weight 1026
 ; BELDUM
 	dex_number 374
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 6
+	dex_weight 952
 ; METANG
 	dex_number 375
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 12
+	dex_weight 2025
 ; METAGROSS
 	dex_number 376
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 16
+	dex_weight 5500
 ; REGIROCK
 	dex_number 377
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 17
+	dex_weight 2300
 ; REGICE
 	dex_number 378
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 18
+	dex_weight 1750
 ; REGISTEEL
 	dex_number 379
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 19
+	dex_weight 2050
 ; LATIAS
 	dex_number 380
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 14
+	dex_weight 400
 ; LATIOS
 	dex_number 381
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 20
+	dex_weight 600
 ; KYOGRE
 	dex_number 382
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 45
+	dex_weight 3520
 ; GROUDON
 	dex_number 383
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 35
+	dex_weight 9500
 ; RAYQUAZA
 	dex_number 384
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 70
+	dex_weight 2065
 ; JIRACHI
 	dex_number 385
-	dex_height 2, 0
+	dex_height 3
 	dex_weight 11
 ; DEOXYS
 	dex_number 386
-	dex_height 2, 0
-	dex_weight 11
+	dex_height 17
+	dex_weight 608

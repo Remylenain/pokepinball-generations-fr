@@ -5,48 +5,44 @@ MACRO dex_number
 	db "@"
 ENDM
 
-; \1 = feet
-; \2 = inches
+; \1 = height in decimeters (e.g. 7 = 0.7m, 145 = 14.5m)
+; Display: 4 chars "XX.Y" with leading space if tens digit is 0
 MACRO dex_height
-	DEF feet_tens_digit = (\1 / 10) % 10
-	IF feet_tens_digit == 0
+	DEF meters_tens = (\1 / 100) % 10
+	IF meters_tens == 0
 		db " "
 	ELSE
-		db feet_tens_digit + "0"
+		db meters_tens + "0"
 	ENDC
-	DEF feet_ones_digit = \1 % 10
-	db feet_ones_digit + "0"
-	DEF inches_tens_digit = (\2 / 10) % 10
-	IF inches_tens_digit > 0
-		db $70
-	ELSE
-		db $72
-	ENDC
-	DEF inches_ones_digit = \2 % 10
-	db inches_ones_digit + "0"
+	db ((\1 / 10) % 10) + "0"
+	db $72 ; "." (decimal point — gfx tile to update)
+	db (\1 % 10) + "0"
 	db "@"
 ENDM
 
+; \1 = weight in hectograms (e.g. 69 = 6.9 kg). Rounded to nearest integer kg.
+; Display: 4 digits "XXXX" + "kg" tile (gfx tile $83 to update)
 MACRO dex_weight
-	IF \1 >= 1000
-		db ((\1 / 1000) % 10) + "0"
+	DEF kg = (\1 + 5) / 10
+	IF kg >= 1000
+		db ((kg / 1000) % 10) + "0"
 	ELSE
 		db " "
 	ENDC
 
-	IF \1 >= 100
-		db ((\1 / 100) % 10) + "0"
+	IF kg >= 100
+		db ((kg / 100) % 10) + "0"
 	ELSE
 		db " "
 	ENDC
 
-	IF \1 >= 10
-		db ((\1 / 10) % 10) + "0"
+	IF kg >= 10
+		db ((kg / 10) % 10) + "0"
 	ELSE
 		db " "
 	ENDC
 
-	db (\1 % 10) + "0"
+	db (kg % 10) + "0"
 	db $00, $83
 ENDM
 
