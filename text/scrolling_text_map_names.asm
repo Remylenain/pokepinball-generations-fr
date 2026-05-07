@@ -24,15 +24,15 @@ CeruleanCityText:
 
 VermilionSeasideText:
 	scrolling_text 5, 31, 3, 20, 2, 17
-	db "CARMIN : PLAGE @"
+	db "CARMIN PLAGE @"
 
 VermilionStreetsText:
-	scrolling_text 5, 31, 3, 20, 2, 17
-	db "CARMIN : RUES @"
+	scrolling_text 5, 31, 4, 20, 2, 16
+	db "CARMIN RUES @"
 
 RockMountainText:
-	scrolling_text 5, 31, 4, 20, 2, 16
-	db "MT ROCHEUX @"
+	scrolling_text 5, 31, 5, 20, 2, 15
+	db "MONTAGNE @"
 
 LavenderTownText:
 	scrolling_text 5, 31, 4, 20, 2, 16
@@ -63,8 +63,8 @@ SeafoamIslandsText:
 	db "ILES ECUME @"
 
 CinnabarIslandText:
-	scrolling_text 5, 31, 3, 20, 2, 17
-	db "ILE CRAMOISE @"
+	scrolling_text 5, 31, 4, 20, 2, 16
+	db "CRAMOIS'ILE @"
 
 IndigoPlateauText:
 	scrolling_text 5, 31, 2, 20, 2, 18

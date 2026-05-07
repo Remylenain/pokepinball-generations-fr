@@ -1,22 +1,22 @@
 BallSavedText:
 	scrolling_text_normal 5, 20, 0, 16
-	db "BALL GARDEE @"
+	db "BILLE SAUVEE @"
 
 ShootAgainText:
 	scrolling_text_normal 4, 20, 0, 16
-	db "RELANCEZ @"
+	db "SHOOT AGAIN @"
 
 EndOfBallBonusText:
-	scrolling_text_normal 1, 20, 0, 19
-	db "BONUS FIN DE BALLE @"
+	scrolling_text_normal 1, 20, 0, 21
+	db "BILLE BONUS TERMINEE @"
 
 FieldMultiplierText:
 	scrolling_text_normal 0, 20, 0, 20
-	db "MULT. TERRAIN x0 @"
+	db "MULTIPLICATEUR x0 @"
 
 FieldMultiplierSpecialBonusText:
 	scrolling_text_nopause 7, 51
-	db "BONUS SPECIAL MULT. TERRAIN @"
+	db "MULTIPLICATEUR BONUS SPECIAL @"
 
 DigitsText1to8:
 	scrolling_text 7, 51, 6, 20, 2, 15
@@ -24,31 +24,31 @@ DigitsText1to8:
 
 BonusMultiplierText:
 	scrolling_text_normal 0, 20, 0, 21
-	db "MULT. BONUS x0 @"
+	db "MULTIPLIC. BONUS x0  @"
 
 ExtraBallText:
 	scrolling_text_normal 5, 20, 0, 16
-	db "BALL BONUS @"
+	db "EXTRA BALL @"
 
 ExtraBallSpecialBonusText:
 	scrolling_text_nopause 7, 45
-	db "BONUS SPECIAL BALL @"
+	db "EXTRA BALL BONUS SPECIAL @"
 
 DigitsText1to9:
 	scrolling_text 7, 45, 5, 20, 2, 15
 	db "123456789 @"
 
 LetsGetPokemonText:
-	scrolling_text_normal 1, 20, 0, 19
-	db "ATTRAPONS POKeMON @"
+	scrolling_text_normal 0, 20, 0, 21
+	db "ATTRAPEZ LES POKeMON @"
 
 PokemonRanAwayText:
-	scrolling_text_normal 2, 20, 0, 19
-	db "POKeMON A FUI @"
+	scrolling_text_normal 1, 20, 0, 21
+	db "LE POKeMON S'ENFUIT @"
 
 PokemonCaughtSpecialBonusText:
 	scrolling_text_nopause 7, 49
-	db "BONUS SPECIAL CAPTURE @"
+	db "POKeMON ATTRAPE - BONUS SPECIAL @"
 
 OneBillionText:
 	scrolling_text 7, 46, 5, 20, 2, 19
@@ -65,7 +65,7 @@ Data_2a2a:
 
 FlippedText:
 	stationary_text 2, 0, 64
-	db "FLIPPE @"
+	db "FLIP @"
 
 CatchModeTileFlippedScoreStationaryTextHeader:
 	stationary_text 10, 1, 64
@@ -83,11 +83,11 @@ CatchModeJackpotScoreStationaryTextHeader:
 
 YouGotAText:
 	scrolling_text_nopause 5, 30
-	db "TU AS UN @"
+	db "VOUS GAGNEZ UN @"
 
 YouGotAnText:
 	scrolling_text_nopause 5, 31
-	db "TU AS UN @"
+	db "VOUS GAGNEZ UN @"
 
 Data_2a79:
 	scrolling_text 5, 30, 0, 20, 2, 17
@@ -98,24 +98,24 @@ Data_2a91:
 	db "                 @"
 
 StartTrainingText:
-	scrolling_text_normal 3, 20, 0, 18
-	db "DEBUT ENTRAIN. @"
+	scrolling_text_normal 2, 20, 0, 19
+	db "DEBUT ENTRAINEMENT @"
 
 FindItemsText:
-	scrolling_text_normal 5, 20, 0, 16
-	db "TROUVE OBJET @"
+	scrolling_text_normal 3, 20, 0, 18
+	db "TROUVER OBJETS @"
 
 StartBreedingText:
 	db $05, $54, $43, $14, $00, $37
 	db "DEBUT ELEVAGE @"
 
 EvolutionFailedText:
-	scrolling_text_normal 2, 20, 0, 19
-	db "EVOLUTION RATEE @"
+	scrolling_text_normal 0, 20, 0, 21
+	db "ECHEC DE L'EVOLUTION @"
 
 BreedingFailedText:
 	db $05, $54, $42, $14, $00, $39
-	db "ELEVAGE RATE @"
+	db "ECHEC DE L'ELEVAGE @"
 
 ItEvolvedIntoAText:
 	scrolling_text_nopause 5, 38
@@ -154,24 +154,24 @@ PokemonIsTiredText:
 	db "POKeMON FATIGUE @"
 
 ItemNotFoundText:
-	scrolling_text_normal 3, 20, 0, 18
-	db "AUCUN OBJET @"
+	scrolling_text_normal 1, 20, 0, 20
+	db "OBJET NON TROUVE @"
 
 KeepWalkingText:
 	db $05, $54, $43, $14, $00, $35
 	db "MARCHEZ @"
 
 PokemonRecoveredText:
-	scrolling_text_normal 1, 20, 0, 19
-	db "POKeMON SOIGNE @"
+	scrolling_text_normal 2, 20, 0, 19
+	db "POKeMON REPOSE @"
 
 TryNextPlaceText:
-	scrolling_text_normal 3, 20, 0, 18
-	db "ALLEZ AILLEURS @"
+	scrolling_text_normal 0, 20, 0, 21
+	db "VOIR ENDROIT SUIVANT @"
 
 YeahYouGotItText:
-	scrolling_text_normal 2, 20, 0, 19
-	db "OUI ! ATTRAPE @"
+	scrolling_text_normal 5, 20, 0, 16
+	db "SUPER ! @"
 
 EvolutionTypeGetTextPointers:
 	dw GetThunderStoneText
@@ -185,32 +185,32 @@ EvolutionTypeGetTextPointers:
 	dw TakeStepsText
 
 GetExperienceText:
-	scrolling_text_normal 3, 20, 0, 18
-	db "GAGNE DE L'XP @"
+	scrolling_text_normal 1, 20, 0, 20
+	db "GAGNER EXPERIENCE @"
 
 GetFireStoneText:
-	scrolling_text_normal 2, 20, 0, 19
-	db "TROUVE P. FEU @"
+	scrolling_text_normal 1, 20, 0, 20
+	db "GAGNER PIERRE FEU @"
 
 GetWaterStoneText:
-	scrolling_text_normal 1, 20, 0, 19
-	db "TROUVE P. EAU @"
+	scrolling_text_normal 1, 20, 0, 20
+	db "GAGNER PIERRE EAU @"
 
 GetThunderStoneText:
-	scrolling_text_normal 0, 20, 0, 20
-	db "TROUVE P. FOUDRE @"
+	scrolling_text_normal 0, 20, 0, 21
+	db "GAGNER PIERRE FOUDRE @"
 
 GetLeafStoneText:
-	scrolling_text_normal 2, 20, 0, 19
-	db "TROUVE P. PLANTE @"
+	scrolling_text_normal 0, 20, 0, 21
+	db "GAGNER PIERRE PLANTE @"
 
 GetMoonStoneText:
-	scrolling_text_normal 2, 20, 0, 19
-	db "TROUVE P. LUNE @"
+	scrolling_text_normal 1, 20, 0, 20
+	db "GAGNER PIERRE LUNE @"
 
 GetLinkCableText:
 	scrolling_text_normal 2, 20, 0, 19
-	db "TROUVE C. LINK @"
+	db "AVOIR CABLE LINK @"
 
 TakeStepsText:
 	db $05, $54, $42, $14, $00, $38
@@ -218,11 +218,11 @@ TakeStepsText:
 
 GetSunStoneText:
 	db $05, $54, $42, $14, $00, $38
-	db "TROUVE P. SOLEIL @"
+	db "GAGNER P. SOLEIL @"
 
 MapMoveFailedText:
-	scrolling_text_normal 2, 20, 0, 18
-	db "VOYAGE RATE @"
+	scrolling_text_normal 0, 20, 0, 20
+	db "ECHEC DU DEPLACEMENT @"
 
 ArrivedAtMapText:
 	scrolling_text_nopause 5, 31
@@ -230,73 +230,73 @@ ArrivedAtMapText:
 
 StartFromMapText:
 	scrolling_text_nopause 5, 31
-	db "DEPART DE @"
+	db "COMMENCER A @"
 
 GoToDiglettStageText:
-	scrolling_text_normal 0, 20, 0, 20
-	db "VERS STADE TAUPIQUEUR @"
+	scrolling_text_normal 1, 20, 0, 20
+	db "NIVEAU TAUPIQUEUR @"
 
 GoToGengarStageText:
 	scrolling_text_normal 1, 20, 0, 20
-	db "VERS STADE ECTOPLASMA @"
+	db "NIVEAU ECTOPLASMA @"
 
 GoToMewtwoStageText:
-	scrolling_text_normal 1, 20, 0, 20
-	db "VERS STADE MEWTWO @"
+	scrolling_text_normal 3, 20, 0, 18
+	db "NIVEAU MEWTWO @"
 
 GoToMeowthStageText:
-	scrolling_text_normal 1, 20, 0, 20
-	db "VERS STADE MIAOUSS @"
+	scrolling_text_normal 3, 20, 0, 18
+	db "NIVEAU MIAOUSS @"
 
 GoToSeelStageText:
-	scrolling_text_normal 2, 20, 0, 19
-	db "VERS STADE OTARIA @"
+	scrolling_text_normal 4, 20, 0, 17
+	db "NIVEAU OTARIA @"
 
 EndGengarStageText:
-	scrolling_text_normal 2, 20, 0, 19
-	db "FIN STADE ECTOPLASMA @"
+	scrolling_text_normal 1, 20, 0, 20
+	db "FIN NIV ECTOPLASMA @"
 
 EndMewtwoStageText:
-	scrolling_text_normal 2, 20, 0, 19
-	db "FIN STADE MEWTWO @"
+	scrolling_text_normal 1, 20, 0, 20
+	db "FIN NIVEAU MEWTWO @"
 
 EndDiglettStageText:
-	scrolling_text_normal 1, 20, 0, 19
-	db "FIN STADE TAUPIQUEUR @"
+	scrolling_text_normal 0, 20, 0, 21
+	db "FIN NIV TAUPIQUEUR @"
 
 EndMeowthStageText:
-	scrolling_text_normal 2, 20, 0, 19
-	db "FIN STADE MIAOUSS @"
+	scrolling_text_normal 1, 20, 0, 20
+	db "FIN NIVEAU MIAOUSS @"
 
 EndSeelStageText:
-	scrolling_text_normal 3, 20, 0, 18
-	db "FIN STADE OTARIA @"
+	scrolling_text_normal 1, 20, 0, 20
+	db "FIN NIVEAU OTARIA @"
 
 GengarStageClearedText:
 	scrolling_text_normal 0, 20, 0, 21
-	db "STADE ECTOPLASMA REUSSI @"
+	db "NIV ECTOPLASM REUSSI @"
 
 MewtwoStageClearedText:
-	scrolling_text_normal 0, 20, 0, 21
-	db "STADE MEWTWO REUSSI @"
+	scrolling_text_normal 1, 20, 0, 20
+	db "NIV MEWTWO REUSSI @"
 
 DiglettStageClearedText:
-	scrolling_text_normal -1, 20, 0, 21
-	db "STADE TAUPIQUEUR REUSSI @"
+	scrolling_text_normal 0, 20, 0, 21
+	db "NIV TAUPIQU. REUSSI @"
 
 MeowthStageClearedText:
-	scrolling_text_normal 0, 20, 0, 21
-	db "STADE MIAOUSS REUSSI @"
+	scrolling_text_normal 1, 20, 0, 20
+	db "NIV MIAOUSS REUSSI @"
 
 SeelStageClearedText:
 	scrolling_text_normal 1, 20, 0, 20
-	db "STADE OTARIA REUSSI @"
+	db "NIV OTARIA REUSSI @"
 
 NumPokemonCaughtText:
-	db "  0 POKeMON CAPTURES@"
+	db "  0 POKeMON ATTRAPE@"
 
 NumPokemonEvolvedText:
-	db "  0 POKeMON EVOLUES@"
+	db "  0 POKeMON EVOLUE@"
 
 BellsproutCounterText:
 	db "  0 CHETIFLOR@"
@@ -305,10 +305,10 @@ DugtrioCounterText:
 	db "  0 TRIOPIKEUR@"
 
 CaveShotCounterText:
-	db "  0 TIRS GROTTE@"
+	db "  0 TROUS@"
 
 SpinnerTurnsCounterText:
-	db "  0 TOURS SPINNER@"
+	db "  0 TOURS ROULETTE@"
 
 BonusPointsText:
 	db " BONUS@"
@@ -317,7 +317,7 @@ SubtotalPointsText:
 	db " SOUS-TOTAL@"
 
 MultiplierPointsText:
-	db " MULTIPLI.@"
+	db " MULTIPLICATEUR@"
 
 TotalPointsText:
 	db " TOTAL@"
@@ -326,7 +326,7 @@ ScoreText:
 	db " SCORE@"
 
 GameOverText:
-	db "    PARTIE FINIE    @"
+	db "     GAME OVER     @"
 
 PsyduckCounterText:
 	db "  0 PSYKOKWAK@"
