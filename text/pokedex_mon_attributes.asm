@@ -399,7 +399,7 @@ PokedexMonAttributesTexts: ; 0x2a85d
 	dex_number 100
 	dex_height 5
 	dex_weight 104
-; ELECTRODE
+; ÉLECTRODE
 	dex_number 101
 	dex_height 12
 	dex_weight 666

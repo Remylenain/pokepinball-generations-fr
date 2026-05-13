@@ -8,7 +8,7 @@ ViridianCityText:
 
 ViridianForestText:
 	scrolling_text 5, 31, 3, 20, 2, 17
-	db "FORET DE JADE @"
+	db "FORÊT DE JADE @"
 
 PewterCityText:
 	scrolling_text 5, 31, 6, 20, 2, 14
@@ -16,7 +16,7 @@ PewterCityText:
 
 MtMoonText:
 	scrolling_text 5, 31, 4, 20, 2, 16
-	db "MT.SELENITE @"
+	db "MT.SÉLÉNITE @"
 
 CeruleanCityText:
 	scrolling_text 5, 31, 6, 20, 2, 14
@@ -40,7 +40,7 @@ LavenderTownText:
 
 CeladonCityText:
 	scrolling_text 5, 31, 4, 20, 2, 16
-	db "CELADOPOLE @"
+	db "CÉLADOPOLE @"
 
 CyclingRoadText:
 	scrolling_text 5, 31, 2, 20, 2, 18
@@ -60,11 +60,11 @@ SaffronCityText:
 
 SeafoamIslandsText:
 	scrolling_text 5, 31, 4, 20, 2, 16
-	db "ILES ECUME @"
+	db "ÎLES ÉCUME @"
 
 CinnabarIslandText:
 	scrolling_text 5, 31, 4, 20, 2, 16
-	db "CRAMOIS'ILE @"
+	db "CRAMOIS'ÎLE @"
 
 IndigoPlateauText:
 	scrolling_text 5, 31, 2, 20, 2, 18
@@ -88,7 +88,7 @@ DarkCaveText:
 
 LakeOfRageText:
 	scrolling_text 5, 31, 4, 20, 2, 16
-	db "LAC COLERE @"
+	db "LAC COLÈRE @"
 
 MahoganyTownText:
 	scrolling_text 5, 31, 6, 20, 2, 14
@@ -100,11 +100,11 @@ EcruteakCityText:
 
 AzaleaTownText:
 	scrolling_text 5, 31, 6, 20, 2, 14
-	db "ECORCIA @"
+	db "ÉCORCIA @"
 
 IlexForestText:
 	scrolling_text 5, 31, 3, 20, 2, 17
-	db "BOIS DE CHENE @"
+	db "BOIS DE CHÊNE @"
 
 GoldenrodCityText:
 	scrolling_text 5, 31, 3, 20, 2, 17
@@ -120,7 +120,7 @@ OlivineCityText:
 
 IcePathText:
 	scrolling_text 5, 31, 3, 20, 2, 17
-	db "ROUTE GLACEE @"
+	db "ROUTE GLACÉE @"
 
 MtMortarText:
 	scrolling_text 5, 31, 4, 20, 2, 16
@@ -128,20 +128,20 @@ MtMortarText:
 
 BurnedTowerText:
 	scrolling_text 5, 31, 3, 20, 2, 17
-	db "TOUR CENDREE @"
+	db "TOUR CENDRÉE @"
 
 TinTowerText:
 	scrolling_text 5, 31, 4, 20, 2, 16
-	db "TOUR ETAIN @"
+	db "TOUR ÉTAIN @"
 
 WhirlIslandsText:
 	scrolling_text 5, 31, 4, 20, 2, 16
-	db "TOURB'ILES @"
+	db "TOURB'ÎLES @"
 
 BlackthornCityText:
 	scrolling_text 5, 31, 5, 20, 2, 15
-	db "EBENELLE @"
+	db "ÉBÉNELLE @"
 
 MtSilverText:
 	scrolling_text 5, 31, 4, 20, 2, 16
-	db "MT.ARGENTE @"
+	db "MT.ARGENTÉ @"

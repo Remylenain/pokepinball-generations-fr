@@ -2,7 +2,7 @@ ChikoritaPokedexDescription:
 	dex_text "Il aime prendre"
 	dex_line "des bains de"
 	dex_line "soleil. La feuille"
-	dex_line "sur sa tete l`aide"
+	dex_line "sur sa tête l`aide"
 	dex_line "a reperer les"
 	dex_line "endroits chauds."
 	dex_end
@@ -18,17 +18,17 @@ BayleefPokedexDescription:
 
 MeganiumPokedexDescription:
 	dex_text "Toute personne se"
-	dex_line "tenant pres de lui"
+	dex_line "tenant près de lui"
 	dex_line "se sent aussitot"
 	dex_line "rafraichie, comme"
-	dex_line "dans une foret"
+	dex_line "dans une forêt"
 	dex_line "en été."
 	dex_end
 
 CyndaquilPokedexDescription:
 	dex_text "Les flammes de"
 	dex_line "son dos s`étirent"
-	dex_line "s`il est en colere"
+	dex_line "s`il est en colère"
 	dex_line "Il impressionne"
 	dex_line "ainsi tous ses"
 	dex_line "ennemis."
@@ -64,17 +64,17 @@ TotodilePokedexDescription:
 CroconawPokedexDescription:
 	dex_text "Ses crocs sont"
 	dex_line "inclinés vers"
-	dex_line "l`arriere, si"
+	dex_line "l`arrière, si"
 	dex_line "bien qu`il"
 	dex_line "emprisonne celui"
 	dex_line "qu`il mord."
 	dex_end
 
 FeraligatrPokedexDescription:
-	dex_text "Bien qu`étant tres"
+	dex_text "Bien qu`étant très"
 	dex_line "massif, ses"
 	dex_line "puissantes pattes"
-	dex_line "arriere lui"
+	dex_line "arrière lui"
 	dex_line "permettent de se"
 	dex_line "déplacer vite."
 	dex_end
@@ -91,7 +91,7 @@ SentretPokedexDescription:
 FurretPokedexDescription:
 	dex_text "Il fabrique un"
 	dex_line "nid souterrain"
-	dex_line "tres étroit fait"
+	dex_line "très étroit fait"
 	dex_line "de galeries"
 	dex_line "labyrinthiques."
 	dex_line " "
@@ -117,10 +117,10 @@ NoctowlPokedexDescription:
 
 LedybaPokedexDescription:
 	dex_text "Il est timide et"
-	dex_line "reste pres de ses"
+	dex_line "reste près de ses"
 	dex_line "semblables. Il a"
 	dex_line "un sens du"
-	dex_line "toucher tres"
+	dex_line "toucher très"
 	dex_line "développé."
 	dex_end
 
@@ -146,7 +146,7 @@ AriadosPokedexDescription:
 	dex_text "Plutot que de"
 	dex_line "tisser une toile"
 	dex_line "fixe, il traverse"
-	dex_line "les forets et"
+	dex_line "les forêts et"
 	dex_line "chasse tel un"
 	dex_line "prédateur."
 	dex_end
@@ -157,7 +157,7 @@ CrobatPokedexDescription:
 	dex_line "Une nouvelle"
 	dex_line "paire d`ailes"
 	dex_line "pousse sur ses"
-	dex_line "pattes arriere."
+	dex_line "pattes arrière."
 	dex_end
 
 ChinchouPokedexDescription:
@@ -219,12 +219,12 @@ TogeticPokedexDescription:
 	dex_line "batte pas trop"
 	dex_line "des ailes, il"
 	dex_line "peut rester en"
-	dex_line "l`air pres de son"
+	dex_line "l`air près de son"
 	dex_line "dresseur."
 	dex_end
 
 NatuPokedexDescription:
-	dex_text "Il est tres doué"
+	dex_text "Il est très doué"
 	dex_line "pour grimper sur"
 	dex_line "le tronc des"
 	dex_line "arbres et y"
@@ -263,7 +263,7 @@ AmpharosPokedexDescription:
 	dex_text "Le bout de sa"
 	dex_line "queue brille si"
 	dex_line "fort qu`il peut"
-	dex_line "etre vu de tres"
+	dex_line "etre vu de très"
 	dex_line "loin sur la"
 	dex_line "surface de l`eau."
 	dex_end
@@ -333,7 +333,7 @@ SkiploomPokedexDescription:
 
 JumpluffPokedexDescription:
 	dex_text "Meme sous un vent"
-	dex_line "tres violent, il"
+	dex_line "très violent, il"
 	dex_line "controle sa"
 	dex_line "destination en"
 	dex_line "bougeant ses"
@@ -350,7 +350,7 @@ AipomPokedexDescription:
 	dex_end
 
 SunkernPokedexDescription:
-	dex_text "Il est tres"
+	dex_text "Il est très"
 	dex_line "faible. Sa seule"
 	dex_line "défense est un"
 	dex_line "gigotement"
@@ -362,7 +362,7 @@ SunfloraPokedexDescription:
 	dex_text "A l`approche des"
 	dex_line "beaux jours, les"
 	dex_line "pétales entourant"
-	dex_line "sa tete deviennent"
+	dex_line "sa tête deviennent"
 	dex_line "plus chatoyants."
 	dex_line " "
 	dex_end
@@ -372,7 +372,7 @@ YanmaPokedexDescription:
 	dex_line "toutes les"
 	dex_line "directions sans"
 	dex_line "avoir a bouger"
-	dex_line "la tete."
+	dex_line "la tête."
 	dex_line " "
 	dex_end
 
@@ -389,8 +389,8 @@ QuagsirePokedexDescription:
 	dex_text "Il est toujours"
 	dex_line "gluant. Il se"
 	dex_line "cogne souvent la"
-	dex_line "tete au fond des"
-	dex_line "rivieres mais"
+	dex_line "tête au fond des"
+	dex_line "rivières mais"
 	dex_line "s`en moque."
 	dex_end
 
@@ -407,7 +407,7 @@ UmbreonPokedexDescription:
 	dex_text "Les nuits de"
 	dex_line "pleine lune, ou"
 	dex_line "s`il est en"
-	dex_line "colere, les"
+	dex_line "colère, les"
 	dex_line "anneaux sur sa"
 	dex_line "peau brillent."
 	dex_end
@@ -488,7 +488,7 @@ DunsparcePokedexDescription:
 	dex_text "Il se cache au"
 	dex_line "fin fond des"
 	dex_line "grottes, a l`abri"
-	dex_line "de toute lumiere,"
+	dex_line "de toute lumière,"
 	dex_line "et reste immobile"
 	dex_line "longtemps."
 	dex_end
@@ -496,7 +496,7 @@ DunsparcePokedexDescription:
 GligarPokedexDescription:
 	dex_text "Il fait son nid"
 	dex_line "sur des corniches."
-	dex_line "Apres avoir"
+	dex_line "Après avoir"
 	dex_line "plané, il retourne"
 	dex_line "au nid en"
 	dex_line "sautillant."
@@ -508,7 +508,7 @@ SteelixPokedexDescription:
 	dex_line "particules"
 	dex_line "d`acier qui"
 	dex_line "reflechissent la"
-	dex_line "lumiere."
+	dex_line "lumière."
 	dex_end
 
 SnubbullPokedexDescription:
@@ -524,7 +524,7 @@ GranbullPokedexDescription:
 	dex_text "Il peut faire"
 	dex_line "fuir presque tous"
 	dex_line "les POKéMON en"
-	dex_line "ouvrant tres"
+	dex_line "ouvrant très"
 	dex_line "largement sa"
 	dex_line "machoire."
 	dex_end
@@ -630,7 +630,7 @@ PiloswinePokedexDescription:
 
 CorsolaPokedexDescription:
 	dex_text "Les pointes sur"
-	dex_line "sa tete absorbent"
+	dex_line "sa tête absorbent"
 	dex_line "les nutriments."
 	dex_line "Il ne peut vivre"
 	dex_line "en milieu marin"
@@ -643,7 +643,7 @@ RemoraidPokedexDescription:
 	dex_line "prédateur pour"
 	dex_line "s`échapper. Le"
 	dex_line "jet le propulse"
-	dex_line "en arriere."
+	dex_line "en arrière."
 	dex_end
 
 OctilleryPokedexDescription:
@@ -670,12 +670,12 @@ MantinePokedexDescription:
 	dex_line "avaler tout et"
 	dex_line "n`importe quoi."
 	dex_line "Son corps est"
-	dex_line "tres granuleux."
+	dex_line "très granuleux."
 	dex_end
 
 SkarmoryPokedexDescription:
 	dex_text "Les plumes qu`il"
-	dex_line "perd sont tres"
+	dex_line "perd sont très"
 	dex_line "aiguisées. On les"
 	dex_line "utilisait jadis"
 	dex_line "comme sabres."
@@ -711,7 +711,7 @@ KingdraPokedexDescription:
 
 PhanpyPokedexDescription:
 	dex_text "De bonne heure,"
-	dex_line "il reste pres"
+	dex_line "il reste près"
 	dex_line "d`un point d`eau"
 	dex_line "pour se laver"
 	dex_line "en utilisant"
@@ -759,12 +759,12 @@ TyroguePokedexDescription:
 	dex_line "ses capacités, il"
 	dex_line "cherche a se"
 	dex_line "battre contre"
-	dex_line "tous. Il est tres"
+	dex_line "tous. Il est très"
 	dex_line "courageux."
 	dex_end
 
 HitmontopPokedexDescription:
-	dex_text "Apres avoir fait"
+	dex_text "Après avoir fait"
 	dex_line "un poirier pour"
 	dex_line "déstabiliser"
 	dex_line "l`adversaire, il"
@@ -785,7 +785,7 @@ ElekidPokedexDescription:
 	dex_text "Il aime les"
 	dex_line "violents éclairs."
 	dex_line "Un halo bleu"
-	dex_line "clair apparait"
+	dex_line "clair apparaît"
 	dex_line "entre ses cornes"
 	dex_line "s`il charge."
 	dex_end
@@ -829,7 +829,7 @@ RaikouPokedexDescription:
 EnteiPokedexDescription:
 	dex_text "Ce puissant"
 	dex_line "POKéMON court"
-	dex_line "sans arret en"
+	dex_line "sans arrêt en"
 	dex_line "crachant des"
 	dex_line "flammes plus"
 	dex_line "chaudes que magma."
@@ -858,7 +858,7 @@ PupitarPokedexDescription:
 	dex_line "immobile. Il"
 	dex_line "possede déja des"
 	dex_line "pattes avant et"
-	dex_line "arriere dans sa"
+	dex_line "arrière dans sa"
 	dex_line "carapace."
 	dex_end
 
@@ -875,9 +875,9 @@ LugiaPokedexDescription:
 	dex_text "Il peut calmer"
 	dex_line "les mers agitées."
 	dex_line "On raconte que"
-	dex_line "LUGIA apparait"
+	dex_line "LUGIA apparaît"
 	dex_line "lorsqu`éclate"
-	dex_line "une tempete."
+	dex_line "une tempête."
 	dex_end
 
 HoOhPokedexDescription:
@@ -892,9 +892,9 @@ HoOhPokedexDescription:
 CelebiPokedexDescription:
 	dex_text "On l`appelle le"
 	dex_line "gardien de la"
-	dex_line "foret. Il"
-	dex_line "apparait dans"
-	dex_line "chaque foret"
+	dex_line "forêt. Il"
+	dex_line "apparaît dans"
+	dex_line "chaque forêt"
 	dex_line "luxuriante."
 	dex_end
 
@@ -911,7 +911,7 @@ TreeckoPokedexDescription:
 GrovylePokedexDescription:
 	dex_text "Les feuilles qui"
 	dex_line "poussent sur son"
-	dex_line "corps sont tres"
+	dex_line "corps sont très"
 	dex_line "tranchantes."
 	dex_line "Il file vite"
 	dex_line "entre les arbres."
@@ -927,7 +927,7 @@ SceptilePokedexDescription:
 	dex_end
 
 TorchicPokedexDescription:
-	dex_text "Une flamme brule"
+	dex_text "Une flamme brûle"
 	dex_line "dans son ventre."
 	dex_line "Il crache des"
 	dex_line "boules de feu de"
@@ -955,8 +955,8 @@ BlazikenPokedexDescription:
 
 MudkipPokedexDescription:
 	dex_text "L`aileron sur sa"
-	dex_line "tete agit comme"
-	dex_line "un radar tres"
+	dex_line "tête agit comme"
+	dex_line "un radar très"
 	dex_line "sensible. Il sent"
 	dex_line "les mouvements"
 	dex_line "de l`eau et l`air."
@@ -973,7 +973,7 @@ MarshtompPokedexDescription:
 
 SwampertPokedexDescription:
 	dex_text "Il prédit les"
-	dex_line "tempetes en"
+	dex_line "tempêtes en"
 	dex_line "sentant les sons"
 	dex_line "subtils des vagues"
 	dex_line "et vents marins"
@@ -1021,7 +1021,7 @@ WurmplePokedexDescription:
 	dex_line "ennemis avec un"
 	dex_line "fluide visqueux"
 	dex_line "venant des pointes"
-	dex_line "sur son arriere"
+	dex_line "sur son arrière"
 	dex_line "qui les paralyse."
 	dex_end
 
@@ -1031,7 +1031,7 @@ SilcoonPokedexDescription:
 	dex_line "de la soie et"
 	dex_line "attend son"
 	dex_line "évolution. Il"
-	dex_line "voit a travers."
+	dex_line "voit à travers."
 	dex_end
 
 BeautiflyPokedexDescription:
@@ -1054,7 +1054,7 @@ CascoonPokedexDescription:
 
 DustoxPokedexDescription:
 	dex_text "Il est attiré par"
-	dex_line "les lumieres et"
+	dex_line "les lumières et"
 	dex_line "réveille les gens"
 	dex_line "la nuit. Il"
 	dex_line "disperse de la"
@@ -1065,13 +1065,13 @@ LotadPokedexDescription:
 	dex_text "Il vit dans les"
 	dex_line "étangs propres."
 	dex_line "La feuille sur"
-	dex_line "sa tete fane si"
+	dex_line "sa tête fane si"
 	dex_line "elle ne recoit"
 	dex_line "pas assez d`eau."
 	dex_end
 
 LombrePokedexDescription:
-	dex_text "Il vit pres de"
+	dex_text "Il vit près de"
 	dex_line "l`eau, dans des"
 	dex_line "endroits propres."
 	dex_line "Le jour, il dort"
@@ -1091,14 +1091,14 @@ LudicoloPokedexDescription:
 SeedotPokedexDescription:
 	dex_text "Il pend a une"
 	dex_line "branche d`arbre"
-	dex_line "avec sa tete. Il"
+	dex_line "avec sa tête. Il"
 	dex_line "tombe parfois sur"
-	dex_line "la tete des gens"
+	dex_line "la tête des gens"
 	dex_line "qui passent."
 	dex_end
 
 NuzleafPokedexDescription:
-	dex_text "Il vit en forets"
+	dex_text "Il vit en forêts"
 	dex_line "denses. Il joue"
 	dex_line "d`une flute faite"
 	dex_line "d`une feuille"
@@ -1108,7 +1108,7 @@ NuzleafPokedexDescription:
 
 ShiftryPokedexDescription:
 	dex_text "Il vit dans les"
-	dex_line "vieilles forets."
+	dex_line "vieilles forêts."
 	dex_line "On dit qu`il"
 	dex_line "génere de grands"
 	dex_line "vents avec ses"
@@ -1156,7 +1156,7 @@ RaltsPokedexDescription:
 	dex_line "émotions des"
 	dex_line "gens avec les"
 	dex_line "cornes sur sa"
-	dex_line "tete. Il se"
+	dex_line "tête. Il se"
 	dex_line "cache si timide."
 	dex_end
 
@@ -1172,7 +1172,7 @@ KirliaPokedexDescription:
 GardevoirPokedexDescription:
 	dex_text "Il a la capacité"
 	dex_line "de lire l`avenir."
-	dex_line "Il protege son"
+	dex_line "Il protège son"
 	dex_line "dresseur au péril"
 	dex_line "de sa propre"
 	dex_line "vie."
@@ -1198,7 +1198,7 @@ MasquerainPokedexDescription:
 
 ShroomishPokedexDescription:
 	dex_text "Il vit dans les"
-	dex_line "forets humides."
+	dex_line "forêts humides."
 	dex_line "Il libere des"
 	dex_line "spores toxiques"
 	dex_line "quand il est"
@@ -1217,7 +1217,7 @@ BreloomPokedexDescription:
 SlakothPokedexDescription:
 	dex_text "Il dort 20 heures"
 	dex_line "par jour. Il bouge"
-	dex_line "tres peu et"
+	dex_line "très peu et"
 	dex_line "économise son"
 	dex_line "énergie en"
 	dex_line "mangeant peu."
@@ -1264,7 +1264,7 @@ ShedinjaPokedexDescription:
 	dex_line "Il ne respire pas."
 	dex_line "On dit que voir"
 	dex_line "le trou dans son"
-	dex_line "dos vole l`ame de"
+	dex_line "dos vole l`âme de"
 	dex_line "celui qui regarde."
 	dex_end
 
@@ -1337,7 +1337,7 @@ SkittyPokedexDescription:
 	dex_line "propre queue. Il"
 	dex_line "vit dans les"
 	dex_line "trous d`arbres"
-	dex_line "des forets."
+	dex_line "des forêts."
 	dex_end
 
 DelcattyPokedexDescription:
@@ -1386,7 +1386,7 @@ LaironPokedexDescription:
 	dex_end
 
 AggronPokedexDescription:
-	dex_text "Il est tres"
+	dex_text "Il est très"
 	dex_line "protecteur de"
 	dex_line "son territoire."
 	dex_line "Il replante les"
@@ -1427,7 +1427,7 @@ ManectricPokedexDescription:
 	dex_line "avec son"
 	dex_line "électricité."
 	dex_line "La foudre tombe"
-	dex_line "alors pres de lui."
+	dex_line "alors près de lui."
 	dex_end
 
 PluslePokedexDescription:
@@ -1507,7 +1507,7 @@ SharpedoPokedexDescription:
 	dex_line "mer a 120 km/h"
 	dex_line "en éjectant de"
 	dex_line "l`eau par son"
-	dex_line "arriere. Ses"
+	dex_line "arrière. Ses"
 	dex_line "crocs cassent."
 	dex_end
 

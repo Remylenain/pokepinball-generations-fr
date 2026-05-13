@@ -3,7 +3,7 @@ WailordPokedexDescription:
 	dex_line "des narines au-"
 	dex_line "dessus des flots."
 	dex_line "WAILORD peut"
-	dex_line "plonger jusqu'a"
+	dex_line "plonger jusqu'à"
 	dex_line "3000 metres."
 	dex_end
 
@@ -30,7 +30,7 @@ CameruptPokedexDescription:
 TorkoalPokedexDescription:
 	dex_text "Il combat avec"
 	dex_line "l'énergie tirée"
-	dex_line "du charbon brule."
+	dex_line "du charbon brûle."
 	dex_line "Sa fumée sort"
 	dex_line "de ses narines"
 	dex_line "comme un train."
@@ -66,7 +66,7 @@ SpindaPokedexDescription:
 TrapinchPokedexDescription:
 	dex_text "Ses machoires"
 	dex_line "broient les"
-	dex_line "rochers. Sa tete"
+	dex_line "rochers. Sa tête"
 	dex_line "est si grosse"
 	dex_line "qu'il peine a se"
 	dex_line "remettre debout."
@@ -101,7 +101,7 @@ CacneaPokedexDescription:
 	dex_end
 
 CacturnePokedexDescription:
-	dex_text "Apres des"
+	dex_text "Après des"
 	dex_line "millénaires dans"
 	dex_line "le désert, son"
 	dex_line "sang est devenu"
@@ -112,7 +112,7 @@ CacturnePokedexDescription:
 SwabluPokedexDescription:
 	dex_text "Ses ailes sont"
 	dex_line "comme du coton."
-	dex_line "Apres l'hiver,"
+	dex_line "Après l'hiver,"
 	dex_line "les TYLTON se"
 	dex_line "rapprochent des"
 	dex_line "villes au"
@@ -125,12 +125,12 @@ AltariaPokedexDescription:
 	dex_line "Il vole entre les"
 	dex_line "nuages blancs et"
 	dex_line "lance des boules"
-	dex_line "de feu brulantes."
+	dex_line "de feu brûlantes."
 	dex_end
 
 ZangoosePokedexDescription:
 	dex_text "Il combat sur ses"
-	dex_line "pattes arriere"
+	dex_line "pattes arrière"
 	dex_line "avec ses griffes"
 	dex_line "acérées. Son"
 	dex_line "poil se hérisse"
@@ -147,12 +147,12 @@ SeviperPokedexDescription:
 	dex_end
 
 LunatonePokedexDescription:
-	dex_text "Il devient tres"
+	dex_text "Il devient très"
 	dex_line "actif les nuits"
 	dex_line "de pleine lune."
 	dex_line "Il a été trouvé"
 	dex_line "il y a 40 ans"
-	dex_line "pres d'un"
+	dex_line "près d'un"
 	dex_line "cratere météore."
 	dex_end
 
@@ -169,7 +169,7 @@ BarboachPokedexDescription:
 	dex_text "Son corps est"
 	dex_line "couvert d'un film"
 	dex_line "gluant. Ce film"
-	dex_line "le protege des"
+	dex_line "le protège des"
 	dex_line "germes des eaux"
 	dex_line "boueuses."
 	dex_end
@@ -339,7 +339,7 @@ TropiusPokedexDescription:
 	dex_line "larges feuilles."
 	dex_line "Les fruits de"
 	dex_line "son cou sont"
-	dex_line "tres sucrés."
+	dex_line "très sucrés."
 	dex_end
 
 ChimechoPokedexDescription:
@@ -381,7 +381,7 @@ SnoruntPokedexDescription:
 	dex_end
 
 GlaliePokedexDescription:
-	dex_text "ONIGLALI gele"
+	dex_text "ONIGLALI gèle"
 	dex_line "instantanément"
 	dex_line "l'humidité de"
 	dex_line "l'air. Un nuage"
@@ -431,7 +431,7 @@ ClamperlPokedexDescription:
 HuntailPokedexDescription:
 	dex_text "Pour résister"
 	dex_line "aux abysses, son"
-	dex_line "épine est tres"
+	dex_line "épine est très"
 	dex_line "épaisse. Sa"
 	dex_line "queue en forme"
 	dex_line "de poisson"
@@ -444,7 +444,7 @@ GorebyssPokedexDescription:
 	dex_line "proies par sa"
 	dex_line "fine bouche-"
 	dex_line "tube. Son rose"
-	dex_line "vif apres repas."
+	dex_line "vif après repas."
 	dex_end
 
 RelicanthPokedexDescription:
@@ -468,7 +468,7 @@ LuvdiscPokedexDescription:
 	dex_end
 
 BagonPokedexDescription:
-	dex_text "Petit mais tres"
+	dex_text "Petit mais très"
 	dex_line "puissant car son"
 	dex_line "corps est tout"
 	dex_line "en muscles. Il"
@@ -483,15 +483,15 @@ ShelgonPokedexDescription:
 	dex_line "faim le rend"
 	dex_line "fort. Sa"
 	dex_line "carapace tombe"
-	dex_line "a l'évolution."
+	dex_line "à l'évolution."
 	dex_end
 
 SalamencePokedexDescription:
-	dex_text "Apres des années,"
+	dex_text "Après des années,"
 	dex_line "ses cellules ont"
 	dex_line "muté pour faire"
 	dex_line "des ailes."
-	dex_line "En colere, il"
+	dex_line "En colère, il"
 	dex_line "perd la raison."
 	dex_end
 
@@ -545,7 +545,7 @@ RegicePokedexDescription:
 RegisteelPokedexDescription:
 	dex_text "Son corps est"
 	dex_line "plus dur que tout"
-	dex_line "métal. Sa matiere"
+	dex_line "métal. Sa matière"
 	dex_line "mystérieuse est"
 	dex_line "dure mais aussi"
 	dex_line "élastique."
@@ -575,7 +575,7 @@ KyogrePokedexDescription:
 	dex_text "KYOGRE est dans"
 	dex_line "le mythe le"
 	dex_line "créateur des"
-	dex_line "mers. Apres"
+	dex_line "mers. Après"
 	dex_line "des années de"
 	dex_line "lutte contre"
 	dex_line "GROUDON, il"
@@ -607,7 +607,7 @@ JirachiPokedexDescription:
 	dex_line "les voeux. En"
 	dex_line "dormant, une"
 	dex_line "coquille de"
-	dex_line "cristal protege"
+	dex_line "cristal protège"
 	dex_line "son corps des"
 	dex_line "ennemis."
 	dex_end

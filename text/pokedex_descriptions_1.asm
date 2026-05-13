@@ -397,9 +397,9 @@ RhydonPokedexDescription: ; 0x2c130
 KangaskhanPokedexDescription: ; 0x2c18a
 	dex_text "Le bébé sort"
 	dex_line "rarement de la"
-	dex_line "poche de sa mere"
-	dex_line "qui le protege"
-	dex_line "jusqu'a ses 3 ans."
+	dex_line "poche de sa mère"
+	dex_line "qui le protège"
+	dex_line "jusqu'à ses 3 ans."
 	dex_end
 
 NidoranMPokedexDescription: ; 0x2c1e3
@@ -467,7 +467,7 @@ IvysaurPokedexDescription: ; 0x2c40d
 
 ExeggutorPokedexDescription: ; 0x2c46e
 	dex_text "On dit que parfois"
-	dex_line "une de ses tetes"
+	dex_line "une de ses têtes"
 	dex_line "tombe et continue"
 	dex_line "de vivre comme"
 	dex_line "un NOEUNOEUF."
@@ -520,7 +520,7 @@ NidoranFPokedexDescription: ; 0x2c64c
 
 NidoqueenPokedexDescription: ; 0x2c6ac
 	dex_text "Ses écailles"
-	dex_line "dures la protegent"
+	dex_line "dures la protègent"
 	dex_line "bien. Elle use de"
 	dex_line "sa masse pour"
 	dex_line "frapper fort"
@@ -528,7 +528,7 @@ NidoqueenPokedexDescription: ; 0x2c6ac
 	dex_end
 
 CubonePokedexDescription: ; 0x2c709
-	dex_text "Comme il n'enleve"
+	dex_text "Comme il n'enlève"
 	dex_line "jamais son casque"
 	dex_line "en os, personne"
 	dex_line "n'a jamais vu le"
@@ -568,7 +568,7 @@ MewPokedexDescription: ; 0x2c883
 	dex_text "Si rare que les"
 	dex_line "experts pensent"
 	dex_line "qu'il est un"
-	dex_line "mirage. Tres peu"
+	dex_line "mirage. Très peu"
 	dex_line "de gens l'ont vu"
 	dex_line "dans le monde."
 	dex_end
@@ -654,7 +654,7 @@ TangelaPokedexDescription: ; 0x2cbd3
 	dex_end
 
 GrowlithePokedexDescription: ; 0x2cc39
-	dex_text "Tres protecteur"
+	dex_text "Très protecteur"
 	dex_line "de son territoire."
 	dex_line "Il aboie et mord"
 	dex_line "pour repousser"
@@ -680,8 +680,8 @@ FearowPokedexDescription: ; 0x2ccfa
 
 PidgeyPokedexDescription: ; 0x2cd57
 	dex_text "Vit dans les bois"
-	dex_line "et forets. Il bat"
-	dex_line "des ailes pres"
+	dex_line "et forêts. Il bat"
+	dex_line "des ailes près"
 	dex_line "du sol pour"
 	dex_line "soulever du"
 	dex_line "sable aveuglant."
@@ -720,7 +720,7 @@ ChanseyPokedexDescription: ; 0x2cec8
 	dex_line "qui apporte du"
 	dex_line "bonheur a ceux"
 	dex_line "qui parviennent"
-	dex_line "a l'attraper."
+	dex_line "à l'attraper."
 	dex_end
 
 MachokePokedexDescription: ; 0x2cf22
@@ -762,7 +762,7 @@ ArbokPokedexDescription: ; 0x2d0ad
 	dex_line "féroces marques"
 	dex_line "d'avertissement"
 	dex_line "sur son ventre"
-	dex_line "different selon"
+	dex_line "différent selon"
 	dex_line "les régions."
 	dex_end
 
@@ -787,7 +787,7 @@ PsyduckPokedexDescription: ; 0x2d16d
 DrowzeePokedexDescription: ; 0x2d1ce
 	dex_text "Endort ses ennemis"
 	dex_line "puis dévore leurs"
-	dex_line "reves. Il tombe"
+	dex_line "rêves. Il tombe"
 	dex_line "parfois malade en"
 	dex_line "mangeant des"
 	dex_line "cauchemars."
@@ -796,14 +796,14 @@ DrowzeePokedexDescription: ; 0x2d1ce
 GolemPokedexDescription: ; 0x2d22b
 	dex_text "Son corps tel"
 	dex_line "un rocher est"
-	dex_line "tres dur. Il"
+	dex_line "très dur. Il"
 	dex_line "résiste sans mal"
 	dex_line "aux explosions"
 	dex_line "de dynamite."
 	dex_end
 
 MagmarPokedexDescription: ; 0x2d28c
-	dex_text "Son corps brule"
+	dex_text "Son corps brûle"
 	dex_line "toujours d'un"
 	dex_line "éclat orange qui"
 	dex_line "lui permet de se"
@@ -812,7 +812,7 @@ MagmarPokedexDescription: ; 0x2d28c
 	dex_end
 
 ElectabuzzPokedexDescription: ; 0x2d2e6
-	dex_text "Vit pres des"
+	dex_text "Vit près des"
 	dex_line "centrales. S'il"
 	dex_line "s'éloigne, il"
 	dex_line "peut causer de"
@@ -823,7 +823,7 @@ ElectabuzzPokedexDescription: ; 0x2d2e6
 MagnetonPokedexDescription: ; 0x2d342
 	dex_text "Formé de quelques"
 	dex_line "MAGNéTI liés."
-	dex_line "Apparait souvent"
+	dex_line "Apparaît souvent"
 	dex_line "pendant les"
 	dex_line "éruptions"
 	dex_line "solaires."
@@ -839,17 +839,17 @@ KoffingPokedexDescription: ; 0x2d39f
 	dex_end
 
 MankeyPokedexDescription: ; 0x2d405
-	dex_text "Tres prompt a la"
-	dex_line "colere. Il peut"
+	dex_text "Très prompt a la"
+	dex_line "colère. Il peut"
 	dex_line "etre docile un"
 	dex_line "instant puis se"
 	dex_line "déchainer juste"
-	dex_line "apres."
+	dex_line "après."
 	dex_end
 
 SeelPokedexDescription: ; 0x2d463
 	dex_text "La corne sur sa"
-	dex_line "tete est tres"
+	dex_line "tête est très"
 	dex_line "dure. Il l'utilise"
 	dex_line "pour briser"
 	dex_line "la glace épaisse."
@@ -886,12 +886,12 @@ VenonatPokedexDescription: ; 0x2d5d0
 	dex_line "ou il mange des"
 	dex_line "insectes. La nuit,"
 	dex_line "il est attiré"
-	dex_line "par la lumiere."
+	dex_line "par la lumière."
 	dex_end
 
 DragonitePokedexDescription: ; 0x2d62d
 	dex_text "POKéMON marin"
-	dex_line "tres rare."
+	dex_line "très rare."
 	dex_line "Son intelligence"
 	dex_line "égalerait celle"
 	dex_line "de l'humain."
@@ -936,7 +936,7 @@ MoltresPokedexDescription: ; 0x2d7a3
 ArticunoPokedexDescription: ; 0x2d804
 	dex_text "POKéMON oiseau"
 	dex_line "légendaire qui"
-	dex_line "apparait, dit-on,"
+	dex_line "apparaît, dit-on,"
 	dex_line "aux gens perdus"
 	dex_line "dans les"
 	dex_line "monts glacés."
@@ -945,7 +945,7 @@ ArticunoPokedexDescription: ; 0x2d804
 ZapdosPokedexDescription: ; 0x2d864
 	dex_text "POKéMON oiseau"
 	dex_line "légendaire qui"
-	dex_line "apparait, dit-on,"
+	dex_line "apparaît, dit-on,"
 	dex_line "des nuages en"
 	dex_line "lancant de gros"
 	dex_line "éclairs."
@@ -966,7 +966,7 @@ MeowthPokedexDescription: ; 0x2d931
 	dex_line "dans les rues la"
 	dex_line "nuit pour"
 	dex_line "trouver des"
-	dex_line "pieces perdues."
+	dex_line "pièces perdues."
 	dex_end
 
 KrabbyPokedexDescription: ; 0x2d993
@@ -987,7 +987,7 @@ VulpixPokedexDescription: ; 0x2d9ef
 	dex_end
 
 NinetalesPokedexDescription: ; 0x2da4b
-	dex_text "Tres malin et"
+	dex_text "Très malin et"
 	dex_line "rancunier."
 	dex_line "Saisir une de"
 	dex_line "ses queues mene"
@@ -1015,7 +1015,7 @@ RaichuPokedexDescription: ; 0x2db0b
 
 DratiniPokedexDescription: ; 0x2db5f
 	dex_text "Longtemps cru"
-	dex_line "mythique, jusqu'a"
+	dex_line "mythique, jusqu'à"
 	dex_line "ce qu'une petite"
 	dex_line "colonie soit"
 	dex_line "trouvée vivant"
@@ -1060,7 +1060,7 @@ HorseaPokedexDescription: ; 0x2dce2
 
 SeadraPokedexDescription: ; 0x2dd3e
 	dex_text "Capable de nager"
-	dex_line "en arriere en"
+	dex_line "en arrière en"
 	dex_line "battant ses"
 	dex_line "nageoires"
 	dex_line "pectorales et"
@@ -1116,7 +1116,7 @@ JigglypuffPokedexDescription: ; 0x2df09
 WigglytuffPokedexDescription: ; 0x2df6f
 	dex_text "Son corps est"
 	dex_line "doux, élastique."
-	dex_line "En colere, il"
+	dex_line "En colère, il"
 	dex_line "aspire de l'air"
 	dex_line "et se gonfle"
 	dex_line "énormément."
@@ -1150,7 +1150,7 @@ JolteonPokedexDescription: ; 0x2e091
 	dex_end
 
 VaporeonPokedexDescription: ; 0x2e0ea
-	dex_text "Vit pres de l'eau."
+	dex_text "Vit près de l'eau."
 	dex_line "Sa longue queue"
 	dex_line "a une nageoire"
 	dex_line "souvent prise"
@@ -1170,7 +1170,7 @@ MachopPokedexDescription: ; 0x2e14c
 ZubatPokedexDescription: ; 0x2e1a9
 	dex_text "Forme des colonies"
 	dex_line "dans des lieux"
-	dex_line "tres sombres. Il"
+	dex_line "très sombres. Il"
 	dex_line "utilise des ondes"
 	dex_line "ultrasoniques"
 	dex_line "pour viser."
@@ -1214,11 +1214,11 @@ PoliwrathPokedexDescription: ; 0x2e326
 
 WeedlePokedexDescription: ; 0x2e38c
 	dex_text "Souvent dans les"
-	dex_line "forets, mange des"
+	dex_line "forêts, mange des"
 	dex_line "feuilles. Il a un"
 	dex_line "dard venimeux"
-	dex_line "tres pointu sur"
-	dex_line "la tete."
+	dex_line "très pointu sur"
+	dex_line "la tête."
 	dex_end
 
 KakunaPokedexDescription: ; 0x2e3e0
@@ -1231,7 +1231,7 @@ KakunaPokedexDescription: ; 0x2e3e0
 	dex_end
 
 BeedrillPokedexDescription: ; 0x2e445
-	dex_text "Vole tres vite"
+	dex_text "Vole très vite"
 	dex_line "et attaque avec"
 	dex_line "ses gros dards"
 	dex_line "venimeux sur ses"
@@ -1243,7 +1243,7 @@ DodrioPokedexDescription: ; 0x2e4a1
 	dex_text "Use de ses trois"
 	dex_line "cerveaux pour des"
 	dex_line "plans complexes."
-	dex_line "Quand deux tetes"
+	dex_line "Quand deux têtes"
 	dex_line "dorment, l'autre"
 	dex_line "veille."
 	dex_end
@@ -1281,7 +1281,7 @@ DewgongPokedexDescription: ; 0x2e61b
 	dex_line "Nage a 8 noeuds"
 	dex_line "constants meme"
 	dex_line "dans des eaux"
-	dex_line "tres froides."
+	dex_line "très froides."
 	dex_end
 
 CaterpiePokedexDescription: ; 0x2e678
@@ -1307,7 +1307,7 @@ ButterfreePokedexDescription: ; 0x2e73a
 	dex_line "rapidement des"
 	dex_line "ailes pour"
 	dex_line "diffuser une"
-	dex_line "poudre tres"
+	dex_line "poudre très"
 	dex_line "toxique."
 	dex_end
 
@@ -1349,15 +1349,15 @@ GolbatPokedexDescription: ; 0x2e8be
 
 MewtwoPokedexDescription: ; 0x2e922
 	dex_text "Créé par un"
-	dex_line "savant apres"
+	dex_line "savant après"
 	dex_line "des années"
 	dex_line "d'expériences"
 	dex_line "horribles sur"
-	dex_line "les genes."
+	dex_line "les gènes."
 	dex_end
 
 SnorlaxPokedexDescription: ; 0x2e987
-	dex_text "Tres paresseux."
+	dex_text "Très paresseux."
 	dex_line "Il ne fait que"
 	dex_line "manger et dormir."
 	dex_line "Plus son corps"
@@ -1434,9 +1434,9 @@ PersianPokedexDescription: ; 0x2ec80
 	dex_text "Sa fourrure plait"
 	dex_line "a beaucoup, mais"
 	dex_line "il est dur a"
-	dex_line "élever a cause"
+	dex_line "élever à cause"
 	dex_line "de son sale"
-	dex_line "caractere."
+	dex_line "caractère."
 	dex_end
 
 MarowakPokedexDescription: ; 0x2ece2
@@ -1450,7 +1450,7 @@ MarowakPokedexDescription: ; 0x2ece2
 
 HaunterPokedexDescription: ; 0x2ed45
 	dex_text "Capable de"
-	dex_line "passer a travers"
+	dex_line "passer à travers"
 	dex_line "les murs, on dit"
 	dex_line "qu'il vient d'une"
 	dex_line "autre dimension."
@@ -1460,7 +1460,7 @@ AbraPokedexDescription: ; 0x2eda4
 	dex_text "Lit dans les"
 	dex_line "pensées, il"
 	dex_line "détecte le danger"
-	dex_line "et se TELEPORTE"
+	dex_line "et se TÉLÉPORTE"
 	dex_line "en lieu sur."
 	dex_end
 
@@ -1474,7 +1474,7 @@ AlakazamPokedexDescription: ; 0x2edff
 	dex_end
 
 PidgeottoPokedexDescription: ; 0x2ee5c
-	dex_text "Tres protecteur"
+	dex_text "Très protecteur"
 	dex_line "de son grand"
 	dex_line "territoire, ce"
 	dex_line "POKéMON pique"
@@ -1542,7 +1542,7 @@ SeakingPokedexDescription: ; 0x2f104
 	dex_line "on les voit"
 	dex_line "remonter avec"
 	dex_line "force les"
-	dex_line "rivieres."
+	dex_line "rivières."
 	dex_end
 
 PonytaPokedexDescription: ; 0x2f160
@@ -1555,9 +1555,9 @@ PonytaPokedexDescription: ; 0x2f160
 	dex_end
 
 RapidashPokedexDescription: ; 0x2f1c6
-	dex_text "Tres compétitif,"
+	dex_text "Très compétitif,"
 	dex_line "ce POKéMON court"
-	dex_line "apres tout ce"
+	dex_line "après tout ce"
 	dex_line "qui bouge vite,"
 	dex_line "espérant le"
 	dex_line "battre."
@@ -1566,7 +1566,7 @@ RapidashPokedexDescription: ; 0x2f1c6
 RattataPokedexDescription: ; 0x2f224
 	dex_text "Mord tout ce"
 	dex_line "qu'il attaque."
-	dex_line "Petit et tres"
+	dex_line "Petit et très"
 	dex_line "rapide, il est"
 	dex_line "présent dans"
 	dex_line "bien des lieux."
@@ -1584,7 +1584,7 @@ NidorinoPokedexDescription: ; 0x2f2dd
 	dex_text "POKéMON agressif"
 	dex_line "qui attaque vite."
 	dex_line "La corne sur sa"
-	dex_line "tete sécréte un"
+	dex_line "tête sécréte un"
 	dex_line "puissant venin."
 	dex_end
 
@@ -1626,9 +1626,9 @@ AerodactylPokedexDescription: ; 0x2f451
 MagnemitePokedexDescription: ; 0x2f4b7
 	dex_text "Use de l'antigrav-"
 	dex_line "ité pour rester"
-	dex_line "en l'air. Apparait"
+	dex_line "en l'air. Apparaît"
 	dex_line "sans prévenir et"
-	dex_line "use de CAGE-ECLAIR"
+	dex_line "use de CAGE-ÉCLAIR"
 	dex_line "et autres."
 	dex_end
 
@@ -1672,7 +1672,7 @@ CharizardPokedexDescription: ; 0x2f696
 	dex_line "les rochers."
 	dex_line "On dit qu'il"
 	dex_line "cause des feux"
-	dex_line "de foret."
+	dex_line "de forêt."
 	dex_end
 
 OddishPokedexDescription: ; 0x2f6f3
@@ -1699,13 +1699,13 @@ VileplumePokedexDescription: ; 0x2f7b7
 	dex_line "sont grands, plus"
 	dex_line "il a de pollen"
 	dex_line "toxique. Sa grosse"
-	dex_line "tete est dure"
+	dex_line "tête est dure"
 	dex_line "a tenir droite."
 	dex_end
 
 BellsproutPokedexDescription: ; 0x2f81c
 	dex_text "POKéMON carnivore"
-	dex_line "qui piege et mange"
+	dex_line "qui piège et mange"
 	dex_line "des insectes. Il"
 	dex_line "use de ses racines"
 	dex_line "pour boire."
