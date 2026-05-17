@@ -595,7 +595,7 @@ RedrawSoundTestID: ; 0xc76c
 	pop af
 	and $f   ; a contains low nybble of music id
 .drawDigit
-	add $b7  ; hexadecimal digit tiles start at tile number $b7
+	add $b9  ; hexadecimal digit tiles start at tile number $b9 (shifted from $b7 after rumble_text widened)
 	call PutTileInVRAM
 	inc hl
 	ret

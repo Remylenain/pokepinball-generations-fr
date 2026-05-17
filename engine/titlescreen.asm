@@ -116,13 +116,6 @@ Func_c0ee: ; 0xc0ee
 	ret
 
 HandleTitlescreenAnimations: ; 0xc0f7
-	ld a, [hGameBoyColorFlag]
-	and a
-	jr z, .asm_c104
-	ld bc, $2040
-	ld a, $62  ; seemingly-unused OAM data for titlescreen. It's just blank tiles.
-	call LoadOAMData
-.asm_c104
 	call Func_c21d  ; does nothing...
 	call HandleTitlescreenPikachuBlinkingAnimation
 	call HandleTitlescreenPokeballAnimation
@@ -210,13 +203,6 @@ Func_c1a2: ; 0xc1a2
 
 Func_c1b1: ; 0xc1b1
 	call Func_c2df
-	ld a, [hGameBoyColorFlag]
-	and a
-	jr z, .asm_c1c1
-	ld bc, $2040
-	ld a, $62
-	call LoadOAMData
-.asm_c1c1
 	call Func_c21d
 	call HandleTitlescreenPikachuBlinkingAnimation
 	call HandleTitlescreenPokeballAnimation

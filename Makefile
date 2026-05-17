@@ -8,7 +8,7 @@
 ROM := PinballGenerations.gbc
 OBJS := main.o wram.o sram.o
 
-RGBDS ?= /Users/remydebienne/tools/rgbds-0.6.1/
+RGBDS ?= rgbds-0.6.1/
 
 ifeq (,$(shell which sha1sum))
 SHA1 := shasum
