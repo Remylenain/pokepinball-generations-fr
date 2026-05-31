@@ -917,7 +917,7 @@ Func_c95f: ; 0xc95f
 	push af
 	and a
 	jr z, .asm_c996
-	ld a, $1a
+	ld a, $1c  ; icon tile shifted +2 from $1a after OptionMenu rumble_text widened
 	call Func_c9aa
 	jr .asm_c996
 
@@ -945,7 +945,8 @@ Func_c9aa: ; 0xc9aa
 	ret
 
 Data_c9ae: ; 0xc9ae
-	db $14, $00, $15, $00, $18, $19, $16, $17, $13, $00, $12, $00, $10, $00, $11, $00
+	; Icon tile indices shifted +2 after OptionMenu rumble_text was widened.
+	db $16, $00, $17, $00, $1a, $1b, $18, $19, $15, $00, $14, $00, $12, $00, $13, $00
 
 Func_c9be: ; 0xc9be
 	push af

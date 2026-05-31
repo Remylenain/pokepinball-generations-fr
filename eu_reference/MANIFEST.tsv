@@ -15,7 +15,7 @@ billboard/hurryup2_off.png	48	32	384	shared	05ab80,05eb80,062b80,066b80
 billboard/hurryup2_on.png	48	32	384	shared	05ea00	
 billboard/hurryup_off.png	48	32	384	shared	05a880,05e880,062880,066880	
 billboard/hurryup_on.png	48	32	384	shared	05e700	
-billboard/maps/azaleatown.png	32	48	384	missing	-	
+billboard/maps/azaleatown.png	32	48	384	missing	-
 billboard/maps/blackthorncity.png	32	48	384	missing	-	
 billboard/maps/burnedtower.png	32	48	384	missing	-	
 billboard/maps/celadoncity.png	32	48	384	shared	0c6f00	

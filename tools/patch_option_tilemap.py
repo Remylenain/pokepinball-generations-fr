@@ -69,10 +69,45 @@ def main():
     patch_tilemap(REPO / "gfx/tilemaps/option_menu.map", bg_overrides)
     print("patched option_menu.map (BG layer)")
 
-    # option_menu_2.map = Window layer (vBGWin). Used for the KeyConfig sub-screen;
-    # the options screen itself doesn't show the window (LCDC bit 5 = 0). Still apply
-    # the shift so KeyConfig stays correct.
-    patch_tilemap(REPO / "gfx/tilemaps/option_menu_2.map", {})
+    # option_menu_2.map = Window layer (vBGWin). Used for the KeyConfig sub-screen.
+    # FR labels need extended tile slots for some rows:
+    win_overrides = {
+        # BALL START (row 3) — extend cols 10..11 with new ball_start tiles df, e0
+        # so LANCER BILLE! (9 tiles in PNG) is fully shown instead of truncated.
+        (3, 10): [0xdf, 0xe0],
+        # Original tilemap referenced ball_start tiles 7,8 (dd,de) at rows 2,8 cols 3-4 / 4-5.
+        # Those were blank in US ball_start_text. In FR they contain "LE!" — replace with
+        # explicit blank tiles (0x81) so "LE!" doesn't leak below RESET and FLIP DROIT.
+        (2, 3): [0x81, 0x81],
+        (8, 4): [0x81, 0x81],
+        # TILT rows. The US tilemap built "LEFT TILT" / "RIGHT TILT" / "UPPER TILT" by
+        # borrowing prefix tiles from LEFT/RIGHT FLIPPER + a shared " TILT" suffix from
+        # the tilt_text strip. In FR the labels are "COUP GAUCHE/DROIT/HAUT" — "COUP " is
+        # the shared part, suffixes vary. The FR tilt_text PNG is redesigned with 4
+        # discrete word zones aligned to tile boundaries:
+        #   TILT tiles 0-3  = "COUP "  → load $f3..$f6, bytes f3..f6
+        #   TILT tiles 4-8  = "GAUCHE" → load $f7..$fb, bytes f7..fb
+        #   TILT tiles 9-12 = "DROIT"  → load $fc..$ff, bytes fc..ff
+        #   TILT tiles 13-15= "HAUT"   → load $100..$102, bytes 00..02
+        # Row 9 = COUP GAUCHE: tiles 0-8 of tilt strip (9 tiles, contiguous).
+        (9, 3):  [0xf3, 0xf4, 0xf5, 0xf6, 0xf7, 0xf8, 0xf9, 0xfa, 0xfb],
+        # Row 11 = COUP DROIT: "COUP " (tiles 0-3) + "DROIT" (tiles 9-12) = 8 tiles.
+        (11, 3): [0xf3, 0xf4, 0xf5, 0xf6, 0xfc, 0xfd, 0xfe, 0xff, 0x81],
+        # Row 13 = COUP HAUT: "COUP " (tiles 0-3) + "HAUT" (tiles 13-15) = 7 tiles.
+        # Also blank cols 10..11 (US row 13 had a borrowed tile at col 9 — now blanked).
+        (13, 3): [0xf3, 0xf4, 0xf5, 0xf6, 0x00, 0x01, 0x02, 0x81, 0x81],
+        # US tilemap puts the yellow "→" indicator (byte $22, shifted to $24) at col 12
+        # of every row, including the spacer rows between labels. EU FR removes those
+        # spacer arrows so each label has only one indicator. Blank col 12 of spacer rows.
+        (4,  12): [0x81],
+        (6,  12): [0x81],
+        (8,  12): [0x81],
+        (10, 12): [0x81],
+        (12, 12): [0x81],
+        (14, 12): [0x81],
+        (16, 12): [0x81],
+    }
+    patch_tilemap(REPO / "gfx/tilemaps/option_menu_2.map", win_overrides)
     print("patched option_menu_2.map (Window layer)")
 
     # option_menu_3.map and option_menu_4.map are bgattr maps (palette/bank bits per tile),

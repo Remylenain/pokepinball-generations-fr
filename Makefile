@@ -26,11 +26,11 @@ endif
 
 %.o: dep = $(shell tools/scan_includes $(@D)/$*.asm)
 %.o: %.asm $$(dep)
-	$(RGBDS)rgbasm $(COMPILE_FLAGS) -h -Wunmapped-char=0 -l -o $@ $<
+	$(RGBDS)rgbasm.exe $(COMPILE_FLAGS) -h -Wunmapped-char=0 -l -o $@ $<
 
 $(ROM): $(OBJS) contents/contents.link
-	$(RGBDS)rgblink -n $(ROM:.gbc=.sym) -m $(ROM:.gbc=.map) -l contents/contents.link -o $@ $(OBJS)
-	$(RGBDS)rgbfix -jsvc -k 01 -l 0x33 -m 0x1e -p 0 -r 02 -t "POKEPINBALL" -i VPHE $@
+	$(RGBDS)rgblink.exe -n $(ROM:.gbc=.sym) -m $(ROM:.gbc=.map) -l contents/contents.link -o $@ $(OBJS)
+	$(RGBDS)rgbfix.exe -jsvc -k 01 -l 0x33 -m 0x1e -p 0 -r 02 -t "POKEPINBALL" -i VPHE $@
 
 tools:
 	$(MAKE) -C tools
@@ -43,14 +43,14 @@ clean: tidy
 	find . \( -iname '*.1bpp' -o -iname '*.2bpp' -o -iname '*.pcm' \) -exec rm {} +
 
 %.interleave.2bpp: %.interleave.png
-	$(RGBDS)rgbgfx -o $@ $<
+	$(RGBDS)rgbgfx.exe -o $@ $<
 	tools/gfx --interleave --png $< -o $@ $@
 
 %.2bpp: %.png
-	$(RGBDS)rgbgfx -o $@ $<
+	$(RGBDS)rgbgfx.exe -o $@ $<
 
 %.1bpp: %.png
-	$(RGBDS)rgbgfx -d1 -o $@ $<
+	$(RGBDS)rgbgfx.exe -d1 -o $@ $<
 
 %.pcm: %.wav
 	tools/pcm -o $@ $<

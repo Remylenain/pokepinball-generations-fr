@@ -1,5 +1,11 @@
 {
   "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(cp \"C:\\\\Users\\\\Remy\\\\PhpstormProjects\\\\pokepinball-generations\\\\gfx\\\\tilemaps\\\\option_menu.map\" \"C:\\\\Users\\\\Remy\\\\PhpstormProjects\\\\pokepinball-generations-fr\\\\gfx\\\\tilemaps\\\\option_menu.map\")",
+      "Bash(cp \"C:\\\\Users\\\\Remy\\\\PhpstormProjects\\\\pokepinball-generations\\\\gfx\\\\tilemaps\\\\option_menu_2.map\" \"C:\\\\Users\\\\Remy\\\\PhpstormProjects\\\\pokepinball-generations-fr\\\\gfx\\\\tilemaps\\\\option_menu_2.map\")",
+      "Bash(make)"
+    ],
     "additionalDirectories": [
       "C:\\Users\\Remy\\PhpstormProjects\\pokepinball-generations"
     ]
