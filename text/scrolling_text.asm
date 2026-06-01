@@ -82,19 +82,24 @@ CatchModeJackpotScoreStationaryTextHeader:
 	db $00, $00 ; unused
 
 YouGotAText:
-	scrolling_text_nopause 5, 30
+	; Offset suffixe poussé à 35 (= durée préfixe) pour laisser 15 cases au
+	; préfixe "VOUS GAGNEZ UN " (FR plus long que "YOU GOT A "). Voir Data_2a79.
+	scrolling_text_nopause 5, 35
 	db "VOUS GAGNEZ UN @"
 
 YouGotAnText:
-	scrolling_text_nopause 5, 31
+	; Idem, voir Data_2a91 ("VOUS GAGNEZ UN " = 15 cases).
+	scrolling_text_nopause 5, 35
 	db "VOUS GAGNEZ UN @"
 
 Data_2a79:
-	scrolling_text 5, 30, 0, 20, 2, 17
+	; Offset de départ 35 (au lieu de 30) pour le préfixe "VOUS GAGNEZ UN " (15 cases).
+	scrolling_text 5, 35, 0, 20, 2, 17
 	db "                 @"
 
 Data_2a91:
-	scrolling_text 5, 31, 0, 20, 2, 17
+	; Offset de départ 35 (au lieu de 31) pour le préfixe "VOUS GAGNEZ UN " (15 cases).
+	scrolling_text 5, 35, 0, 20, 2, 17
 	db "                 @"
 
 StartTrainingText:
@@ -229,7 +234,9 @@ ArrivedAtMapText:
 	db "ARRIVÉ À @"
 
 StartFromMapText:
-	scrolling_text_nopause 5, 31
+	; Comme scrolling_text_nopause 5, 31 mais offset de départ 19 (au lieu de 20)
+	; pour laisser 12 cases au préfixe "COMMENCER À " (FR plus long que "START FROM ").
+	db 5, 19 + $40, 0, 0, 0, 31
 	db "COMMENCER À @"
 
 GoToDiglettStageText:
