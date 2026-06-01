@@ -81,6 +81,8 @@ PlaceText: ; 0x312b loads e chars of text text into de
 	jr z, .little_x
 	cp "e"
 	jr z, .e_acute
+	cp $40 ; FR: "é" encodé $40 (charmap, ex. noms de Pokédex partagés) → même glyph que "e"
+	jr z, .e_acute
 	cp "*"
 	jr z, .asterisk
 	cp "."

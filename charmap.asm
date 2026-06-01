@@ -54,3 +54,8 @@
 
 	; curly apostrophe → straight apostrophe (renders as ` in the dex font)
 	charmap "’", "`"
+
+; "é"/"É" s'encodent en $40. Le Pokédex (police à largeur variable) a un glyph
+; à cette tuile. Le bandeau bas (PlaceText) n'a pas de glyph $40, mais son
+; moteur a été ajusté pour traiter $40 comme "e" → glyph é (voir PlaceText
+; dans home/text.asm, .e_acute). Le jeu d'origine encodait "POKeMON" avec "e".
