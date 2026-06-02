@@ -1,22 +1,24 @@
 BallSavedText:
-	scrolling_text_normal 5, 20, 0, 16
-	db "BILLE SAUVÉE @"
+	scrolling_text_normal 4, 20, 0, 16
+	db "BILLE SAUVEE @"
 
 ShootAgainText:
 	scrolling_text_normal 4, 20, 0, 16
 	db "SHOOT AGAIN @"
 
 EndOfBallBonusText:
-	scrolling_text_normal 1, 20, 0, 21
-	db "BILLE BONUS TERMINÉE @"
+	; Offset 0 (FR "BILLE BONUS TERMINEE" = 20 cases, doit tenir tuiles 0-19).
+	; L'offset 1 d'origine poussait le "E" final hors ecran. Conforme a la version EU.
+	scrolling_text_normal 0, 20, 0, 21
+	db "BILLE BONUS TERMINEE @"
 
 FieldMultiplierText:
-	scrolling_text_normal 0, 20, 0, 20
+	scrolling_text_normal 1, 20, 0, 20
 	db "MULTIPLICATEUR x0 @"
 
 FieldMultiplierSpecialBonusText:
 	scrolling_text_nopause 7, 51
-	db "MULTIPLICATEUR BONUS SPÉCIAL @"
+	db "MULTIPLICATEUR BONUS SPECIAL @"
 
 DigitsText1to8:
 	scrolling_text 7, 51, 6, 20, 2, 15
@@ -32,7 +34,7 @@ ExtraBallText:
 
 ExtraBallSpecialBonusText:
 	scrolling_text_nopause 7, 45
-	db "EXTRA BALL BONUS SPÉCIAL @"
+	db "EXTRA BALL BONUS SPECIAL @"
 
 DigitsText1to9:
 	scrolling_text 7, 45, 5, 20, 2, 15
@@ -40,23 +42,25 @@ DigitsText1to9:
 
 LetsGetPokemonText:
 	scrolling_text_normal 0, 20, 0, 21
-	db "ATTRAPEZ LES POKÉMON @"
+	db "ATTRAPEZ LES POKEMON @"
 
 PokemonRanAwayText:
-	scrolling_text_normal 1, 20, 0, 21
-	db "LE POKÉMON S'ENFUIT @"
+	scrolling_text_normal 0, 20, 0, 21
+	db "LE POKEMON S'ENFUIT @"
 
 PokemonCaughtSpecialBonusText:
 	scrolling_text_nopause 7, 49
-	db "POKÉMON ATTRAPÉ - BONUS SPÉCIAL @"
+	db "POKEMON ATTRAPE - BONUS SPECIAL @"
 
 OneBillionText:
 	scrolling_text 7, 46, 5, 20, 2, 19
 	db "1.000.000.000 @"
 
 HitText:
-	stationary_text 4, 0, 64
-	db "TOUCHÉ @"
+	; Offset 1 (FR "TOUCHE" = 6 lettres). A l'offset 4 d'origine ("HIT" = 3 lettres),
+	; le mot debordait sur le score affiche a l'offset 8 (Data_2a2a) -> tronque.
+	stationary_text 1, 0, 64
+	db "TOUCHE @"
 
 Data_2a2a:
 	stationary_text 8, 1, 64
@@ -82,8 +86,8 @@ CatchModeJackpotScoreStationaryTextHeader:
 	db $00, $00 ; unused
 
 YouGotAText:
-	; Offset suffixe poussé à 35 (= durée préfixe) pour laisser 15 cases au
-	; préfixe "VOUS GAGNEZ UN " (FR plus long que "YOU GOT A "). Voir Data_2a79.
+	; Offset suffixe poussE A 35 (= durEe prEfixe) pour laisser 15 cases au
+	; prEfixe "VOUS GAGNEZ UN " (FR plus long que "YOU GOT A "). Voir Data_2a79.
 	scrolling_text_nopause 5, 35
 	db "VOUS GAGNEZ UN @"
 
@@ -93,18 +97,18 @@ YouGotAnText:
 	db "VOUS GAGNEZ UN @"
 
 Data_2a79:
-	; Offset de départ 35 (au lieu de 30) pour le préfixe "VOUS GAGNEZ UN " (15 cases).
+	; Offset de dEpart 35 (au lieu de 30) pour le prEfixe "VOUS GAGNEZ UN " (15 cases).
 	scrolling_text 5, 35, 0, 20, 2, 17
 	db "                 @"
 
 Data_2a91:
-	; Offset de départ 35 (au lieu de 31) pour le préfixe "VOUS GAGNEZ UN " (15 cases).
+	; Offset de dEpart 35 (au lieu de 31) pour le prEfixe "VOUS GAGNEZ UN " (15 cases).
 	scrolling_text 5, 35, 0, 20, 2, 17
 	db "                 @"
 
 StartTrainingText:
-	scrolling_text_normal 2, 20, 0, 19
-	db "DÉBUT ENTRAÎNEMENT @"
+	scrolling_text_normal 1, 20, 0, 19
+	db "DEBUT ENTRAINEMENT @"
 
 FindItemsText:
 	scrolling_text_normal 3, 20, 0, 18
@@ -112,31 +116,31 @@ FindItemsText:
 
 StartBreedingText:
 	db $05, $54, $43, $14, $00, $37
-	db "DÉBUT ÉLEVAGE @"
+	db "DEBUT ELEVAGE @"
 
 EvolutionFailedText:
 	scrolling_text_normal 0, 20, 0, 21
-	db "ÉCHEC DE L'ÉVOLUTION @"
+	db "ECHEC DE L'EVOLUTION @"
 
 BreedingFailedText:
 	db $05, $54, $42, $14, $00, $39
-	db "ÉCHEC DE L'ÉLEVAGE @"
+	db "ECHEC DE L'ELEVAGE @"
 
 ItEvolvedIntoAText:
 	scrolling_text_nopause 5, 38
-	db "IL ÉVOLUE EN @"
+	db "IL EVOLUE EN @"
 
 EggHatchedIntoAText:
 	db $05, $54, $00, $00, $00, $26
-	db "IL ÉCLOT EN @"
+	db "IL ECLOT EN @"
 
 ItEvolvedIntoAnText:
 	scrolling_text_nopause 5, 39
-	db "IL ÉVOLUE EN @"
+	db "IL EVOLUE EN @"
 
 EggHatchedIntoAnText:
 	db $05, $54, $00, $00, $00, $27
-	db "IL ÉCLOT EN @"
+	db "IL ECLOT EN @"
 
 Data_2b1c:
 	scrolling_text 5, 38, 0, 20, 2, 17
@@ -148,7 +152,7 @@ Data_2b34:
 
 EvolutionSpecialBonusText:
 	scrolling_text_nopause 7, 44
-	db "BONUS SPÉCIAL ÉVOLUTION @"
+	db "BONUS SPECIAL EVOLUTION @"
 
 Data_2b6b:
 	scrolling_text 7, 44, 6, 20, 2, 15
@@ -156,26 +160,26 @@ Data_2b6b:
 
 PokemonIsTiredText:
 	scrolling_text_normal 2, 20, 0, 19
-	db "POKÉMON FATIGUÉ @"
+	db "POKEMON FATIGUE @"
 
 ItemNotFoundText:
-	scrolling_text_normal 1, 20, 0, 20
-	db "OBJET NON TROUVÉ @"
+	scrolling_text_normal 2, 20, 0, 20
+	db "OBJET NON TROUVE @"
 
 KeepWalkingText:
 	db $05, $54, $43, $14, $00, $35
 	db "MARCHEZ @"
 
 PokemonRecoveredText:
-	scrolling_text_normal 2, 20, 0, 19
-	db "POKÉMON REPOSÉ @"
+	scrolling_text_normal 3, 20, 0, 19
+	db "POKEMON REPOSE @"
 
 TryNextPlaceText:
 	scrolling_text_normal 0, 20, 0, 21
 	db "VOIR ENDROIT SUIVANT @"
 
 YeahYouGotItText:
-	scrolling_text_normal 5, 20, 0, 16
+	scrolling_text_normal 6, 20, 0, 16
 	db "SUPER ! @"
 
 EvolutionTypeGetTextPointers:
@@ -191,7 +195,7 @@ EvolutionTypeGetTextPointers:
 
 GetExperienceText:
 	scrolling_text_normal 1, 20, 0, 20
-	db "GAGNER EXPÉRIENCE @"
+	db "GAGNER EXPERIENCE @"
 
 GetFireStoneText:
 	scrolling_text_normal 1, 20, 0, 20
@@ -215,7 +219,7 @@ GetMoonStoneText:
 
 GetLinkCableText:
 	scrolling_text_normal 2, 20, 0, 19
-	db "AVOIR CÂBLE LINK @"
+	db "AVOIR CABLE LINK @"
 
 TakeStepsText:
 	db $05, $54, $42, $14, $00, $38
@@ -227,17 +231,17 @@ GetSunStoneText:
 
 MapMoveFailedText:
 	scrolling_text_normal 0, 20, 0, 20
-	db "ÉCHEC DU DÉPLACEMENT @"
+	db "ECHEC DU DEPLACEMENT @"
 
 ArrivedAtMapText:
 	scrolling_text_nopause 5, 31
-	db "ARRIVÉ À @"
+	db "ARRIVE A @"
 
 StartFromMapText:
-	; Comme scrolling_text_nopause 5, 31 mais offset de départ 19 (au lieu de 20)
-	; pour laisser 12 cases au préfixe "COMMENCER À " (FR plus long que "START FROM ").
+	; Comme scrolling_text_nopause 5, 31 mais offset de dEpart 19 (au lieu de 20)
+	; pour laisser 12 cases au prEfixe "COMMENCER A " (FR plus long que "START FROM ").
 	db 5, 19 + $40, 0, 0, 0, 31
-	db "COMMENCER À @"
+	db "COMMENCER A @"
 
 GoToDiglettStageText:
 	scrolling_text_normal 1, 20, 0, 20
@@ -256,7 +260,7 @@ GoToMeowthStageText:
 	db "NIVEAU MIAOUSS @"
 
 GoToSeelStageText:
-	scrolling_text_normal 4, 20, 0, 17
+	scrolling_text_normal 3, 20, 0, 17
 	db "NIVEAU OTARIA @"
 
 EndGengarStageText:
@@ -268,7 +272,7 @@ EndMewtwoStageText:
 	db "FIN NIVEAU MEWTWO @"
 
 EndDiglettStageText:
-	scrolling_text_normal 0, 20, 0, 21
+	scrolling_text_normal 1, 20, 0, 21
 	db "FIN NIV TAUPIQUEUR @"
 
 EndMeowthStageText:
@@ -281,32 +285,32 @@ EndSeelStageText:
 
 GengarStageClearedText:
 	scrolling_text_normal 0, 20, 0, 21
-	db "NIV ECTOPLASM RÉUSSI @"
+	db "NIV ECTOPLASM REUSSI @"
 
 MewtwoStageClearedText:
 	scrolling_text_normal 1, 20, 0, 20
-	db "NIV MEWTWO RÉUSSI @"
+	db "NIV MEWTWO REUSSI @"
 
 DiglettStageClearedText:
 	scrolling_text_normal 0, 20, 0, 21
-	db "NIV TAUPIQU. RÉUSSI @"
+	db "NIV TAUPIQU. REUSSI @"
 
 MeowthStageClearedText:
 	scrolling_text_normal 1, 20, 0, 20
-	db "NIV MIAOUSS RÉUSSI @"
+	db "NIV MIAOUSS REUSSI @"
 
 SeelStageClearedText:
 	scrolling_text_normal 1, 20, 0, 20
-	db "NIV OTARIA RÉUSSI @"
+	db "NIV OTARIA REUSSI @"
 
 NumPokemonCaughtText:
-	db "  0 POKÉMON ATTRAPÉ@"
+	db "  0 POKEMON ATTRAPE@"
 
 NumPokemonEvolvedText:
-	db "  0 POKÉMON ÉVOLUÉ@"
+	db "  0 POKEMON EVOLUE@"
 
 BellsproutCounterText:
-	db "  0 CHÉTIFLOR@"
+	db "  0 CHETIFLOR@"
 
 DugtrioCounterText:
 	db "  0 TRIOPIKEUR@"
@@ -321,7 +325,7 @@ BonusPointsText:
 	db " BONUS@"
 
 SubtotalPointsText:
-	db " SOUS-TOTAL@"
+	db "SOUS-TOTAL@"
 
 MultiplierPointsText:
 	db " MULTIPLICATEUR@"
@@ -349,4 +353,4 @@ SlowpokeCounterText:
 
 ReleasedBeastsText:
 	db $05, $54, $42, $14, $00, $38
-	db "BÊTES LIBÉRÉES @"
+	db "BETES LIBEREES @"

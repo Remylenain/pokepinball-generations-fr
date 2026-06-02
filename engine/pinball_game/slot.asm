@@ -379,7 +379,8 @@ SlotRewardUpgradeBall: ; 0xf040
 	call LoadScrollingText
 	callba UpgradeBall
 	add $30
-	ld [wBottomMessageText + $12], a
+	; FR: "0" de "MULTIPLICATEUR x0" a l'offset $10 (cf. UpgradeBall) sinon le @ saute.
+	ld [wBottomMessageText + $10], a
 	jr .asm_f0b0
 
 .bestBall
