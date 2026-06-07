@@ -52,7 +52,12 @@
 	charmap "Œ", "O"
 	charmap "Æ", "A"
 
-	; curly apostrophe → straight apostrophe (renders as ` in the dex font)
+	; apostrophes → backtick `, the only apostrophe glyph both the Pokedex
+	; decoder (Func_2957c) and the bottom-banner font (PlaceText) recognize.
+	; A straight ' (0x27) is otherwise unhandled: the dex decoder truncates
+	; the text at it, and PlaceText silently drops it. Folding both the
+	; straight and curly forms down to ` makes either one render correctly.
+	charmap "'", "`"
 	charmap "’", "`"
 
 ; "é"/"É" s'encodent en $40. Le Pokédex (police à largeur variable) a un glyph

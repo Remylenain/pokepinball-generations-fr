@@ -8,7 +8,7 @@ ViridianCityText:
 
 ViridianForestText:
 	scrolling_text 5, 31, 3, 20, 2, 17
-	db "FORÊT DE JADE @"
+	db "FORET DE JADE @"
 
 PewterCityText:
 	scrolling_text 5, 31, 6, 20, 2, 14
@@ -16,7 +16,7 @@ PewterCityText:
 
 MtMoonText:
 	scrolling_text 5, 31, 4, 20, 2, 16
-	db "MT.SÉLÉNITE @"
+	db "MT.SELENITE @"
 
 CeruleanCityText:
 	scrolling_text 5, 31, 6, 20, 2, 14
@@ -40,7 +40,7 @@ LavenderTownText:
 
 CeladonCityText:
 	scrolling_text 5, 31, 4, 20, 2, 16
-	db "CÉLADOPOLE @"
+	db "CELADOPOLE @"
 
 CyclingRoadText:
 	scrolling_text 5, 31, 2, 20, 2, 18
@@ -60,11 +60,11 @@ SaffronCityText:
 
 SeafoamIslandsText:
 	scrolling_text 5, 31, 4, 20, 2, 16
-	db "ÎLES ÉCUME @"
+	db "ILES ECUME @"
 
 CinnabarIslandText:
 	scrolling_text 5, 31, 4, 20, 2, 16
-	db "CRAMOIS'ÎLE @"
+	db "CRAMOIS'ILE @"
 
 IndigoPlateauText:
 	scrolling_text 5, 31, 2, 20, 2, 18
@@ -88,7 +88,7 @@ DarkCaveText:
 
 LakeOfRageText:
 	scrolling_text 5, 31, 4, 20, 2, 16
-	db "LAC COLÈRE @"
+	db "LAC COLERE @"
 
 MahoganyTownText:
 	scrolling_text 5, 31, 6, 20, 2, 14
@@ -100,11 +100,11 @@ EcruteakCityText:
 
 AzaleaTownText:
 	scrolling_text 5, 31, 6, 20, 2, 14
-	db "ÉCORCIA @"
+	db "ECORCIA @"
 
 IlexForestText:
 	scrolling_text 5, 31, 3, 20, 2, 17
-	db "BOIS DE CHÊNE @"
+	db "BOIS DE CHENE @"
 
 GoldenrodCityText:
 	scrolling_text 5, 31, 3, 20, 2, 17
@@ -120,7 +120,7 @@ OlivineCityText:
 
 IcePathText:
 	scrolling_text 5, 31, 3, 20, 2, 17
-	db "ROUTE GLACÉE @"
+	db "ROUTE GLACEE @"
 
 MtMortarText:
 	scrolling_text 5, 31, 4, 20, 2, 16
@@ -128,11 +128,11 @@ MtMortarText:
 
 BurnedTowerText:
 	scrolling_text 5, 31, 3, 20, 2, 17
-	db "TOUR CENDRÉE @"
+	db "TOUR CENDREE @"
 
 TinTowerText:
 	scrolling_text 5, 31, 4, 20, 2, 16
-	db "TOUR ÉTAIN @"
+	db "TOUR ETAIN @"
 
 WhirlIslandsText:
 	scrolling_text 5, 31, 4, 20, 2, 16
@@ -140,8 +140,8 @@ WhirlIslandsText:
 
 BlackthornCityText:
 	scrolling_text 5, 31, 5, 20, 2, 15
-	db "ÉBÉNELLE @"
+	db "EBENELLE @"
 
 MtSilverText:
 	scrolling_text 5, 31, 4, 20, 2, 16
-	db "MT.ARGENTÉ @"
+	db "MT.ARGENTE @"

@@ -9,7 +9,12 @@
       "Bash(ls eu_reference/strings/)",
       "Bash(ls eu_reference/fr/)",
       "Bash(ls eu_reference/candidates/)",
-      "Bash(cat eu_reference/strings/eu_fr_strings.txt)"
+      "Bash(cat eu_reference/strings/eu_fr_strings.txt)",
+      "Bash(git log *)",
+      "Bash(git checkout *)",
+      "Bash(ls \"eu_reference\")",
+      "Bash(ls \"eu_reference/Capture ingame \")",
+      "Bash(ls \"eu_reference/Capture ingame\")"
     ],
     "additionalDirectories": [
       "C:\\Users\\Remy\\PhpstormProjects\\pokepinball-generations"

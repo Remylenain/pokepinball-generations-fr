@@ -2,7 +2,7 @@ SpeciesNameSeed: ; SEED
 	dex_species "GRAINE"
 
 SpeciesNameLizard: ; LIZARD
-	dex_species "LÉZARD"
+	dex_species "LEZARD"
 
 SpeciesNameFlame: ; FLAME
 	dex_species "FLAMME"
@@ -29,7 +29,7 @@ SpeciesNameHairyBug: ; HAIRY_BUG
 	dex_species "INSECTE"
 
 SpeciesNamePoisonBee: ; POISON_BEE
-	dex_species "GUÊPOISON"
+	dex_species "GUEPOISON"
 
 SpeciesNameTinyBird: ; TINY_BIRD
 	dex_species "MINOISEAU"
@@ -50,13 +50,13 @@ SpeciesNameCobra: ; COBRA
 	dex_species "COBRA"
 
 SpeciesNamePoisonPin: ; POISON_PIN
-	dex_species "VÉNÉPIC"
+	dex_species "VENEPIC"
 
 SpeciesNameDrill: ; DRILL
 	dex_species "PERCEUR"
 
 SpeciesNameFairy: ; FAIRY
-	dex_species "FÉE"
+	dex_species "FEE"
 
 SpeciesNameFox: ; FOX
 	dex_species "RENARD"
@@ -86,7 +86,7 @@ SpeciesNameMole: ; MOLE
 	dex_species "TAUPE"
 
 SpeciesNameScratchcat: ; SCRATCHCAT
-	dex_species "CHADEGOÛT"
+	dex_species "CHADEGOUT"
 
 SpeciesNameClassyCat: ; CLASSY_CAT
 	dex_species "CHADEVILLE"
@@ -101,10 +101,10 @@ SpeciesNamePuppy: ; PUPPY
 	dex_species "CHIOT"
 
 SpeciesNameLegendary: ; LEGENDARY
-	dex_species "LÉGENDAIRE"
+	dex_species "LEGENDAIRE"
 
 SpeciesNameTadpole: ; TADPOLE
-	dex_species "TÊTARD"
+	dex_species "TETARD"
 
 SpeciesNamePsi: ; PSI
 	dex_species "PSY"
@@ -128,13 +128,13 @@ SpeciesNameFireHorse: ; FIRE_HORSE
 	dex_species "CHEVAL FEU"
 
 SpeciesNameDopey: ; DOPEY
-	dex_species "CRÉTIN"
+	dex_species "CRETIN"
 
 SpeciesNameHermitcrab: ; HERMITCRAB
 	dex_species "BERNARD"
 
 SpeciesNameMagnet: ; MAGNET
-	dex_species "MAGNÉTIQUE"
+	dex_species "MAGNETIQUE"
 
 SpeciesNameWildDuck: ; WILD_DUCK
 	dex_species "CANARD FOU"
@@ -149,7 +149,7 @@ SpeciesNameSeaLion: ; SEA_LION
 	dex_species "OTARIE"
 
 SpeciesNameSludge: ; SLUDGE
-	dex_species "DÉGUEU"
+	dex_species "DEGUEU"
 
 SpeciesNameBivalve: ; BIVALVE
 	dex_species "BIVALVE"
@@ -194,7 +194,7 @@ SpeciesNamePunching: ; PUNCHING
 	dex_species "PUNCHEUR"
 
 SpeciesNameLicking: ; LICKING
-	dex_species "LÉCHEUR"
+	dex_species "LECHEUR"
 
 SpeciesNamePoisonGas: ; POISON_GAS
 	dex_species "GAZ MORTEL"
@@ -215,10 +215,10 @@ SpeciesNameGoldfish: ; GOLDFISH
 	dex_species "POISSON"
 
 SpeciesNameStarshape: ; STARSHAPE
-	dex_species "ÉTOILE"
+	dex_species "ETOILE"
 
 SpeciesNameMysterious: ; MYSTERIOUS
-	dex_species "MYSTÉRIEUX"
+	dex_species "MYSTERIEUX"
 
 SpeciesNameBarrier: ; BARRIER
 	dex_species "BLOQUEUR"
@@ -227,16 +227,16 @@ SpeciesNameMantis: ; MANTIS
 	dex_species "MANTE"
 
 SpeciesNameHumanshape: ; HUMANSHAPE
-	dex_species "HUMANOÏDE"
+	dex_species "HUMANOIDE"
 
 SpeciesNameElectric: ; ELECTRIC
-	dex_species "ÉLECTRIQUE"
+	dex_species "ELECTRIQUE"
 
 SpeciesNameSpitfire: ; SPITFIRE
 	dex_species "CRACHE-FEU"
 
 SpeciesNameStagbeetle: ; STAGBEETLE
-	dex_species "SCARABÉE"
+	dex_species "SCARABEE"
 
 SpeciesNameWildBull: ; WILD_BULL
 	dex_species "BUFFLE"
@@ -254,7 +254,7 @@ SpeciesNameTransform: ; TRANSFORM
 	dex_species "MORPHING"
 
 SpeciesNameEvolution: ; EVOLUTION
-	dex_species "ÉVOLUTIF"
+	dex_species "EVOLUTIF"
 
 SpeciesNameBubbleJet: ; BUBBLE_JET
 	dex_species "BULLEUR"
@@ -281,7 +281,7 @@ SpeciesNameFreeze: ; FREEZE
 	dex_species "GLACIAIRE"
 
 SpeciesNameGenetic: ; GENETIC
-	dex_species "GÉNÉTIQUE"
+	dex_species "GENETIQUE"
 
 SpeciesNameNewSpecie: ; NEW_SPECIE
 	dex_species "NOUVEAU"
@@ -302,19 +302,19 @@ SpeciesNameVolcano: ; VOLCANO
 	dex_species "VOLCAN"
 
 SpeciesNameBigJaw: ; BIG_JAW
-	dex_species "MÂCHOIRE"
+	dex_species "MACHOIRE"
 
 SpeciesNameScout: ; SCOUT
 	dex_species "ESPION"
 
 SpeciesNameLongBody: ; LONG_BODY
-	dex_species "ALLONGÉ"
+	dex_species "ALLONGE"
 
 SpeciesNameOwl: ; OWL
 	dex_species "HIBOU"
 
 SpeciesNameFiveStar: ; FIVE_STAR
-	dex_species "ÉTOILE"
+	dex_species "ETOILE"
 
 SpeciesNameStringSpit: ; STRING_SPIT
 	dex_species "CRACHE FIL"
@@ -326,13 +326,13 @@ SpeciesNameAngler: ; ANGLER
 	dex_species "LANTERNE"
 
 SpeciesNameLight: ; LIGHT
-	dex_species "LUMIÈRE"
+	dex_species "LUMIERE"
 
 SpeciesNameTinyMouse: ; TINY_MOUSE
 	dex_species "MINISOURIS"
 
 SpeciesNameStarShape: ; STAR_SHAPE
-	dex_species "ÉTOILE"
+	dex_species "ETOILE"
 
 SpeciesNameSpikeBall: ; SPIKE_BALL
 	dex_species "BALLE PIC"
@@ -377,7 +377,7 @@ SpeciesNameMoonlight: ; MOONLIGHT
 	dex_species "LUNE"
 
 SpeciesNameDarkness: ; DARKNESS
-	dex_species "OBSCURITÉ"
+	dex_species "OBSCURITE"
 
 SpeciesNameRoyal: ; ROYAL
 	dex_species "ROYAL"
@@ -395,7 +395,7 @@ SpeciesNameLongNeck: ; LONG_NECK
 	dex_species "LONG-COU"
 
 SpeciesNameBagworm: ; BAGWORM
-	dex_species "VER CACHÉ"
+	dex_species "VER CACHE"
 
 SpeciesNameLandSnake: ; LAND_SNAKE
 	dex_species "TERRESTRE"
@@ -413,7 +413,7 @@ SpeciesNameSingleHorn: ; SINGLE_HORN
 	dex_species "UNICORNE"
 
 SpeciesNameSharpClaw: ; SHARP_CLAW
-	dex_species "GRIFACÉRÉE"
+	dex_species "GRIFACEREE"
 
 SpeciesNameLittleBear: ; LITTLE_BEAR
 	dex_species "MINI OURS"
