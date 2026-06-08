@@ -8,15 +8,22 @@
 ROM := PinballGenerations.gbc
 OBJS := main.o wram.o sram.o
 
-RGBDS ?= rgbds-0.6.1/
-
 ifeq (,$(shell which sha1sum))
 SHA1 := shasum
 else
 SHA1 := sha1sum
 endif
 
-COMPILE_FLAGS :=
+RGBDS ?=
+RGBASM  ?= $(RGBDS)rgbasm
+RGBLINK ?= $(RGBDS)rgblink
+RGBFIX  ?= $(RGBDS)rgbfix
+RGBGFX  ?= $(RGBDS)rgbgfx
+
+RGBASMFLAGS  ?=
+RGBLINKFLAGS ?=
+RGBFIXFLAGS  ?=
+RGBGFXFLAGS  ?=
 
 all: $(ROM)
 
@@ -26,11 +33,13 @@ endif
 
 %.o: dep = $(shell tools/scan_includes $(@D)/$*.asm)
 %.o: %.asm $$(dep)
-	$(RGBDS)rgbasm.exe $(COMPILE_FLAGS) -h -Wunmapped-char=0 -l -o $@ $<
+	$(RGBASM) $(RGBASMFLAGS) -o $@ $<
 
+$(ROM): RGBLINKFLAGS += -l contents/contents.link -n $(ROM:.gbc=.sym) -m $(ROM:.gbc=.map)
+$(ROM): RGBFIXFLAGS += -jsvc -k 01 -l 0x33 -m 0x1e -p 0 -r 02 -t "POKEPINBALL" -i VPHE
 $(ROM): $(OBJS) contents/contents.link
-	$(RGBDS)rgblink.exe -n $(ROM:.gbc=.sym) -m $(ROM:.gbc=.map) -l contents/contents.link -o $@ $(OBJS)
-	$(RGBDS)rgbfix.exe -jsvc -k 01 -l 0x33 -m 0x1e -p 0 -r 02 -t "POKEPINBALL" -i VPHE $@
+	$(RGBLINK) $(RGBLINKFLAGS) -o $@ $(OBJS)
+	$(RGBFIX) $(RGBFIXFLAGS) $@
 
 tools:
 	$(MAKE) -C tools
@@ -43,14 +52,14 @@ clean: tidy
 	find . \( -iname '*.1bpp' -o -iname '*.2bpp' -o -iname '*.pcm' \) -exec rm {} +
 
 %.interleave.2bpp: %.interleave.png
-	$(RGBDS)rgbgfx.exe -o $@ $<
+	$(RGBGFX) $(RGBGFXFLAGS) -o $@ $<
 	tools/gfx --interleave --png $< -o $@ $@
 
 %.2bpp: %.png
-	$(RGBDS)rgbgfx.exe -o $@ $<
+	$(RGBGFX) $(RGBGFXFLAGS) -o $@ $<
 
 %.1bpp: %.png
-	$(RGBDS)rgbgfx.exe -d1 -o $@ $<
+	$(RGBGFX) $(RGBGFXFLAGS) -d1 -o $@ $<
 
 %.pcm: %.wav
 	tools/pcm -o $@ $<
