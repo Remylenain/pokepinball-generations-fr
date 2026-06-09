@@ -2298,6 +2298,22 @@ Func_2957c: ; 0x2957c
 	jr z, .asm_295d9
 	cp 'é'
 	jr z, .asm_295dd
+	cp $01 ; FR "è"
+	jr z, .e_grave
+	cp $02 ; FR "ê"
+	jr z, .e_circ
+	cp $03 ; FR "à"
+	jr z, .a_grave
+	cp $04 ; FR "î"
+	jr z, .i_circ
+	cp $05 ; FR "û"
+	jr z, .u_circ
+	cp $06 ; FR "â"
+	jr z, .a_circ
+	cp $07 ; FR "É"
+	jr z, .e_acute_caps
+	cp $08 ; FR "ô"
+	jr z, .o_circ
 	and a
 	ret
 
@@ -2343,6 +2359,47 @@ Func_2957c: ; 0x2957c
 
 .asm_295dd
 	ld a, $f9
+	scf
+	ret
+
+; FR accented vowels — glyph indices into the VWF font (characters.interleave)
+.e_grave
+	ld a, $fb ; è
+	scf
+	ret
+
+.e_circ
+	ld a, $fc ; ê
+	scf
+	ret
+
+.a_grave
+	ld a, $fd ; à
+	scf
+	ret
+
+.a_circ
+	ld a, $fe ; â
+	scf
+	ret
+
+.u_circ
+	ld a, $e8 ; û
+	scf
+	ret
+
+.i_circ
+	ld a, $e7 ; î
+	scf
+	ret
+
+.e_acute_caps
+	ld a, $e9 ; É
+	scf
+	ret
+
+.o_circ
+	ld a, $a4 ; ô
 	scf
 	ret
 

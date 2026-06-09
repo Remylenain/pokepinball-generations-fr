@@ -594,28 +594,28 @@ CharacterWidths: ; 0x29792
 	db $07  ; "x"
 	db $07  ; "y"
 	db $07  ; "z"
-	db $07
-	db $07
-	db $07
-	db $07
-	db $07
-	db $07
-	db $07
-	db $07
-	db $03
-	db $07
-	db $05
-	db $05
-	db $05
-	db $05
-	db $05
-	db $07
-	db $07
-	db $07
-	db $07
-	db $05
-	db $07
-	db $07
-	db $07
-	db $07
-	db $07
+	db $03 ; $e7 — FR "î" (i-body width)
+	db $07 ; $e8 — FR "û" (u-body width)
+	db $07 ; $e9 — FR "É"
+	db $07 ; $ea
+	db $07 ; $eb
+	db $07 ; $ec
+	db $07 ; $ed
+	db $07 ; $ee
+	db $03 ; $ef
+	db $07 ; $f0 "?"
+	db $05 ; $f1 ":"
+	db $05 ; $f2 ";"
+	db $05 ; $f3 ","
+	db $05 ; $f4 "."
+	db $05 ; $f5
+	db $07 ; $f6 "("
+	db $07 ; $f7 ")"
+	db $07 ; $f8 "~"
+	db $07 ; $f9 "é"
+	db $05 ; $fa "`"
+	db $07 ; $fb — FR "è"
+	db $07 ; $fc — FR "ê"
+	db $07 ; $fd — FR "à"
+	db $07 ; $fe — FR "â"
+	db $07 ; $ff (reserved end marker)

@@ -39,19 +39,26 @@ ENDR
 ; in caps-only contexts (the dex name area is uppercase-only and a
 ; lowercase é is the closest thing to a real É we have).
 
-	; lowercase
-	charmap "à", CHARVAL("a")
-	charmap "â", CHARVAL("a")
+	; Pokedex-description accents: these six have dedicated glyphs in the VWF
+	; font (gfx/pokedex/characters.interleave.png) and are decoded by
+	; Func_2957c (engine/pokedex.asm). They get unique low byte values that
+	; ONLY the dex-description decoder recognises. They appear exclusively in
+	; pokedex description text, so no other text engine ever sees these bytes.
+	charmap "è", $01
+	charmap "ê", $02
+	charmap "à", $03
+	charmap "î", $04
+	charmap "û", $05
+	charmap "â", $06
+	charmap "É", $07
+	charmap "ô", $08
+
+	; lowercase — fall back to base letter (no dedicated glyph anywhere)
 	charmap "ä", CHARVAL("a")
-	charmap "è", CHARVAL("e")
-	charmap "ê", CHARVAL("e")
 	charmap "ë", CHARVAL("e")
-	charmap "î", CHARVAL("i")
 	charmap "ï", CHARVAL("i")
-	charmap "ô", CHARVAL("o")
 	charmap "ö", CHARVAL("o")
 	charmap "ù", CHARVAL("u")
-	charmap "û", CHARVAL("u")
 	charmap "ü", CHARVAL("u")
 	charmap "ÿ", CHARVAL("y")
 	charmap "ç", CHARVAL("c")
@@ -62,7 +69,6 @@ ENDR
 	charmap "À", CHARVAL("A")
 	charmap "Â", CHARVAL("A")
 	charmap "Ä", CHARVAL("A")
-	charmap "É", CHARVAL("é")
 	charmap "È", CHARVAL("E")
 	charmap "Ê", CHARVAL("E")
 	charmap "Ë", CHARVAL("E")
