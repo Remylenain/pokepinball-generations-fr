@@ -2314,6 +2314,12 @@ Func_2957c: ; 0x2957c
 	jr z, .e_acute_caps
 	cp $08 ; FR "ô"
 	jr z, .o_circ
+	cp $09 ; FR "ç"
+	jr z, .c_ced
+	cp $0a ; FR "ï"
+	jr z, .i_trema
+	cp $0b ; FR "ù"
+	jr z, .u_grave
 	and a
 	ret
 
@@ -2400,6 +2406,21 @@ Func_2957c: ; 0x2957c
 
 .o_circ
 	ld a, $a4 ; ô
+	scf
+	ret
+
+.c_ced
+	ld a, $a5 ; ç
+	scf
+	ret
+
+.i_trema
+	ld a, $a6 ; ï
+	scf
+	ret
+
+.u_grave
+	ld a, $a7 ; ù
 	scf
 	ret
 

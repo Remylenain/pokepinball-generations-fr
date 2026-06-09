@@ -527,10 +527,10 @@ CharacterWidths: ; 0x29792
 	db $07
 	db $07
 	db $07
-	db $07
-	db $07
-	db $07
-	db $07
+	db $07 ; $a4 — FR "ô"
+	db $07 ; $a5 — FR "ç"
+	db $03 ; $a6 — FR "ï" (i-body width)
+	db $07 ; $a7 — FR "ù"
 	db $07
 	db $07
 	db $07

@@ -52,16 +52,16 @@ ENDR
 	charmap "â", $06
 	charmap "É", $07
 	charmap "ô", $08
+	charmap "ç", $09
+	charmap "ï", $0a
+	charmap "ù", $0b
 
 	; lowercase — fall back to base letter (no dedicated glyph anywhere)
 	charmap "ä", CHARVAL("a")
 	charmap "ë", CHARVAL("e")
-	charmap "ï", CHARVAL("i")
 	charmap "ö", CHARVAL("o")
-	charmap "ù", CHARVAL("u")
 	charmap "ü", CHARVAL("u")
 	charmap "ÿ", CHARVAL("y")
-	charmap "ç", CHARVAL("c")
 	charmap "œ", CHARVAL("o")
 	charmap "æ", CHARVAL("a")
 
