@@ -6,7 +6,10 @@ MACRO dex_number
 ENDM
 
 ; \1 = height in decimeters (e.g. 7 = 0.7m, 145 = 14.5m)
-; Display: 4 chars "XX.Y" with leading space if tens digit is 0
+; The comma is baked into the background between the 2nd and 3rd digit slots,
+; so we emit meters_tens, meters_ones, decimeter -> "XX,Y" (no macro point;
+; the decimal sits where the old "." tile used to be). 5-byte field kept via
+; a trailing terminator pad.
 MACRO dex_height
 	DEF meters_tens = (\1 / 100) % 10
 	IF meters_tens == 0
@@ -15,34 +18,32 @@ MACRO dex_height
 		db meters_tens + '0'
 	ENDC
 	db ((\1 / 10) % 10) + '0'
-	db $72 ; "." (decimal point — gfx tile to update)
 	db (\1 % 10) + '0'
+	db "@"
 	db "@"
 ENDM
 
-; \1 = weight in hectograms (e.g. 69 = 6.9 kg). Rounded to nearest integer kg.
-; Display: 4 digits "XXXX" + "kg" tile (gfx tile $83 to update)
+; \1 = weight in hectograms (e.g. 18 = 1.8 kg). One decimal place; the comma
+; is baked into the background between the 3rd and 4th digit slots, so we emit
+; 3 integer digits (space-padded) + 1 decimal digit -> "XXX,Y". Round weights
+; show as "X,0". Layout: 4 digit tiles + "kg" tile (gfx tile $83).
 MACRO dex_weight
-	DEF kg = (\1 + 5) / 10
-	IF kg >= 1000
-		db ((kg / 1000) % 10) + '0'
+	DEF whole = \1 / 10
+	DEF deci = \1 % 10
+	IF whole >= 100
+		db ((whole / 100) % 10) + '0'
 	ELSE
 		db " "
 	ENDC
 
-	IF kg >= 100
-		db ((kg / 100) % 10) + '0'
+	IF whole >= 10
+		db ((whole / 10) % 10) + '0'
 	ELSE
 		db " "
 	ENDC
 
-	IF kg >= 10
-		db ((kg / 10) % 10) + '0'
-	ELSE
-		db " "
-	ENDC
-
-	db (kg % 10) + '0'
+	db (whole % 10) + '0'
+	db deci + '0'
 	db $00, $83
 ENDM
 
