@@ -346,7 +346,7 @@ HighScoresSilverStageVideoData_GameBoyColor: ; 0xcc64
 	db $FF, $FF  ; terminators
 
 HighScoresRubyStageVideoData_GameBoyColor: ; 0xcc1c
-	VIDEO_DATA_TILES HighScoresBaseGameBoyGfx_Johto, vTilesOB, $1800
+	VIDEO_DATA_TILES HighScoresBaseGameBoyGfx_Hoenn, vTilesOB, $1800
 	VIDEO_DATA_TILEMAP HighScoresTilemap, vBGMap, $400
 	VIDEO_DATA_TILEMAP HighScoresTilemap2, vBGWin, $400
 	VIDEO_DATA_TILEMAP_BANK2 HighScoresTilemap4, vBGMap, $400
@@ -371,7 +371,7 @@ HighScoresRubyStageVideoData_GameBoyColor: ; 0xcc1c
 	db $FF, $FF
 
 HighScoresSapphireStageVideoData_GameBoyColor: ; 0xcc64
-	VIDEO_DATA_TILES HighScoresBaseGameBoyGfx_Johto, vTilesOB, $1800
+	VIDEO_DATA_TILES HighScoresBaseGameBoyGfx_Hoenn, vTilesOB, $1800
 	VIDEO_DATA_TILEMAP HighScoresTilemap, vBGMap, $400
 	VIDEO_DATA_TILEMAP HighScoresTilemap2, vBGWin, $400
 	VIDEO_DATA_TILEMAP_BANK2 HighScoresTilemap4, vBGMap, $400
@@ -1765,7 +1765,7 @@ ChangeHighScoresRegion_Up:
 
 ChangeHighScoresRegion_Down:
 	ld a, [wHighScoresStage]
-	cp 2
+	cp 4 ; already on Hoenn (Ruby=4 / Sapphire=5)? can't go further down
 	ret nc
 	inc a
 	inc a
