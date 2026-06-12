@@ -23,10 +23,11 @@ MACRO dex_height
 	db "@"
 ENDM
 
-; \1 = weight in hectograms (e.g. 18 = 1.8 kg). One decimal place; the comma
-; is baked into the background between the 3rd and 4th digit slots, so we emit
+; \1 = weight in hectograms (e.g. 18 = 1.8 kg). One decimal place. We emit
 ; 3 integer digits (space-padded) + 1 decimal digit -> "XXX,Y". Round weights
-; show as "X,0". Layout: 4 digit tiles + "kg" tile (gfx tile $83).
+; show as "X,0". Layout: 4 digit tiles, then the comma is drawn one row below
+; the digits at column 16: the final $82 is written to (16,7) by Func_28a15 and
+; is the frame tile carrying the comma glyph (the plain frame tile is $83).
 MACRO dex_weight
 	DEF whole = \1 / 10
 	DEF deci = \1 % 10
@@ -44,7 +45,7 @@ MACRO dex_weight
 
 	db (whole % 10) + '0'
 	db deci + '0'
-	db $00, $83
+	db $00, $82
 ENDM
 
 MACRO dex_weight_decimal

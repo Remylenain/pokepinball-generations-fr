@@ -1582,16 +1582,23 @@ Func_289c8: ; 0x289c8
 	ld b, a
 	ld a, [wCurPokedexIndex + 1]
 	ld c, a
+	sla c
+	rl b ; dex index * 2 (MonSpecies has 2-byte entries: the category id is
+	     ; 16-bit, since there are more than 256 species categories)
 	ld hl, MonSpecies
 	add hl, bc
 	ld a, Bank(MonSpecies)
 	call ReadByteFromBank
-	ld c, a
+	ld c, a ; low byte of the category id
+	inc hl
+	ld a, Bank(MonSpecies)
+	call ReadByteFromBank ; ReadByteFromBank preserves bc, so c stays = low byte
+	ld b, a ; high byte of the category id
 	ld h, b
 	ld l, c
 	sla l
 	rl h
-	add hl, bc
+	add hl, bc ; category id * 3 (the pointer table has 3-byte entries)
 	ld bc, MonSpeciesNamesPointers
 	add hl, bc
 	ld a, Bank(MonSpeciesNamesPointers)
