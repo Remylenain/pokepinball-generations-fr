@@ -362,11 +362,11 @@ VBlank: ; 0x2f2
 	ld [wRumblePattern], a
 	and $1
 	jr z, .asm_3b5
-	set 3, [hl]
+	ld [hl], $08 ; rumble ON, banque SRAM forcee a 0 (evite le RMW qui lit la ROM en $4000)
 	jr .asm_3b7
 
 .asm_3b5
-	res 3, [hl]
+	ld [hl], $00 ; rumble OFF, banque SRAM forcee a 0
 .asm_3b7
 	ld a, [wDrawBottomMessageBox]
 	and a
