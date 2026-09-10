@@ -33,3 +33,9 @@
 
 # converted audio data
 *.pcm
+
+# planches de travail des sprites (tools/sprite_edit.py)
+_work/
+
+# fichiers macOS
+.DS_Store
