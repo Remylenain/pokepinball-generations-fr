@@ -1114,8 +1114,10 @@ MarillEvolutions:
 	dwb AZUMARILL, EVO_EXPERIENCE
 
 AzumarillEvolutions:
+; Gen 1-2 : Marill est le stade de base, Azurill n'existe pas encore.
+; Pour rouvrir la gen 3 : remettre  dwb AZURILL, EVO_BREEDING
 	db 1
-	dwb AZURILL, EVO_BREEDING
+	dwb MARILL, EVO_BREEDING
 
 SudowoodoEvolutions:
 	db 0
@@ -1180,8 +1182,9 @@ UnownEvolutions:
 	db 0
 
 WobbuffetEvolutions:
-	db 1
-	dwb WYNAUT, EVO_BREEDING
+; Gen 1-2 : Qulbutoke n'a pas de bebe.
+; Pour rouvrir la gen 3 : remettre  db 1 / dwb WYNAUT, EVO_BREEDING
+	db 0
 
 GirafarigEvolutions:
 	db 0

@@ -739,7 +739,7 @@ Func_28513: ; 0x28513
 	ld a, [wd95c]
 	and a
 	ret nz
-	ld de, NUM_POKEMON
+	ld de, NUM_POKEMON_VISIBLE
 	ld a, [wCurPokedexIndex]
 	ld b, a
 	ld a, [wCurPokedexIndex + 1]
@@ -844,10 +844,10 @@ Func_28513: ; 0x28513
 	ld a, [wPokedexOffset + 1]
 	ld e, a
 	ld a, d
-	cp (((NUM_POKEMON - 9) >> 8) & $FF)
+	cp (((NUM_POKEMON_VISIBLE - 9) >> 8) & $FF)
 	jr c, .asm_28594
 	ld a, e
-	cp ((NUM_POKEMON - 9) & $FF)
+	cp ((NUM_POKEMON_VISIBLE - 9) & $FF)
 	jr c, .asm_28594
 	ld a, h
 	cpl
@@ -1999,7 +1999,7 @@ Func_28d1d:
 CountNumSeenMons:
 	ld hl, wPokedexFlags
 	ld bc, $0000  ; keep a running count
-	ld de, NUM_POKEMON
+	ld de, NUM_POKEMON_VISIBLE
 .checkSeen
 	bit 0, [hl]  ; is mon seen?
 	jr z, .nextMon
@@ -2020,7 +2020,7 @@ CountNumSeenMons:
 CountNumOwnedMons:
 	ld hl, wPokedexFlags
 	ld bc, $0000  ; keep a running count
-	ld de, NUM_POKEMON
+	ld de, NUM_POKEMON_VISIBLE
 .checkOwned
 	bit 1, [hl]  ; is mon owned?
 	jr z, .nextMon
@@ -2080,7 +2080,7 @@ PowersOfTwo_Word:
 ClearPokedexData: ; 0x28d66
 	ld hl, wPokedexFlags
 	xor a
-	ld b, (NUM_POKEMON & $FF) ; TODO
+	ld b, NUM_POKEMON_VISIBLE + 1  ; +1 : l'index 0 du tableau n'est pas un mon
 .asm_28d6c
 	ld [hli], a
 	dec b
