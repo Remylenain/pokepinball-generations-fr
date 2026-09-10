@@ -198,12 +198,9 @@ SilverStageIlexForestWildMons:
 	dw PARAS
 
 SilverStageIlexForestWildMonsRare:
-; Legendaires : meme dosage que Ho-Oh et Lugia, 3 entrees sur 16.
-	dw CELEBI
-	dw CELEBI
-	dw CELEBI
 	dw CATERPIE
 	dw CATERPIE
+	dw WEEDLE
 	dw WEEDLE
 	dw WEEDLE
 	dw AIPOM
@@ -211,6 +208,8 @@ SilverStageIlexForestWildMonsRare:
 	dw PINECO
 	dw PINECO
 	dw PINECO
+	dw PINECO
+	dw ODDISH
 	dw ODDISH
 	dw ODDISH
 	dw HOOTHOOT
@@ -379,21 +378,20 @@ SilverStageBurnedTowerWildMons:
 	dw ZUBAT
 
 SilverStageBurnedTowerWildMonsRare:
-; Legendaires : meme dosage que Ho-Oh et Lugia, 3 entrees sur 16.
-	dw RAIKOU
-	dw RAIKOU
-	dw RAIKOU
-	dw ENTEI
-	dw ENTEI
-	dw ENTEI
-	dw SUICUNE
-	dw SUICUNE
-	dw SUICUNE
+	dw HOUNDOUR
+	dw HOUNDOUR
+	dw HOUNDOUR
+	dw HOUNDOUR
 	dw HOUNDOUR
 	dw HOUNDOUR
 	dw HOUNDOUR
 	dw MAGMAR
 	dw MAGMAR
+	dw MAGMAR
+	dw MAGMAR
+	dw MAGMAR
+	dw MAGMAR
+	dw KOFFING
 	dw KOFFING
 	dw SHUCKLE
 
