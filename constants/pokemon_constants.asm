@@ -388,3 +388,9 @@ DEF const_value = 1
 	const DEOXYS      ; $182
 
 DEF NUM_POKEMON EQU 386
+
+; Nombre de Pokemon reellement joues. Les tableaux (Pokedex en SRAM/WRAM, noms,
+; graphismes, evolutions) gardent leurs 386 entrees : seules les bornes
+; d'affichage et de comptage utilisent cette valeur. La sauvegarde n'est donc
+; pas affectee. Remettre NUM_POKEMON pour rouvrir la generation 3.
+DEF NUM_POKEMON_VISIBLE EQU 251

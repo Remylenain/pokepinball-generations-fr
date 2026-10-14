@@ -87,8 +87,8 @@ FarCopyData: ; 0x666 spooky
 	jr .copyData
 
 .copyFromSRAM
+	xor a ; force la banque SRAM a 0 (et met deja la carry a 0, remplace le "and a")
 	ld [MBC5SRamBank], a
-	and a
 .copyData
 	push af
 .copyLoop
@@ -270,8 +270,8 @@ LoadVRAMData: ; 0x73f
 	jr .asm_756
 
 .asm_752
+	xor a ; force la banque SRAM a 0 (et met deja la carry a 0, remplace le "and a")
 	ld [MBC5SRamBank], a
-	and a
 .asm_756
 	push af
 	call WaitForLCD
@@ -341,8 +341,8 @@ FarCopyPalettes: ; 0x790
 	jr .asm_7b1
 
 .asm_7ad
+	xor a ; force la banque SRAM a 0 (et met deja la carry a 0, remplace le "and a")
 	ld [MBC5SRamBank], a
-	and a
 .asm_7b1
 	push af
 	ld a, e
@@ -391,8 +391,8 @@ Func_7dc: ; 0x7dc
 	jr .asm_7f3
 
 .asm_7ef
+	xor a ; force la banque SRAM a 0 (et met deja la carry a 0, remplace le "and a")
 	ld [MBC5SRamBank], a
-	and a
 .asm_7f3
 	push af
 	ld a, e

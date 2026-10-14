@@ -1,4 +1,4 @@
-.PHONY: all tools clean tidy
+.PHONY: all tools clean tidy patch
 
 .SUFFIXES:
 .SECONDEXPANSION:
@@ -7,6 +7,11 @@
 
 ROM := PinballGenerations.gbc
 OBJS := main.o wram.o sram.o
+
+# Patch IPS : ROM de base officielle (sha1 9402014d14969432142abfde728c6f1a10ee4dac)
+BASEROM ?= Pokemon Pinball US.gbc
+PATCH   ?= PinballGenerations-1.6-FR.ips
+PYTHON  ?= python
 
 ifeq (,$(shell which sha1sum))
 SHA1 := shasum
@@ -40,6 +45,10 @@ $(ROM): RGBFIXFLAGS += -jsvc -k 01 -l 0x33 -m 0x1e -p 0 -r 02 -t "POKEPINBALL" -
 $(ROM): $(OBJS) contents/contents.link
 	$(RGBLINK) $(RGBLINKFLAGS) -o $@ $(OBJS)
 	$(RGBFIX) $(RGBFIXFLAGS) $@
+
+patch: $(ROM)
+	$(PYTHON) tools/ips.py create "$(BASEROM)" $(ROM) "$(PATCH)"
+	$(PYTHON) tools/ips.py verify "$(BASEROM)" "$(PATCH)" $(ROM)
 
 tools:
 	$(MAKE) -C tools

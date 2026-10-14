@@ -739,7 +739,7 @@ Func_28513: ; 0x28513
 	ld a, [wd95c]
 	and a
 	ret nz
-	ld de, NUM_POKEMON
+	ld de, NUM_POKEMON_VISIBLE
 	ld a, [wCurPokedexIndex]
 	ld b, a
 	ld a, [wCurPokedexIndex + 1]
@@ -844,10 +844,10 @@ Func_28513: ; 0x28513
 	ld a, [wPokedexOffset + 1]
 	ld e, a
 	ld a, d
-	cp (((NUM_POKEMON - 9) >> 8) & $FF)
+	cp (((NUM_POKEMON_VISIBLE - 9) >> 8) & $FF)
 	jr c, .asm_28594
 	ld a, e
-	cp ((NUM_POKEMON - 9) & $FF)
+	cp ((NUM_POKEMON_VISIBLE - 9) & $FF)
 	jr c, .asm_28594
 	ld a, h
 	cpl
@@ -1582,16 +1582,23 @@ Func_289c8: ; 0x289c8
 	ld b, a
 	ld a, [wCurPokedexIndex + 1]
 	ld c, a
+	sla c
+	rl b ; dex index * 2 (MonSpecies has 2-byte entries: the category id is
+	     ; 16-bit, since there are more than 256 species categories)
 	ld hl, MonSpecies
 	add hl, bc
 	ld a, Bank(MonSpecies)
 	call ReadByteFromBank
-	ld c, a
+	ld c, a ; low byte of the category id
+	inc hl
+	ld a, Bank(MonSpecies)
+	call ReadByteFromBank ; ReadByteFromBank preserves bc, so c stays = low byte
+	ld b, a ; high byte of the category id
 	ld h, b
 	ld l, c
 	sla l
 	rl h
-	add hl, bc
+	add hl, bc ; category id * 3 (the pointer table has 3-byte entries)
 	ld bc, MonSpeciesNamesPointers
 	add hl, bc
 	ld a, Bank(MonSpeciesNamesPointers)
@@ -1992,7 +1999,7 @@ Func_28d1d:
 CountNumSeenMons:
 	ld hl, wPokedexFlags
 	ld bc, $0000  ; keep a running count
-	ld de, NUM_POKEMON
+	ld de, NUM_POKEMON_VISIBLE
 .checkSeen
 	bit 0, [hl]  ; is mon seen?
 	jr z, .nextMon
@@ -2013,7 +2020,7 @@ CountNumSeenMons:
 CountNumOwnedMons:
 	ld hl, wPokedexFlags
 	ld bc, $0000  ; keep a running count
-	ld de, NUM_POKEMON
+	ld de, NUM_POKEMON_VISIBLE
 .checkOwned
 	bit 1, [hl]  ; is mon owned?
 	jr z, .nextMon
@@ -2073,7 +2080,7 @@ PowersOfTwo_Word:
 ClearPokedexData: ; 0x28d66
 	ld hl, wPokedexFlags
 	xor a
-	ld b, (NUM_POKEMON & $FF) ; TODO
+	ld b, NUM_POKEMON_VISIBLE + 1  ; +1 : l'index 0 du tableau n'est pas un mon
 .asm_28d6c
 	ld [hli], a
 	dec b
@@ -2298,6 +2305,28 @@ Func_2957c: ; 0x2957c
 	jr z, .asm_295d9
 	cp 'é'
 	jr z, .asm_295dd
+	cp $01 ; FR "è"
+	jr z, .e_grave
+	cp $02 ; FR "ê"
+	jr z, .e_circ
+	cp $03 ; FR "à"
+	jr z, .a_grave
+	cp $04 ; FR "î"
+	jr z, .i_circ
+	cp $05 ; FR "û"
+	jr z, .u_circ
+	cp $06 ; FR "â"
+	jr z, .a_circ
+	cp $07 ; FR "É"
+	jr z, .e_acute_caps
+	cp $08 ; FR "ô"
+	jr z, .o_circ
+	cp $09 ; FR "ç"
+	jr z, .c_ced
+	cp $0a ; FR "ï"
+	jr z, .i_trema
+	cp $0b ; FR "ù"
+	jr z, .u_grave
 	and a
 	ret
 
@@ -2343,6 +2372,62 @@ Func_2957c: ; 0x2957c
 
 .asm_295dd
 	ld a, $f9
+	scf
+	ret
+
+; FR accented vowels — glyph indices into the VWF font (characters.interleave)
+.e_grave
+	ld a, $fb ; è
+	scf
+	ret
+
+.e_circ
+	ld a, $fc ; ê
+	scf
+	ret
+
+.a_grave
+	ld a, $fd ; à
+	scf
+	ret
+
+.a_circ
+	ld a, $fe ; â
+	scf
+	ret
+
+.u_circ
+	ld a, $e8 ; û
+	scf
+	ret
+
+.i_circ
+	ld a, $e7 ; î
+	scf
+	ret
+
+.e_acute_caps
+	ld a, $e9 ; É
+	scf
+	ret
+
+.o_circ
+	ld a, $a4 ; ô
+	scf
+	ret
+
+.c_ced
+	ld a, $a5 ; ç
+	scf
+	ret
+
+.i_trema
+	ld a, $a6 ; ï
+	scf
+	ret
+
+.u_grave
+	ld a, $a7 ; ù
 	scf
 	ret
 

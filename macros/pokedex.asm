@@ -5,49 +5,47 @@ MACRO dex_number
 	db "@"
 ENDM
 
-; \1 = feet
-; \2 = inches
+; \1 = height in decimeters (e.g. 7 = 0.7m, 145 = 14.5m)
+; The comma is baked into the background between the 2nd and 3rd digit slots,
+; so we emit meters_tens, meters_ones, decimeter -> "XX,Y" (no macro point;
+; the decimal sits where the old "." tile used to be). 5-byte field kept via
+; a trailing terminator pad.
 MACRO dex_height
-	DEF feet_tens_digit = ((\1) / 10) % 10
-	IF feet_tens_digit == 0
+	DEF meters_tens = (\1 / 100) % 10
+	IF meters_tens == 0
 		db " "
 	ELSE
-		db feet_tens_digit + '0'
+		db meters_tens + '0'
 	ENDC
-	DEF feet_ones_digit = (\1) % 10
-	db feet_ones_digit + '0'
-	DEF inches_tens_digit = ((\2) / 10) % 10
-	IF inches_tens_digit > 0
-		db $70
-	ELSE
-		db $72
-	ENDC
-	DEF inches_ones_digit = (\2) % 10
-	db inches_ones_digit + '0'
+	db ((\1 / 10) % 10) + '0'
+	db (\1 % 10) + '0'
+	db "@"
 	db "@"
 ENDM
 
+; \1 = weight in hectograms (e.g. 18 = 1.8 kg). One decimal place. We emit
+; 3 integer digits (space-padded) + 1 decimal digit -> "XXX,Y". Round weights
+; show as "X,0". Layout: 4 digit tiles, then the comma is drawn one row below
+; the digits at column 16: the final $82 is written to (16,7) by Func_28a15 and
+; is the frame tile carrying the comma glyph (the plain frame tile is $83).
 MACRO dex_weight
-	IF \1 >= 1000
-		db ((\1 / 1000) % 10) + '0'
+	DEF whole = \1 / 10
+	DEF deci = \1 % 10
+	IF whole >= 100
+		db ((whole / 100) % 10) + '0'
 	ELSE
 		db " "
 	ENDC
 
-	IF \1 >= 100
-		db ((\1 / 100) % 10) + '0'
+	IF whole >= 10
+		db ((whole / 10) % 10) + '0'
 	ELSE
 		db " "
 	ENDC
 
-	IF \1 >= 10
-		db ((\1 / 10) % 10) + '0'
-	ELSE
-		db " "
-	ENDC
-
-	db ((\1) % 10) + '0'
-	db $00, $83
+	db (whole % 10) + '0'
+	db deci + '0'
+	db $00, $82
 ENDM
 
 MACRO dex_weight_decimal

@@ -800,6 +800,7 @@ OAMData_54: ; 0x46be
 	db $08, $08, $60, $00
 	db $08, $00, $60, $00
 	db $08, $f8, $60, $00
+	db $08, $28, $60, $40 ; FR: 6e colonne (élargissement pour "NOUVEAU JEU")
 	db $80 ; terminator
 
 OAMData_55: ; 0x46d7
@@ -815,6 +816,8 @@ OAMData_55: ; 0x46d7
 	db $08, $08, $60, $00
 	db $08, $00, $60, $00
 	db $08, $f8, $60, $00
+	db $08, $28, $60, $40 ; FR: 6e colonne
+	db $10, $28, $60, $40 ; FR: 6e colonne
 	db $80 ; terminator
 
 OAMData_56: ; 0x4708
@@ -836,6 +839,9 @@ OAMData_56: ; 0x4708
 	db $08, $10, $57, $00
 	db $08, $08, $56, $00
 	db $08, $00, $55, $00
+	db $08, $28, $68, $00 ; FR: 6e colonne, moitié haute du "U" final de JEU
+	db $10, $28, $60, $40 ; FR: 6e colonne (noir, moitié basse pas encore révélée)
+	db $18, $28, $60, $40 ; FR: 6e colonne (noir)
 	db $80 ; terminator
 
 OAMData_57: ; 0x4751
@@ -857,6 +863,9 @@ OAMData_57: ; 0x4751
 	db $08, $10, $57, $00
 	db $08, $08, $56, $00
 	db $08, $00, $55, $00
+	db $08, $28, $68, $00 ; FR: 6e colonne, moitié haute du "U" final de JEU
+	db $10, $28, $69, $00 ; FR: 6e colonne, moitié basse du "U" final de JEU
+	db $18, $28, $60, $40 ; FR: 6e colonne (noir, ligne CONTINUER)
 	db $80 ; terminator
 
 OAMData_58: ; 0x479a
@@ -878,6 +887,9 @@ OAMData_58: ; 0x479a
 	db $08, $10, $57, $00
 	db $08, $08, $56, $00
 	db $08, $00, $55, $00
+	db $08, $28, $68, $00 ; FR: 6e colonne, moitié haute du "U" final de JEU
+	db $10, $28, $69, $00 ; FR: 6e colonne, moitié basse du "U" final de JEU
+	db $18, $28, $60, $00 ; FR: 6e colonne (noir, ligne CONTINUER)
 	db $80 ; terminator
 
 OAMData_59: ; 0x47e3
@@ -899,6 +911,9 @@ OAMData_59: ; 0x47e3
 	db $08, $10, $57, $00
 	db $08, $08, $56, $00
 	db $08, $00, $55, $00
+	db $08, $28, $68, $00 ; FR: 6e colonne, moitié haute du "U" final de JEU
+	db $10, $28, $69, $00 ; FR: 6e colonne, moitié basse du "U" final de JEU
+	db $18, $28, $60, $00 ; FR: 6e colonne (noir, ligne CONTINUER)
 	db $80 ; terminator
 
 TitlescreenPikachuBlinkFrame0OAM: ; 0x482c

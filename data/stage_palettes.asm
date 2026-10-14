@@ -1084,28 +1084,28 @@ HighScoresRubyStageBGPalette0: ; 0xdcd80
 	RGB 5, 5, 5
 HighScoresRubyStageBGPalette1: ; 0xdcd88
 	RGB 31, 31, 31
-	RGB 15, 15, 17
-	RGB 31, 22, 0
+	RGB 0, 10, 31
+	RGB 18, 2, 7
 	RGB 0, 0, 0
 HighScoresRubyStageBGPalette2: ; 0xdcd90
 	RGB 31, 31, 31
-	RGB 17, 17, 19
-	RGB 31, 22, 0
+	RGB 0, 15, 31
+	RGB 18, 2, 7
 	RGB 0, 0, 0
 HighScoresRubyStageBGPalette3: ; 0xdcd98
 	RGB 31, 31, 31
-	RGB 19, 19, 21
-	RGB 31, 22, 0
+	RGB 0, 20, 31
+	RGB 18, 2, 7
 	RGB 0, 0, 0
 HighScoresRubyStageBGPalette4: ; 0xdcda0
 	RGB 31, 31, 31
-	RGB 21, 21, 23
-	RGB 31, 22, 0
+	RGB 0, 26, 31
+	RGB 18, 2, 7
 	RGB 0, 0, 0
 HighScoresRubyStageBGPalette5: ; 0xdcda8
 	RGB 31, 31, 31
-	RGB 23, 23, 25
-	RGB 31, 22, 0
+	RGB 0, 31, 31
+	RGB 18, 2, 7
 	RGB 0, 0, 0
 HighScoresRubyStageBGPalette6: ; 0xdcdb0
 	RGB 31, 31, 31
@@ -1113,8 +1113,8 @@ HighScoresRubyStageBGPalette6: ; 0xdcdb0
 	RGB 31, 31, 31
 	RGB 31, 31, 31
 HighScoresRubyStageBGPalette7: ; 0xdcdb8
-	RGB 31, 29, 4
-	RGB 29, 18, 0
+	RGB 31, 13, 10
+	RGB 25, 0, 0
 	RGB 31, 0, 0
 	RGB 5, 5, 5
 
@@ -1125,8 +1125,8 @@ HighScoresRubyStageOBJPalette0: ; 0xdcdc0
 	RGB 0, 0, 0
 HighScoresRubyStageOBJPalette1: ; 0xdcdc8
 	RGB 31, 31, 31
-	RGB 31, 29, 4
-	RGB 29, 18, 0
+	RGB 31, 13, 10
+	RGB 25, 0, 0
 	RGB 0, 0, 0
 HighScoresRubyStageOBJPalette2: ; 0xdcdd0
 	RGB 20, 20, 20
@@ -1168,27 +1168,27 @@ HighScoresSapphireStageBGPalette0: ; 0xdcd00
 HighScoresSapphireStageBGPalette1: ; 0xdcd08
 	RGB 31, 31, 31
 	RGB 31, 8, 0
-	RGB 12, 11, 14
+	RGB 3, 5, 17
 	RGB 0, 0, 0
 HighScoresSapphireStageBGPalette2: ; 0xdcd10
 	RGB 31, 31, 31
 	RGB 31, 14, 0
-	RGB 12, 11, 14
+	RGB 3, 5, 17
 	RGB 0, 0, 0
 HighScoresSapphireStageBGPalette3: ; 0xdcd18
 	RGB 31, 31, 31
 	RGB 31, 20, 0
-	RGB 12, 11, 14
+	RGB 3, 5, 17
 	RGB 0, 0, 0
 HighScoresSapphireStageBGPalette4: ; 0xdcd20
 	RGB 31, 31, 31
 	RGB 31, 26, 0
-	RGB 12, 11, 14
+	RGB 3, 5, 17
 	RGB 0, 0, 0
 HighScoresSapphireStageBGPalette5: ; 0xdcd28
 	RGB 31, 31, 31
 	RGB 31, 30, 0
-	RGB 12, 11, 14
+	RGB 3, 5, 17
 	RGB 0, 0, 0
 HighScoresSapphireStageBGPalette6: ; 0xdcd30
 	RGB 31, 31, 31
@@ -2229,43 +2229,43 @@ StageRubyFieldTopBGPalette3Lit:
 StageRubyFieldTopPalettes: ; 0xdc980
 StageRubyFieldTopBGPalette0: ; 0xdc980
 	RGB 31, 31, 31
-	RGB 13, 20, 31
+	RGB 31, 20, 31
 	RGB 31, 4, 4
 	RGB 0, 0, 0
 StageRubyFieldTopBGPalette1: ; 0xdc988
 	RGB 31, 31, 31
-	RGB 24, 16, 0
-	RGB 14, 7, 0
+	RGB 31, 16, 0
+	RGB 31, 7, 0
 	RGB 3, 0, 0
 StageRubyFieldTopBGPalette2: ; 0xdc990
 	RGB 31, 31, 31
 	RGB 31, 24, 0
-	RGB 21, 10, 0
+	RGB 31, 10, 0
 	RGB 0, 0, 0
 StageRubyFieldTopBGPalette3Unlit: ; 0xdc998
 	RGB 31, 31, 31
-	RGB 29, 24, 7
-	RGB 31, 24, 0
+	RGB 31, 13, 13
+	RGB 31, 0, 0
 	RGB 0, 0, 0
 StageRubyFieldTopBGPalette4: ; 0xdc9a0
 	RGB 31, 31, 31
 	RGB 26, 3, 5
-	RGB 14, 7, 0
+	RGB 31, 7, 0
 	RGB 0, 0, 0
 StageRubyFieldTopBGPalette5: ; 0xdc9a8
-	RGB 14, 7, 0
+	RGB 31, 7, 0
 	RGB 26, 3, 5
-	RGB 24, 16, 0
+	RGB 31, 16, 0
 	RGB 0, 0, 0
 StageRubyFieldTopBGPalette6: ; 0xdc9b0
 	RGB 31, 31, 31
-	RGB 13, 13, 31
-	RGB 31, 0, 0
+	RGB 27, 20, 10
+	RGB 2, 16, 1
 	RGB 0, 0, 0
 StageRubyFieldTopBGPalette7: ; 0xdc9b8
 	RGB 31, 31, 31
-	RGB 31, 13, 13
-	RGB 31, 0, 0
+	RGB 5, 17, 31
+	RGB 26, 3, 1
 	RGB 0, 0, 0
 
 StageRubyFieldTopOBJPalette0: ; 0xdc9c0
@@ -2275,9 +2275,9 @@ StageRubyFieldTopOBJPalette0: ; 0xdc9c0
 	RGB 0, 0, 0
 StageRubyFieldTopOBJPalette1: ; 0xdc9c8
 	RGB 31, 31, 31
-	RGB 15,14,24
-	RGB 29, 23, 03
-	RGB 0, 0, 0
+	RGB 26, 23, 8
+	RGB 14, 20, 6
+	RGB 8, 7, 7
 StageRubyFieldTopOBJPalette2: ; 0xdc9d0
 	RGB 20, 20, 20
 	RGB 31, 31, 31
@@ -2285,18 +2285,18 @@ StageRubyFieldTopOBJPalette2: ; 0xdc9d0
 	RGB 0, 0, 0
 StageRubyFieldTopOBJPalette3: ; 0xdc9d8
 	RGB 31, 31, 31
-	RGB 31, 28, 17
-	RGB 11, 20, 28
-	RGB 2, 7, 15
+	RGB 31, 31, 31
+	RGB 8, 8, 8
+	RGB 0, 0, 0
 StageRubyFieldTopOBJPalette4: ; 0xdc9e0
-	RGB 20, 20, 20
-	RGB 18, 31, 18
-	RGB 5, 19, 0
-	RGB 0, 7, 0
+	RGB 21, 21, 21
+	RGB 31, 28, 0
+	RGB 29, 0, 0
+	RGB 0, 0, 0
 StageRubyFieldTopOBJPalette5: ; 0xdc9e8
 	RGB 31, 31, 31
-	RGB 31, 29, 0
-	RGB 27, 7, 7
+	RGB 31, 31, 31
+	RGB 8, 8, 8
 	RGB 0, 0, 0
 StageRubyFieldTopOBJPalette6: ; 0xdc9f0
 	RGB 20, 20, 20
@@ -2305,9 +2305,9 @@ StageRubyFieldTopOBJPalette6: ; 0xdc9f0
 	RGB 0, 0, 0
 StageRubyFieldTopOBJPalette7: ; 0xdc9f8
 	RGB 31, 31, 31
-	RGB 31, 15, 13
-	RGB 21, 0, 0
-	RGB 4, 0, 0
+	RGB 31, 30, 16
+	RGB 27, 24, 8
+	RGB 23, 19, 3
 	
 StageRubyFieldBottomPalettes: ; 0xdca80
 StageRubyFieldBottomBGPalette0: ; 0xdca80
@@ -2396,22 +2396,22 @@ StageSapphireFieldTopPalettes:  ; 0xdcb00
 StageSapphireFieldTopBGPalette0: ; 0xdcb00
 	RGB 31, 31, 31
 	RGB 13, 20, 31
-	RGB 31, 4, 4
+	RGB 31, 4, 31
 	RGB 0, 0, 0
 StageSapphireFieldTopBGPalette1: ; 0xdcb08
 	RGB 31, 31, 31
 	RGB 18, 18, 21
-	RGB 10, 10, 12
+	RGB 10, 10, 31
 	RGB 0, 0, 0
 StageSapphireFieldTopBGPalette2: ; 0xdcb10
 	RGB 31, 31, 31
 	RGB 15, 16, 25
-	RGB 4, 3, 12
+	RGB 4, 3, 31
 	RGB 0, 0, 0
 StageSapphireFieldTopBGPalette3: ; 0xdcb18
 	RGB 31, 31, 31
 	RGB 15, 19, 26
-	RGB 10, 15, 22
+	RGB 10, 15, 31
 	RGB 0, 0, 0
 StageSapphireFieldTopBGPalette4: ; 0xdcb20
 	RGB 31, 31, 31
@@ -2425,13 +2425,13 @@ StageSapphireFieldTopBGPalette5: ; 0xdcb28
 	RGB 0, 0, 0
 StageSapphireFieldTopBGPalette6: ; 0xdcb30
 	RGB 31, 31, 31
-	RGB 13, 13, 31
-	RGB 31, 0, 0
+	RGB 15, 20, 31
+	RGB 7, 11, 21
 	RGB 0, 0, 0
 StageSapphireFieldTopBGPalette7: ; 0xdcb38
 	RGB 31, 31, 31
-	RGB 20, 20, 20
-	RGB 8, 8, 8
+	RGB 27, 20, 10
+	RGB 24, 7, 5
 	RGB 0, 0, 0
 
 StageSapphireFieldTopOBJPalette0: ; 0xdcb40
@@ -2441,23 +2441,23 @@ StageSapphireFieldTopOBJPalette0: ; 0xdcb40
 	RGB 0, 0, 0
 StageSapphireFieldTopOBJPalette1: ; 0xdcb48
 	RGB 31, 31, 31
-	RGB 31, 29, 7
-	RGB 10, 26, 4
-	RGB 0, 10, 0
+	RGB 21, 21, 21
+	RGB 27, 21, 0
+	RGB 0, 0, 0
 StageSapphireFieldTopOBJPalette2: ; 0xdcb50
 	RGB 21, 21, 21
 	RGB 31, 31, 31
-	RGB 31, 26, 0
-	RGB 10, 6, 0
+	RGB 21, 21, 27
+	RGB 0, 0, 0
 StageSapphireFieldTopOBJPalette3: ; 0xdcb58
 	RGB 31, 31, 31
-    RGB 29, 25, 28
-	RGB 26, 4, 5
-	RGB 11, 11, 11
+    RGB 31, 31, 31
+	RGB 8, 8, 8
+	RGB 0, 0, 0
 StageSapphireFieldTopOBJPalette4: ; 0xdcb60
 	RGB 21, 21, 21
-	RGB 31, 31, 31
-	RGB 8, 8, 8
+	RGB 31, 28, 0
+	RGB 29, 0, 0
 	RGB 0, 0, 0
 StageSapphireFieldTopOBJPalette5: ; 0xdcb68
 	RGB 31, 31, 31
@@ -2471,9 +2471,9 @@ StageSapphireFieldTopOBJPalette6: ; 0xdcb70
 	RGB 0, 0, 0
 StageSapphireFieldTopOBJPalette7: ; 0xdcb78
 	RGB 31, 31, 31
-	RGB 31, 31, 31
-	RGB 8, 8, 8
-	RGB 0, 0, 0
+	RGB 31, 30, 16
+	RGB 27, 24, 8
+	RGB 23, 19, 3
 
 StageSapphireFieldBottomPalettes: ; 0xdcb80
 StageSapphireFieldBottomBGPalette0: ; 0xdcb80

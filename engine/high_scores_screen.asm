@@ -346,7 +346,7 @@ HighScoresSilverStageVideoData_GameBoyColor: ; 0xcc64
 	db $FF, $FF  ; terminators
 
 HighScoresRubyStageVideoData_GameBoyColor: ; 0xcc1c
-	VIDEO_DATA_TILES HighScoresBaseGameBoyGfx_Johto, vTilesOB, $1800
+	VIDEO_DATA_TILES HighScoresBaseGameBoyGfx_Hoenn, vTilesOB, $1800
 	VIDEO_DATA_TILEMAP HighScoresTilemap, vBGMap, $400
 	VIDEO_DATA_TILEMAP HighScoresTilemap2, vBGWin, $400
 	VIDEO_DATA_TILEMAP_BANK2 HighScoresTilemap4, vBGMap, $400
@@ -371,7 +371,7 @@ HighScoresRubyStageVideoData_GameBoyColor: ; 0xcc1c
 	db $FF, $FF
 
 HighScoresSapphireStageVideoData_GameBoyColor: ; 0xcc64
-	VIDEO_DATA_TILES HighScoresBaseGameBoyGfx_Johto, vTilesOB, $1800
+	VIDEO_DATA_TILES HighScoresBaseGameBoyGfx_Hoenn, vTilesOB, $1800
 	VIDEO_DATA_TILEMAP HighScoresTilemap, vBGMap, $400
 	VIDEO_DATA_TILEMAP HighScoresTilemap2, vBGWin, $400
 	VIDEO_DATA_TILEMAP_BANK2 HighScoresTilemap4, vBGMap, $400
@@ -1765,7 +1765,9 @@ ChangeHighScoresRegion_Up:
 
 ChangeHighScoresRegion_Down:
 	ld a, [wHighScoresStage]
-	cp 2
+	; wHighScoresStage = region * 2 + table (Rouge=0, Bleu=1, Or=2, Argent=3,
+	; Rubis=4, Saphir=5). Meme borne que l'ecran de selection des tables.
+	cp (LAST_SELECTABLE_REGION * 2)
 	ret nc
 	inc a
 	inc a
@@ -1968,7 +1970,7 @@ HighScoresPalettesTransition_Hoenn:
 Func_d68a: ; 0xd68a
 	push bc
 	ld hl, wPokedexFlags
-	ld bc, NUM_POKEMON
+	ld bc, NUM_POKEMON_VISIBLE
 	ld de, 0
 .asm_d691
 	bit 1, [hl]
@@ -1983,10 +1985,10 @@ Func_d68a: ; 0xd68a
 	jr nz, .asm_d691
 	pop bc
 	ld a, d
-	cp (NUM_POKEMON >> 8)
+	cp (NUM_POKEMON_VISIBLE >> 8)
 	ret nz
 	ld a, e
-	cp (NUM_POKEMON & $FF)
+	cp (NUM_POKEMON_VISIBLE & $FF)
 	ret nz
 	ld hl, vBGMap
 	add hl, bc
@@ -2004,7 +2006,7 @@ ShowDexCompletionCrown: ; 0xd6aa
 
 Func_d6b6: ; 0xd6b6
 	ld hl, wPokedexFlags
-	ld bc, NUM_POKEMON
+	ld bc, NUM_POKEMON_VISIBLE
 	ld de, 0
 .asm_d6bc
 	bit 1, [hl]
@@ -2017,10 +2019,10 @@ Func_d6b6: ; 0xd6b6
 	or c
 	jr nz, .asm_d6bc
 	ld a, d
-	cp (NUM_POKEMON >> 8)
+	cp (NUM_POKEMON_VISIBLE >> 8)
 	ret nz
 	ld a, e
-	cp (NUM_POKEMON & $FF)
+	cp (NUM_POKEMON_VISIBLE & $FF)
 	ret nz
 	ld hl, wSendHighScoresTopBarTilemap + $9
 	ld a, $56   ; a crown is shown when Dex is completed
