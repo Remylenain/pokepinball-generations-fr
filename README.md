@@ -143,6 +143,27 @@ permet de simuler un état de jeu, car la tilemap de certaines zones est réécr
 au chargement. `sprite_edit.py preview` s'en sert.
 
 
+## Crédits
+
+Le jeu, c'est le sien. Cette branche ne fait que le traduire.
+
+* **Pokémon Pinball Generations** — [**huderlem**](https://github.com/huderlem),
+  auteur du hack : les tables et les Pokémon des générations 2 et 3, le moteur,
+  et tout ce qui fait que ce jeu existe. Dépôt amont :
+  [**huderlem/pokepinball-generations**][upstream]. Cette branche part de son
+  tag 1.6 et n'y ajoute que la traduction.
+* **Désassemblage de Pokémon Pinball** — l'équipe [**pret**][pokepinball], sans
+  laquelle rien de tout ça ne serait modifiable.
+* **Traduction française** — Remylenain.
+* Les textes et graphismes français s'appuient sur la version européenne
+  officielle de **Pokémon Pinball** (Nintendo / Creatures / Jupiter), utilisée
+  comme référence de terminologie.
+
+Aucune ROM n'est distribuée ici, ni l'originale ni la version modifiée :
+uniquement le code source et, en release, un patch IPS à appliquer sur sa
+propre copie du jeu.
+
+
 ## See also
 
 * Disassembly of [**Pokémon Pinball**][pokepinball]
