@@ -1314,6 +1314,10 @@ INCLUDE "text/pokedex_species_names.asm"
 
 INCLUDE "data/collision/mon_collision_masks_2.asm"
 
+SECTION "SpeciesNamesHoenn", ROMX
+
+INCLUDE "text/pokedex_species_names_hoenn.asm"
+
 SECTION "bank58", ROMX
 
 INCLUDE "data/billboard/map_pics_2.asm"
