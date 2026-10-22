@@ -1084,28 +1084,28 @@ HighScoresRubyStageBGPalette0: ; 0xdcd80
 	RGB 5, 5, 5
 HighScoresRubyStageBGPalette1: ; 0xdcd88
 	RGB 31, 31, 31
-	RGB 15, 15, 17
-	RGB 31, 22, 0
+	RGB 0, 10, 31
+	RGB 18, 2, 7
 	RGB 0, 0, 0
 HighScoresRubyStageBGPalette2: ; 0xdcd90
 	RGB 31, 31, 31
-	RGB 17, 17, 19
-	RGB 31, 22, 0
+	RGB 0, 15, 31
+	RGB 18, 2, 7
 	RGB 0, 0, 0
 HighScoresRubyStageBGPalette3: ; 0xdcd98
 	RGB 31, 31, 31
-	RGB 19, 19, 21
-	RGB 31, 22, 0
+	RGB 0, 20, 31
+	RGB 18, 2, 7
 	RGB 0, 0, 0
 HighScoresRubyStageBGPalette4: ; 0xdcda0
 	RGB 31, 31, 31
-	RGB 21, 21, 23
-	RGB 31, 22, 0
+	RGB 0, 26, 31
+	RGB 18, 2, 7
 	RGB 0, 0, 0
 HighScoresRubyStageBGPalette5: ; 0xdcda8
 	RGB 31, 31, 31
-	RGB 23, 23, 25
-	RGB 31, 22, 0
+	RGB 0, 31, 31
+	RGB 18, 2, 7
 	RGB 0, 0, 0
 HighScoresRubyStageBGPalette6: ; 0xdcdb0
 	RGB 31, 31, 31
@@ -1113,8 +1113,8 @@ HighScoresRubyStageBGPalette6: ; 0xdcdb0
 	RGB 31, 31, 31
 	RGB 31, 31, 31
 HighScoresRubyStageBGPalette7: ; 0xdcdb8
-	RGB 31, 29, 4
-	RGB 29, 18, 0
+	RGB 31, 13, 10
+	RGB 25, 0, 0
 	RGB 31, 0, 0
 	RGB 5, 5, 5
 
@@ -1125,8 +1125,8 @@ HighScoresRubyStageOBJPalette0: ; 0xdcdc0
 	RGB 0, 0, 0
 HighScoresRubyStageOBJPalette1: ; 0xdcdc8
 	RGB 31, 31, 31
-	RGB 31, 29, 4
-	RGB 29, 18, 0
+	RGB 31, 13, 10
+	RGB 25, 0, 0
 	RGB 0, 0, 0
 HighScoresRubyStageOBJPalette2: ; 0xdcdd0
 	RGB 20, 20, 20
@@ -1168,27 +1168,27 @@ HighScoresSapphireStageBGPalette0: ; 0xdcd00
 HighScoresSapphireStageBGPalette1: ; 0xdcd08
 	RGB 31, 31, 31
 	RGB 31, 8, 0
-	RGB 12, 11, 14
+	RGB 3, 5, 17
 	RGB 0, 0, 0
 HighScoresSapphireStageBGPalette2: ; 0xdcd10
 	RGB 31, 31, 31
 	RGB 31, 14, 0
-	RGB 12, 11, 14
+	RGB 3, 5, 17
 	RGB 0, 0, 0
 HighScoresSapphireStageBGPalette3: ; 0xdcd18
 	RGB 31, 31, 31
 	RGB 31, 20, 0
-	RGB 12, 11, 14
+	RGB 3, 5, 17
 	RGB 0, 0, 0
 HighScoresSapphireStageBGPalette4: ; 0xdcd20
 	RGB 31, 31, 31
 	RGB 31, 26, 0
-	RGB 12, 11, 14
+	RGB 3, 5, 17
 	RGB 0, 0, 0
 HighScoresSapphireStageBGPalette5: ; 0xdcd28
 	RGB 31, 31, 31
 	RGB 31, 30, 0
-	RGB 12, 11, 14
+	RGB 3, 5, 17
 	RGB 0, 0, 0
 HighScoresSapphireStageBGPalette6: ; 0xdcd30
 	RGB 31, 31, 31

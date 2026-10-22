@@ -1250,6 +1250,11 @@ INCLUDE "gfx/high_scores/high_scores_transition_palettes_hoenn.asm"
 HighScoresBaseGameBoyGfx_Johto:
 	INCBIN "gfx/high_scores/high_scores_base_gameboy_johto.2bpp"
 
+SECTION "HighScoresHoennGfx", ROMX
+
+HighScoresBaseGameBoyGfx_Hoenn:
+	INCBIN "gfx/high_scores/high_scores_base_gameboy_hoenn.2bpp"
+
 SECTION "bank4a", ROMX
 
 INCLUDE "text/pokedex_descriptions_2.asm"
