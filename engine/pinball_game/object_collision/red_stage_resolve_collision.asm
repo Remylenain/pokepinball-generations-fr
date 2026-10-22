@@ -1169,7 +1169,9 @@ UpgradeBall:
 	callba GetFieldMultiplierValueForBall
 	ld a, b
 	add $30
-	ld [wBottomMessageText + $12], a
+	; FR: le "0" de "MULTIPLICATEUR x0" est a l'offset $10 (etait $12 pour l'anglais
+	; "FIELD MULTIPLIER x0"). Ecrire a $12 ecrasait le terminateur @ -> texte deborde.
+	ld [wBottomMessageText + $10], a
 	ret
 
 BallTypeProgressionPointers:

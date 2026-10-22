@@ -125,10 +125,10 @@ CallTable_f60d:
 	dw DoNothing_faf8               ; STAGE_MEOWTH_BONUS
 
 HandleNumPokemonCaughtBallBonus:
-	ld de, wBottomMessageText + $01
+	ld de, wBottomMessageText + $00
 	ld hl, NumPokemonCaughtText
 	call PlaceTextAlphanumericOnly
-	ld hl, wBottomMessageText + $01
+	ld hl, wBottomMessageText + $00
 	ld a, [wNumPokemonCaughtInBallBonus]
 	call Func_f78e
 	ld bc, $0040
@@ -141,10 +141,10 @@ HandleNumPokemonCaughtBallBonus:
 	ret
 
 HandleNumPokemonEvolvedBallBonus:
-	ld de, wBottomMessageText
+	ld de, wBottomMessageText + $01
 	ld hl, NumPokemonEvolvedText
 	call PlaceTextAlphanumericOnly
-	ld hl, wBottomMessageText
+	ld hl, wBottomMessageText + $01
 	ld a, [wNumPokemonEvolvedInBallBonus]
 	call Func_f78e
 	ld bc, $0040
@@ -608,10 +608,10 @@ HandleBellsproutEntriesBallBonus:
 	ret
 
 HandleDugtrioTriplesBallBonus:
-	ld de, wBottomMessageText + $04
+	ld de, wBottomMessageText + $03
 	ld hl, DugtrioCounterText
 	call PlaceTextAlphanumericOnly
-	ld hl, wBottomMessageText + $04
+	ld hl, wBottomMessageText + $03
 	ld a, [wNumDugtrioTriples]
 	call Func_f78e
 	ld bc, $0040
@@ -624,10 +624,10 @@ HandleDugtrioTriplesBallBonus:
 	ret
 
 HandleCAVECompletionsBallBonus_RedField:
-	ld de, wBottomMessageText + $03
+	ld de, wBottomMessageText + $05
 	ld hl, CaveShotCounterText
 	call PlaceTextAlphanumericOnly
-	ld hl, wBottomMessageText + $03
+	ld hl, wBottomMessageText + $05
 	ld a, [wNumCAVECompletions]
 	call Func_f78e
 	ld bc, $0040
@@ -665,10 +665,10 @@ HandleBallBonusBlueField:
 	ret
 
 HandleCloysterEntriesBallBonus:
-	ld de, wBottomMessageText + $04
+	ld de, wBottomMessageText + $03
 	ld hl, CloysterCounterText
 	call PlaceTextAlphanumericOnly
-	ld hl, wBottomMessageText + $04
+	ld hl, wBottomMessageText + $03
 	ld a, [wNumCloysterEntries]
 	call Func_f78e
 	ld bc, $0040
@@ -713,10 +713,10 @@ HandlePoliwagTriplesBallBonus:
 	ret
 
 HandlePsyduckTriplesBallBonus:
-	ld de, wBottomMessageText + $04
+	ld de, wBottomMessageText + $03
 	ld hl, PsyduckCounterText
 	call PlaceTextAlphanumericOnly
-	ld hl, wBottomMessageText + $04
+	ld hl, wBottomMessageText + $03
 	ld a, [wNumPsyduckTriples]
 	call Func_f78e
 	ld bc, $0040
@@ -729,10 +729,10 @@ HandlePsyduckTriplesBallBonus:
 	ret
 
 HandleCAVECompletionsBallBonus_BlueField:
-	ld de, wBottomMessageText + $03
+	ld de, wBottomMessageText + $05
 	ld hl, CaveShotCounterText
 	call PlaceTextAlphanumericOnly
-	ld hl, wBottomMessageText + $03
+	ld hl, wBottomMessageText + $05
 	ld a, [wNumCAVECompletions]
 	call Func_f78e
 	ld bc, $0040
@@ -784,10 +784,10 @@ HandleBellsproutEntriesBallBonus_GoldField:
 	ret
 
 HandleDugtrioTriplesBallBonus_GoldField:
-	ld de, wBottomMessageText + $04
+	ld de, wBottomMessageText + $03
 	ld hl, DugtrioCounterText
 	call PlaceTextAlphanumericOnly
-	ld hl, wBottomMessageText + $04
+	ld hl, wBottomMessageText + $03
 	ld a, [wNumDugtrioTriples]
 	call Func_f78e
 	ld bc, $0040
@@ -800,10 +800,10 @@ HandleDugtrioTriplesBallBonus_GoldField:
 	ret
 
 HandleCAVECompletionsBallBonus_GoldField:
-	ld de, wBottomMessageText + $03
+	ld de, wBottomMessageText + $05
 	ld hl, CaveShotCounterText
 	call PlaceTextAlphanumericOnly
-	ld hl, wBottomMessageText + $03
+	ld hl, wBottomMessageText + $05
 	ld a, [wNumCAVECompletions]
 	call Func_f78e
 	ld bc, $0040
@@ -841,10 +841,10 @@ HandleBallBonusSilverField:
 	ret
 
 HandleCloysterEntriesBallBonus_SilverField:
-	ld de, wBottomMessageText + $04
+	ld de, wBottomMessageText + $03
 	ld hl, CloysterCounterText
 	call PlaceTextAlphanumericOnly
-	ld hl, wBottomMessageText + $04
+	ld hl, wBottomMessageText + $03
 	ld a, [wNumCloysterEntries]
 	call Func_f78e
 	ld bc, $0040
@@ -889,10 +889,10 @@ HandlePoliwagTriplesBallBonus_SilverField:
 	ret
 
 HandlePsyduckTriplesBallBonus_SilverField:
-	ld de, wBottomMessageText + $04
+	ld de, wBottomMessageText + $03
 	ld hl, PsyduckCounterText
 	call PlaceTextAlphanumericOnly
-	ld hl, wBottomMessageText + $04
+	ld hl, wBottomMessageText + $03
 	ld a, [wNumPsyduckTriples]
 	call Func_f78e
 	ld bc, $0040
@@ -905,10 +905,10 @@ HandlePsyduckTriplesBallBonus_SilverField:
 	ret
 
 HandleCAVECompletionsBallBonus_SilverField:
-	ld de, wBottomMessageText + $03
+	ld de, wBottomMessageText + $05
 	ld hl, CaveShotCounterText
 	call PlaceTextAlphanumericOnly
-	ld hl, wBottomMessageText + $03
+	ld hl, wBottomMessageText + $05
 	ld a, [wNumCAVECompletions]
 	call Func_f78e
 	ld bc, $0040
@@ -960,10 +960,10 @@ HandleBellsproutEntriesBallBonus_RubyField:
 	ret
 
 HandleDugtrioTriplesBallBonus_RubyField:
-	ld de, wBottomMessageText + $04
+	ld de, wBottomMessageText + $03
 	ld hl, DugtrioCounterText
 	call PlaceTextAlphanumericOnly
-	ld hl, wBottomMessageText + $04
+	ld hl, wBottomMessageText + $03
 	ld a, [wNumDugtrioTriples]
 	call Func_f78e
 	ld bc, $0040
@@ -976,10 +976,10 @@ HandleDugtrioTriplesBallBonus_RubyField:
 	ret
 
 HandleCAVECompletionsBallBonus_RubyField:
-	ld de, wBottomMessageText + $03
+	ld de, wBottomMessageText + $05
 	ld hl, CaveShotCounterText
 	call PlaceTextAlphanumericOnly
-	ld hl, wBottomMessageText + $03
+	ld hl, wBottomMessageText + $05
 	ld a, [wNumCAVECompletions]
 	call Func_f78e
 	ld bc, $0040
@@ -1017,10 +1017,10 @@ HandleBallBonusSapphireField:
 	ret
 
 HandleCloysterEntriesBallBonus_SapphireField:
-	ld de, wBottomMessageText + $04
+	ld de, wBottomMessageText + $03
 	ld hl, CloysterCounterText
 	call PlaceTextAlphanumericOnly
-	ld hl, wBottomMessageText + $04
+	ld hl, wBottomMessageText + $03
 	ld a, [wNumCloysterEntries]
 	call Func_f78e
 	ld bc, $0040
@@ -1065,10 +1065,10 @@ HandlePoliwagTriplesBallBonus_SapphireField:
 	ret
 
 HandlePsyduckTriplesBallBonus_SapphireField:
-	ld de, wBottomMessageText + $04
+	ld de, wBottomMessageText + $03
 	ld hl, PsyduckCounterText
 	call PlaceTextAlphanumericOnly
-	ld hl, wBottomMessageText + $04
+	ld hl, wBottomMessageText + $03
 	ld a, [wNumPsyduckTriples]
 	call Func_f78e
 	ld bc, $0040
@@ -1081,10 +1081,10 @@ HandlePsyduckTriplesBallBonus_SapphireField:
 	ret
 
 HandleCAVECompletionsBallBonus_SapphireField:
-	ld de, wBottomMessageText + $03
+	ld de, wBottomMessageText + $05
 	ld hl, CaveShotCounterText
 	call PlaceTextAlphanumericOnly
-	ld hl, wBottomMessageText + $03
+	ld hl, wBottomMessageText + $05
 	ld a, [wNumCAVECompletions]
 	call Func_f78e
 	ld bc, $0040
